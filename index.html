@@ -89,7 +89,7 @@ header{
   font-family:var(--fo);font-size:12.5px;font-weight:500;color:var(--ghost);
   transition:color .15s;gap:8px;
 }
-.sb-area-hdr:hover{color:var(--cloud);}
+.sb-area-hdr:hover{color:var(--cloud);background:rgba(255,255,255,.02);}
 .sb-area-hdr.active-area{color:var(--white);}
 .sb-area-label{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0;}
 .sb-area-num{font-family:var(--fm);font-size:7px;color:var(--glow);letter-spacing:2px;opacity:.7;}
@@ -105,8 +105,8 @@ header{
   cursor:pointer;font-size:12px;color:var(--ghost);
   border-left:2px solid transparent;transition:all .12s;
 }
-.sb-task:hover{color:var(--cloud);background:rgba(255,255,255,.02);}
-.sb-task.active{color:var(--glow);border-left-color:var(--glow);background:rgba(93,138,60,.07);}
+.sb-task:hover{color:var(--white);background:rgba(93,138,60,.10);border-left-color:rgba(157,217,104,.35);}
+.sb-task.active{color:var(--glow);border-left-color:var(--glow);background:rgba(93,138,60,.15);}
 .sb-task-code{font-family:var(--fm);font-size:7.5px;color:var(--glow);opacity:.7;letter-spacing:1px;flex-shrink:0;}
 
 /* quiz sidebar */
@@ -2586,6 +2586,7 @@ const AREAS = [
 // ── APP STATE ──
 let mode = 'study';
 let curAreaId = 'pg-a1';
+let curTaskId = null;
 let setupLen = 10;
 let setupTopics = new Set(['Regulations','Weather','Airspace','Navigation','Maneuvers','Systems','Aeromedical']);
 const TOPICS = ['Regulations','Weather','Airspace','Navigation','Maneuvers','Systems','Aeromedical'];
@@ -2610,15 +2611,16 @@ function buildSidebar() {
     return;
   }
   sb.innerHTML = AREAS.map(area => {
-    const isOpen   = area.id === curAreaId;
+    const isOpen = openSections.has(area.id);
+    const isActiveArea = area.id === curAreaId;
     const taskItems = area.tasks.map(t => `
-      <div class="sb-task${curAreaId===area.id ? ' active':''}" onclick="goToTask('${area.id}','${t.id}')">
+      <div class="sb-task${curTaskId===t.id ? ' active':''}" onclick="goToTask('${area.id}','${t.id}')">
         <span class="sb-task-code">${t.id.replace('t-','').toUpperCase()}</span>
         ${t.label}
       </div>`).join('');
     return `
       <div class="sb-area${isOpen?' open':''}" id="sbarea-${area.id}">
-        <div class="sb-area-hdr${isOpen?' active-area open':''}" onclick="toggleSbArea('${area.id}')">
+        <div class="sb-area-hdr${isActiveArea?' active-area':''}${isOpen?' open':''}" onclick="toggleSbArea('${area.id}')">
           <div class="sb-area-label">
             <span class="sb-area-num">Area ${area.num}</span>
             <span class="sb-area-name">${area.name}</span>
@@ -2633,13 +2635,20 @@ function buildSidebar() {
     </div>`;
 }
 
+const openSections = new Set(['pg-a1']);
+
 function toggleSbArea(areaId) {
-  curAreaId = areaId;
-  showAreaPage(areaId);
+  if (openSections.has(areaId)) {
+    openSections.delete(areaId);
+  } else {
+    openSections.add(areaId);
+  }
+  buildSidebar();
 }
 
 function showAreaPage(areaId) {
   curAreaId = areaId;
+  openSections.add(areaId);
   document.querySelectorAll('.study-area, .ref-page').forEach(p => p.classList.remove('active'));
   const pg = document.getElementById(areaId);
   if (pg) pg.classList.add('active');
@@ -2657,10 +2666,13 @@ function showRefPage() {
 }
 
 function goToTask(areaId, taskId) {
+  curTaskId = taskId;
+  openSections.add(areaId);
   if (curAreaId !== areaId) {
     showAreaPage(areaId);
     setTimeout(() => scrollToTask(taskId), 80);
   } else {
+    buildSidebar();
     scrollToTask(taskId);
   }
 }
