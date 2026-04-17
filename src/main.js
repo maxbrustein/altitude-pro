@@ -7,14 +7,16 @@ import './styles/quiz.css';
 import { initSidebar, showAreaPage } from './views/sidebar.js';
 import { initModeSwitch } from './views/mode-switch.js';
 import { initMobileNav, reactivateCurrentSection } from './views/mobile-nav.js';
+import { initQuiz, onEnterQuiz } from './views/quiz.js';
 
 initSidebar();
 initMobileNav();
+initQuiz();
 initModeSwitch({
   onMobileShowArea: reactivateCurrentSection,
+  onEnterQuiz,
 });
 
-// Start on the first area (desktop-default)
 if (window.innerWidth >= 768) {
   showAreaPage('pg-a1');
 }
