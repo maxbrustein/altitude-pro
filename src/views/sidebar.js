@@ -5,6 +5,7 @@
 
 import { areaDomId, taskDomId } from './dom-ids.js';
 import { navigate } from '../router.js';
+import { state } from '../state.js';
 
 let manifestData = null;
 let curAreaDomId = 'pg-a1';
@@ -21,6 +22,7 @@ export function initSidebar(manifest) {
   if (!sb) return;
   buildSidebar();
   sb.addEventListener('click', handleClick);
+  state.subscribe(buildSidebar);
 }
 
 function buildSidebar() {
@@ -32,8 +34,9 @@ function buildSidebar() {
     const isActiveArea = areaPgId === curAreaDomId;
     const taskItems = area.tasks.map(t => {
       const tDomId = taskDomId(t.id);
+      const viewed = state.tasks.isViewed(t.id);
       return `
-      <div class="sb-task${tDomId === curTaskElId ? ' active' : ''}" data-action="goto-task" data-area-id="${areaPgId}" data-manifest-area-id="${area.id}" data-task-letter="${t.letter}">
+      <div class="sb-task${tDomId === curTaskElId ? ' active' : ''}${viewed ? ' viewed' : ''}" data-action="goto-task" data-area-id="${areaPgId}" data-manifest-area-id="${area.id}" data-task-letter="${t.letter}">
         <span class="sb-task-code">${t.letter}</span>
         ${t.title}
       </div>`;

@@ -3,6 +3,12 @@
 .quiz-page { display: none; }
 .quiz-page.active { display: block; padding-bottom: calc(64px + env(safe-area-inset-bottom) + 16px); }
 
+/* ── LAST SESSION CARD (on setup panel) ── */
+.last-session{display:flex;align-items:center;gap:14px;padding:10px 14px;margin-bottom:14px;background:rgba(93,138,60,.07);border:1px solid var(--border);border-radius:6px;font-family:var(--fm);font-size:9px;letter-spacing:1.5px;text-transform:uppercase;flex-wrap:wrap;}
+.last-session .ls-label{color:var(--ghost);}
+.last-session .ls-score{color:var(--glow);font-size:12px;font-weight:600;letter-spacing:1px;}
+.last-session .ls-topic{color:var(--cloud);margin-left:auto;opacity:.8;}
+
 /* ── SETUP PANEL ── */
 .setup-panel{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:22px;margin-bottom:20px;}
 .setup-title{font-family:var(--fo);font-size:19px;font-weight:700;color:var(--white);letter-spacing:-0.3px;margin-bottom:18px;}

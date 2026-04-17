@@ -18,6 +18,7 @@ import {
 import { initQuiz, onEnterQuiz } from './views/quiz.js';
 import { initRouter } from './router.js';
 import { areaDomId, taskDomId } from './views/dom-ids.js';
+import { state } from './state.js';
 
 async function boot() {
   const manifest = await loadManifest('ppl');
@@ -46,7 +47,9 @@ async function boot() {
       activateSection(manifestAreaId, taskLetter);
 
       if (taskLetter) {
-        setTimeout(() => scrollToTask(taskDomId(`${manifestAreaId}-${taskLetter}`)), 100);
+        const manifestTaskId = `${manifestAreaId}-${taskLetter}`;
+        state.tasks.markViewed(manifestTaskId);
+        setTimeout(() => scrollToTask(taskDomId(manifestTaskId)), 100);
       }
     },
     onRef: () => {

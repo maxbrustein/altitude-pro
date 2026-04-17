@@ -3,6 +3,7 @@
 // Questions loaded from content/certs/ppl/quiz/*.json via content.loadAllQuizTopics.
 
 import { loadAllQuizTopics } from '../content.js';
+import { state } from '../state.js';
 
 let BANK = [];  // populated by initQuiz from content/certs/ppl/quiz/*.json
 const TOPICS = ['Regulations','Weather','Airspace','Navigation','Maneuvers','Systems','Aeromedical'];
@@ -88,6 +89,8 @@ function startQuiz() {
   const limit = setupLen === 9999 ? pool.length : Math.min(setupLen, pool.length);
   qS = { diff:1, streak:0, total:0, correct:0, wrong:0,
          queue: pool.slice(0, limit), idx:0, maxQ:limit, answered:false };
+  const topicLabel = setupTopics.size === 1 ? [...setupTopics][0] : 'mixed';
+  state.quiz.startSession({ topic: topicLabel, length: limit });
   document.getElementById('setup-panel').style.display = 'none';
   document.getElementById('active-quiz').style.display = 'block';
   updateStats();
@@ -95,9 +98,11 @@ function startQuiz() {
 }
 
 function endQuiz() {
+  state.quiz.abandonSession();
   document.getElementById('setup-panel').style.display = 'block';
   document.getElementById('active-quiz').style.display = 'none';
   updatePreview();
+  renderLastSession();
 }
 
 function nextQuestion() {
@@ -145,6 +150,7 @@ function pick(idx) {
   qS.answered = true;
   const q  = qS.queue[qS.idx]; qS.idx++; qS.total++;
   const ok = idx === q.a;
+  state.quiz.recordAnswer({ questionId: q.id, correct: ok });
   if (ok) { qS.correct++; qS.streak++; if (qS.streak >= 3 && qS.diff < 5) { qS.diff++; qS.streak = 0; } }
   else    { qS.wrong++;  qS.streak = 0; if (qS.diff > 1) qS.diff--; }
   for (let i = 0; i < q.c.length; i++) {
@@ -186,6 +192,7 @@ function updateProg() {
 }
 
 function showComplete() {
+  state.quiz.endSession();
   const pct   = qS.total > 0 ? Math.round(qS.correct/qS.total*100) : 0;
   const grade = pct >= 90 ? 'Checkride Ready' : pct >= 80 ? 'Strong Performance' : pct >= 70 ? 'Keep Reviewing' : 'Focus on Weak Areas';
   const col   = pct >= 90 ? 'var(--glow)' : pct >= 80 ? 'var(--bright)' : pct >= 70 ? 'var(--amber)' : 'var(--red)';
@@ -207,11 +214,26 @@ function showComplete() {
 // ── Init + event delegation ──
 
 
+function renderLastSession() {
+  const last = state.quiz.lastSession();
+  const host = document.getElementById('quiz-last-session');
+  if (!host) return;
+  if (!last) { host.innerHTML = ''; return; }
+  const pct = last.score.total > 0 ? Math.round(last.score.correct / last.score.total * 100) : 0;
+  host.innerHTML = `
+    <div class="last-session">
+      <span class="ls-label">Last Session</span>
+      <span class="ls-score">${pct}% · ${last.score.correct}/${last.score.total}</span>
+      <span class="ls-topic">${last.topic} · ${last.length}q</span>
+    </div>`;
+}
+
 export async function initQuiz() {
   const topics = await loadAllQuizTopics('ppl');
   // Flatten to BANK using the v10-style field names so the rest of the
   // engine (startQuiz, renderQ, etc.) doesn't need rewriting.
   BANK = topics.flatMap(({ data }) => data.questions.map(q => ({
+    id: q.id,
     t: data.title,
     d: q.difficulty,
     q: q.q,
@@ -223,6 +245,7 @@ export async function initQuiz() {
   })));
   buildTopicGrid();
   updatePreview();
+  renderLastSession();
   const quizPage = document.querySelector('.quiz-page');
   if (quizPage) quizPage.addEventListener('click', handleClick);
 }
@@ -242,4 +265,4 @@ function handleClick(e) {
 }
 
 // Called by mode-switch when entering quiz mode
-export function onEnterQuiz() { updatePreview(); }
+export function onEnterQuiz() { updatePreview(); renderLastSession(); }

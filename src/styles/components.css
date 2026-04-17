@@ -24,6 +24,7 @@
 }
 .sb-task:hover{color:var(--white);background:rgba(93,138,60,.10);border-left-color:rgba(157,217,104,.35);}
 .sb-task.active{color:var(--glow);border-left-color:var(--glow);background:rgba(93,138,60,.15);}
+.sb-task.viewed::after{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--glow);opacity:.55;margin-left:auto;flex-shrink:0;}
 .sb-task-code{font-family:var(--fm);font-size:7.5px;color:var(--glow);opacity:.7;letter-spacing:1px;flex-shrink:0;}
 
 /* ── QUIZ SIDEBAR ── */
