@@ -87,8 +87,19 @@ function shuffle(arr) {
 function startQuiz() {
   const pool  = shuffle(BANK.filter(q => setupTopics.has(q.t)));
   const limit = setupLen === 9999 ? pool.length : Math.min(setupLen, pool.length);
+  // Per-question choice shuffle. BANK has strong position bias
+  // (~81% answer=1), so shuffle each question's 4 choices and remap the
+  // answer index. Different shuffle every session.
+  const queue = pool.slice(0, limit).map(q => {
+    const order = shuffle([0, 1, 2, 3]);
+    return {
+      ...q,
+      c: order.map(i => q.c[i]),
+      a: order.indexOf(q.a),
+    };
+  });
   qS = { diff:1, streak:0, total:0, correct:0, wrong:0,
-         queue: pool.slice(0, limit), idx:0, maxQ:limit, answered:false };
+         queue, idx:0, maxQ:limit, answered:false };
   const topicLabel = setupTopics.size === 1 ? [...setupTopics][0] : 'mixed';
   state.quiz.startSession({ topic: topicLabel, length: limit });
   document.getElementById('setup-panel').style.display = 'none';
