@@ -1,14 +1,14 @@
 // Desktop sidebar: area accordion + task list + ref link.
-// Data comes from manifest.json via content.loadManifest('ppl'). Navigation
-// primitives (showAreaPage, goToTask, scrollToTask, showRefPage) still
-// accept DOM-style IDs (pg-a1, t-ia) because the HTML in index.html is
-// the ported v10 markup; Phase 4 regenerates that HTML from markdown and
-// this layer of indirection goes away.
+// Data comes from manifest.json. Navigation primitives exported for other
+// views. DOM IDs (pg-a1, t-ia) remain v10-style until Phase 4b regenerates
+// HTML from a cleaner format.
 
 import { areaDomId, taskDomId } from './dom-ids.js';
 
 let manifestData = null;
 let curAreaDomId = 'pg-a1';
+let curTaskElId = null;              // per-task highlighting (only the clicked task is .active)
+const openSections = new Set(['pg-a1']); // multiple sections can be expanded at once
 
 export function getCurrentAreaId() { return curAreaDomId; }
 
@@ -25,15 +25,19 @@ function buildSidebar() {
   if (!sb || !manifestData) return;
   sb.innerHTML = manifestData.areas.map(area => {
     const areaPgId = areaDomId(area.id);
-    const isOpen = areaPgId === curAreaDomId;
-    const taskItems = area.tasks.map(t => `
-      <div class="sb-task${isOpen ? ' active' : ''}" data-action="goto-task" data-area-id="${areaPgId}" data-task-id="${taskDomId(t.id)}">
+    const isOpen = openSections.has(areaPgId);
+    const isActiveArea = areaPgId === curAreaDomId;
+    const taskItems = area.tasks.map(t => {
+      const tDomId = taskDomId(t.id);
+      return `
+      <div class="sb-task${tDomId === curTaskElId ? ' active' : ''}" data-action="goto-task" data-area-id="${areaPgId}" data-task-id="${tDomId}">
         <span class="sb-task-code">${t.letter}</span>
         ${t.title}
-      </div>`).join('');
+      </div>`;
+    }).join('');
     return `
       <div class="sb-area${isOpen ? ' open' : ''}" id="sbarea-${areaPgId}">
-        <div class="sb-area-hdr${isOpen ? ' active-area open' : ''}" data-action="toggle-area" data-area-id="${areaPgId}">
+        <div class="sb-area-hdr${isActiveArea ? ' active-area' : ''}${isOpen ? ' open' : ''}" data-action="toggle-area" data-area-id="${areaPgId}">
           <div class="sb-area-label">
             <span class="sb-area-num">Area ${area.id}</span>
             <span class="sb-area-name">${area.title}</span>
@@ -61,13 +65,16 @@ function handleClick(e) {
   }
 }
 
+// Toggles area open/close in the sidebar without navigating
 function toggleSbArea(areaPgId) {
-  curAreaDomId = areaPgId;
-  showAreaPage(areaPgId);
+  if (openSections.has(areaPgId)) openSections.delete(areaPgId);
+  else openSections.add(areaPgId);
+  buildSidebar();
 }
 
 export function showAreaPage(areaPgId) {
   curAreaDomId = areaPgId;
+  openSections.add(areaPgId);
   document.querySelectorAll('.study-area, .ref-page').forEach(p => p.classList.remove('active'));
   const pg = document.getElementById(areaPgId);
   if (pg) pg.classList.add('active');
@@ -85,10 +92,13 @@ export function showRefPage() {
 }
 
 export function goToTask(areaPgId, taskElId) {
+  curTaskElId = taskElId;
+  openSections.add(areaPgId);
   if (curAreaDomId !== areaPgId) {
     showAreaPage(areaPgId);
     setTimeout(() => scrollToTask(taskElId), 80);
   } else {
+    buildSidebar();
     scrollToTask(taskElId);
   }
 }
