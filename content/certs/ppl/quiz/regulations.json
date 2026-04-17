@@ -76,7 +76,7 @@
         "I-A"
       ],
       "difficulty": 1,
-      "q": "AROW \u2014 required aircraft documents on board?",
+      "q": "AROW — required aircraft documents on board?",
       "choices": [
         "Annual, Radio, Operations, Weight",
         "Airworthiness, Registration, Operating handbook, Weight and balance",
@@ -101,7 +101,7 @@
         "Every 6 months"
       ],
       "answer": 1,
-      "explanation": "14 CFR 61.56: Flight review required every 24 calendar months \u2014 at least 1 hr ground plus 1 hr flight.",
+      "explanation": "14 CFR 61.56: Flight review required every 24 calendar months — at least 1 hr ground plus 1 hr flight.",
       "ref": "14 CFR 61.56"
     },
     {
@@ -178,7 +178,7 @@
         "I-A"
       ],
       "difficulty": 2,
-      "q": "Expense sharing with passengers \u2014 what must the pilot pay at minimum?",
+      "q": "Expense sharing with passengers — what must the pilot pay at minimum?",
       "choices": [
         "100% of costs",
         "Their equal pro-rata share",
@@ -246,7 +246,7 @@
         "I-A"
       ],
       "difficulty": 2,
-      "q": "Annual inspection completed March 15 \u2014 when does it expire?",
+      "q": "Annual inspection completed March 15 — when does it expire?",
       "choices": [
         "March 15 next year",
         "March 31 next year",
@@ -254,7 +254,7 @@
         "12 months to the day"
       ],
       "answer": 1,
-      "explanation": "14 CFR 91.409: Expires at the end of the 12th calendar month \u2014 March 31 of the following year.",
+      "explanation": "14 CFR 91.409: Expires at the end of the 12th calendar month — March 31 of the following year.",
       "ref": "14 CFR 91.409"
     },
     {
@@ -348,7 +348,7 @@
         "I-A"
       ],
       "difficulty": 2,
-      "q": "Two aircraft converging at same altitude \u2014 who has right of way?",
+      "q": "Two aircraft converging at same altitude — who has right of way?",
       "choices": [
         "Aircraft on the left",
         "Aircraft on the right",
@@ -365,7 +365,7 @@
         "I-A"
       ],
       "difficulty": 2,
-      "q": "Right-of-way hierarchy \u2014 balloon vs glider vs powered aircraft?",
+      "q": "Right-of-way hierarchy — balloon vs glider vs powered aircraft?",
       "choices": [
         "Powered over glider over balloon",
         "Balloon over glider over powered",
@@ -382,7 +382,7 @@
         "I-A"
       ],
       "difficulty": 3,
-      "q": "Inoperative transponder discovered before flight \u2014 conditions for legal departure?",
+      "q": "Inoperative transponder discovered before flight — conditions for legal departure?",
       "choices": [
         "Never legal",
         "Only in VFR conditions",
@@ -433,7 +433,7 @@
         "I-A"
       ],
       "difficulty": 3,
-      "q": "Student pilot solo XC \u2014 what endorsements are required?",
+      "q": "Student pilot solo XC — what endorsements are required?",
       "choices": [
         "Logbook only",
         "Student pilot certificate only",
@@ -475,7 +475,7 @@
         "Within 6 months regardless"
       ],
       "answer": 1,
-      "explanation": "14 CFR 39: ADs are legally enforceable. Must comply before reaching the 50-hour threshold \u2014 within the next 2 flight hours.",
+      "explanation": "14 CFR 39: ADs are legally enforceable. Must comply before reaching the 50-hour threshold — within the next 2 flight hours.",
       "ref": "14 CFR 39"
     },
     {
@@ -484,7 +484,7 @@
         "I-A"
       ],
       "difficulty": 3,
-      "q": "Presidential TFR under 91.141 \u2014 inner ring restriction?",
+      "q": "Presidential TFR under 91.141 — inner ring restriction?",
       "choices": [
         "All flights within 100 nm",
         "All civilian flight; outer ring requires ATC coordination",
@@ -503,7 +503,7 @@
       "difficulty": 4,
       "q": "ATC issues an instruction you believe would create a safety hazard. Your authority?",
       "choices": [
-        "Must comply \u2014 ATC has final authority",
+        "Must comply — ATC has final authority",
         "Must comply unless you declare an emergency first",
         "You have final authority under 91.3; may deviate and notify ATC",
         "Ask for a supervisor on frequency"
@@ -537,10 +537,10 @@
       "difficulty": 2,
       "q": "Can a 100-hour inspection be exceeded? If so, by how much?",
       "choices": [
-        "No \u2014 never exceed 100-hour limit",
-        "Yes \u2014 up to 10 hours to fly to a location where the inspection can be performed",
-        "Yes \u2014 up to 5 hours to fly to a location where the inspection can be performed",
-        "Yes \u2014 any amount if the pilot accepts responsibility"
+        "No — never exceed 100-hour limit",
+        "Yes — up to 10 hours to fly to a location where the inspection can be performed",
+        "Yes — up to 5 hours to fly to a location where the inspection can be performed",
+        "Yes — any amount if the pilot accepts responsibility"
       ],
       "answer": 1,
       "explanation": "14 CFR 91.409(b): The 100-hour limitation may be exceeded by not more than 10 hours if necessary to fly the aircraft to a place where the inspection can be done. The excess time must be included in computing the next 100 hours.",
@@ -554,10 +554,10 @@
       "difficulty": 3,
       "q": "A pilot flies an aircraft that requires a type rating without holding that type rating. What regulation applies?",
       "choices": [
-        "14 CFR 61.31 \u2014 a type rating is required to act as PIC of certain large aircraft, turbojet-powered aircraft, or as specified by the FAA",
-        "14 CFR 91.7 \u2014 only airworthiness matters",
-        "No regulation \u2014 type ratings are optional",
-        "14 CFR 61.56 \u2014 only the flight review matters"
+        "14 CFR 61.31 — a type rating is required to act as PIC of certain large aircraft, turbojet-powered aircraft, or as specified by the FAA",
+        "14 CFR 91.7 — only airworthiness matters",
+        "No regulation — type ratings are optional",
+        "14 CFR 61.56 — only the flight review matters"
       ],
       "answer": 0,
       "explanation": "14 CFR 61.31: Type ratings are required for aircraft over 12,500 lbs MGTOW, turbojet-powered aircraft, and other specific aircraft designated by the FAA. Operating without the required type rating is a certificate action offense.",
@@ -573,7 +573,7 @@
       "choices": [
         "3 SM and 1000 ft ceiling",
         "The visibility and ceiling must meet VFR minimums for the airspace AND meet the instructor-set personal minimums in the student's logbook endorsement",
-        "Only VFR minimums apply \u2014 same as any VFR pilot",
+        "Only VFR minimums apply — same as any VFR pilot",
         "5 SM and 3000 ft ceiling"
       ],
       "answer": 1,
@@ -589,7 +589,7 @@
       "q": "What does BasicMed allow a private pilot to do that a regular 3rd-class medical does not simplify?",
       "choices": [
         "Allows flying without any medical review",
-        "Allows private pilots to act as PIC using a regular medical examination by any state-licensed physician rather than an FAA Aviation Medical Examiner \u2014 valid 48 months",
+        "Allows private pilots to act as PIC using a regular medical examination by any state-licensed physician rather than an FAA Aviation Medical Examiner — valid 48 months",
         "Allows instrument flight without any medical",
         "Replaces the need for a flight review"
       ],
@@ -605,7 +605,7 @@
       "difficulty": 2,
       "q": "A pilot has a student pilot certificate. What endorsement is needed before the first solo flight?",
       "choices": [
-        "No endorsement needed \u2014 certificate is sufficient",
+        "No endorsement needed — certificate is sufficient",
         "An endorsement in the student's logbook from their instructor authorizing solo flight in a specific make and model of aircraft",
         "Only a medical certificate is required",
         "A written test must be passed first"
@@ -622,8 +622,8 @@
       "difficulty": 3,
       "q": "When is a pre-solo written test required and who administers it?",
       "choices": [
-        "Never \u2014 practical evaluation only",
-        "Before the first solo flight \u2014 the student must pass a written test on the applicable regulations and the flight characteristics of the aircraft, administered and graded by the student's instructor",
+        "Never — practical evaluation only",
+        "Before the first solo flight — the student must pass a written test on the applicable regulations and the flight characteristics of the aircraft, administered and graded by the student's instructor",
         "Only before the checkride",
         "Only if the student fails the initial oral evaluation"
       ],
@@ -673,8 +673,8 @@
       "difficulty": 3,
       "q": "What is a logbook endorsement and what is its legal significance?",
       "choices": [
-        "A social endorsement \u2014 has no legal standing",
-        "A written statement by a certificated flight instructor in the pilot's logbook authorizing specific operations \u2014 legally required for solo, solo XC, and practical tests",
+        "A social endorsement — has no legal standing",
+        "A written statement by a certificated flight instructor in the pilot's logbook authorizing specific operations — legally required for solo, solo XC, and practical tests",
         "Only required for commercial operations",
         "Required only after a failed checkride"
       ],
@@ -693,7 +693,7 @@
         "500 ft AGL at all times",
         "500 ft above the surface, except when necessary for takeoff and landing",
         "1000 ft above the highest obstacle within 2000 ft horizontal",
-        "No specific requirement \u2014 pilot judgment applies"
+        "No specific requirement — pilot judgment applies"
       ],
       "answer": 1,
       "explanation": "14 CFR 91.119(c): Over open water or sparsely populated areas, the pilot must not operate below 500 ft above the surface except when necessary for takeoff or landing.",
@@ -707,9 +707,9 @@
       "difficulty": 3,
       "q": "What is an ELT and when must its battery be replaced?",
       "choices": [
-        "Emergency Landing Transponder \u2014 replaced at every annual",
-        "Emergency Locator Transmitter \u2014 battery must be replaced when 50% of its useful life has expired OR after 1 cumulative hour of use, whichever comes first",
-        "Emergency Locator Transmitter \u2014 replaced every 2 years regardless",
+        "Emergency Landing Transponder — replaced at every annual",
+        "Emergency Locator Transmitter — battery must be replaced when 50% of its useful life has expired OR after 1 cumulative hour of use, whichever comes first",
+        "Emergency Locator Transmitter — replaced every 2 years regardless",
         "ELTs do not have replacement requirements"
       ],
       "answer": 1,
@@ -741,8 +741,8 @@
       "difficulty": 3,
       "q": "What is the difference between a safety pilot and a safety pilot acting as PIC?",
       "choices": [
-        "There is no difference \u2014 safety pilots are always PIC",
-        "A safety pilot may act as required crewmember (not PIC) when the flying pilot maintains PIC status, OR the safety pilot may be designated PIC before the flight begins \u2014 this affects who must meet currency and medical requirements",
+        "There is no difference — safety pilots are always PIC",
+        "A safety pilot may act as required crewmember (not PIC) when the flying pilot maintains PIC status, OR the safety pilot may be designated PIC before the flight begins — this affects who must meet currency and medical requirements",
         "Safety pilots never need to meet any currency requirements",
         "Safety pilots must always be PIC"
       ],
@@ -775,7 +775,7 @@
       "difficulty": 2,
       "q": "A pilot receives a Notice to Comply from the FAA regarding an alleged violation. What is the best first step?",
       "choices": [
-        "Ignore it \u2014 verbal notices have no legal force",
+        "Ignore it — verbal notices have no legal force",
         "Consult an aviation attorney familiar with FAR enforcement before responding",
         "Immediately admit fault and accept any penalty",
         "Report the issue to NTSB"
@@ -810,12 +810,12 @@
       "q": "When must a pilot report a change of address to the FAA Civil Aviation Registry?",
       "choices": [
         "Within 30 days of the address change",
-        "Within 60 days of the address change \u2014 14 CFR 61.60",
+        "Within 60 days of the address change",
         "Annually when renewing the certificate",
         "Only when requesting a new certificate"
       ],
-      "answer": 1,
-      "explanation": "14 CFR 61.60: A certificated pilot must notify the FAA Civil Aviation Registry in Oklahoma City of any change of permanent mailing address within 60 days of the change. Failure to do so renders the certificate invalid for exercising privileges.",
+      "answer": 0,
+      "explanation": "14 CFR 61.60: A certificated pilot may not, after 30 days from a change in permanent mailing address, exercise the privileges of the certificate unless the holder has notified the FAA Airmen Certification Branch in writing.",
       "ref": "14 CFR 61.60"
     },
     {
@@ -827,8 +827,8 @@
       "q": "Under what conditions may a private pilot act as PIC of an aircraft for a charitable organization?",
       "choices": [
         "Any time the organization is a registered nonprofit",
-        "Only under specific conditions outlined in 14 CFR 61.113(d) \u2014 charity flights operated under a specific FAA exception, typically requiring advance DOT/FAA authorization",
-        "Never \u2014 private pilots cannot fly for any charitable purpose",
+        "Only under specific conditions outlined in 14 CFR 61.113(d) — charity flights operated under a specific FAA exception, typically requiring advance DOT/FAA authorization",
+        "Never — private pilots cannot fly for any charitable purpose",
         "Anytime the pilot charges nothing personally"
       ],
       "answer": 1,
@@ -844,7 +844,7 @@
       "q": "What is the purpose of the NASA Aviation Safety Reporting System (ASRS)?",
       "choices": [
         "To report accidents to the NTSB",
-        "A confidential voluntary reporting system for aviation incidents and near-misses \u2014 filing a report within 10 days provides limited immunity from FAA certificate action for inadvertent violations",
+        "A confidential voluntary reporting system for aviation incidents and near-misses — filing a report within 10 days provides limited immunity from FAA certificate action for inadvertent violations",
         "To report mechanical defects to aircraft manufacturers",
         "Required by FAA for all commercial operators"
       ],
@@ -860,7 +860,7 @@
       "difficulty": 2,
       "q": "What is an Airworthiness Certificate and when does it expire?",
       "choices": [
-        "Issued each year by the FAA \u2014 expires annually",
+        "Issued each year by the FAA — expires annually",
         "Issued when the aircraft is manufactured; valid as long as the aircraft is maintained in accordance with FARs and has not been modified beyond its type certificate",
         "Valid for 2 years only",
         "Must be renewed every time the aircraft changes ownership"
@@ -883,7 +883,7 @@
         "Black letters on white background"
       ],
       "answer": 2,
-      "explanation": "Mandatory instruction signs have white inscriptions on a red background. They identify areas where entry is restricted or requires ATC clearance \u2014 runway designations at hold-short lines, no-entry signs, and ILS critical area boundaries.",
+      "explanation": "Mandatory instruction signs have white inscriptions on a red background. They identify areas where entry is restricted or requires ATC clearance — runway designations at hold-short lines, no-entry signs, and ILS critical area boundaries.",
       "ref": "AIM 2-3-8"
     },
     {
@@ -911,10 +911,10 @@
       "difficulty": 2,
       "q": "What do the four yellow lines across a taxiway (two solid, two dashed) indicate, and which side must you stop on?",
       "choices": [
-        "Pavement edge \u2014 stop on either side",
-        "Runway hold-short position \u2014 stop on the SOLID line side. Never cross without ATC clearance.",
-        "Instrument landing system critical area \u2014 proceed when the path is clear",
-        "Crossing zone \u2014 yield to aircraft on the runway"
+        "Pavement edge — stop on either side",
+        "Runway hold-short position — stop on the SOLID line side. Never cross without ATC clearance.",
+        "Instrument landing system critical area — proceed when the path is clear",
+        "Crossing zone — yield to aircraft on the runway"
       ],
       "answer": 1,
       "explanation": "Hold-short lines consist of four yellow lines: two solid (on the side away from the runway) and two dashed (on the runway side). Stop on the solid side. The solid lines always face the direction traffic must hold short. Never cross without an explicit ATC clearance.",
@@ -928,9 +928,9 @@
       "difficulty": 2,
       "q": "What does a VASI showing red over white indicate?",
       "choices": [
-        "Too high \u2014 descend immediately",
+        "Too high — descend immediately",
         "On the correct glidepath",
-        "Too low \u2014 danger of terrain or obstacle contact",
+        "Too low — danger of terrain or obstacle contact",
         "The VASI is malfunctioning"
       ],
       "answer": 1,
@@ -945,9 +945,9 @@
       "difficulty": 2,
       "q": "What does a PAPI showing 4 red lights indicate?",
       "choices": [
-        "Normal glidepath \u2014 all red is correct on PAPI",
-        "Slightly high \u2014 add a small amount of descent",
-        "Too low \u2014 dangerously below the glidepath, immediate corrective action required",
+        "Normal glidepath — all red is correct on PAPI",
+        "Slightly high — add a small amount of descent",
+        "Too low — dangerously below the glidepath, immediate corrective action required",
         "PAPI out of service"
       ],
       "answer": 2,
@@ -997,7 +997,7 @@
       "q": "What is a hot spot on an airport diagram?",
       "choices": [
         "A location where turbulence is commonly reported",
-        "A location on the airport movement area with a history of incidents or potential for confusion \u2014 depicted as numbered circles on the airport diagram",
+        "A location on the airport movement area with a history of incidents or potential for confusion — depicted as numbered circles on the airport diagram",
         "An area where the pavement is weak and may cause tire damage",
         "A taxiway that can only be used in one direction"
       ],
@@ -1015,8 +1015,8 @@
       "choices": [
         "The receiving pilot simply takes the controls when ready",
         "Giving pilot: 'You have the controls.' Receiving pilot: 'I have the controls.' (takes physical control) Giving pilot: 'You have the controls.' (confirms transfer)",
-        "A nod or hand gesture is sufficient \u2014 verbal exchange is not required",
-        "Only required for instrument flight \u2014 not necessary for VFR flight"
+        "A nod or hand gesture is sufficient — verbal exchange is not required",
+        "Only required for instrument flight — not necessary for VFR flight"
       ],
       "answer": 1,
       "explanation": "Positive exchange of controls uses a specific three-step verbal and physical exchange to prevent both pilots from thinking the other has the controls (or neither does). This exact phraseology is the FAA standard and should be used every time controls are transferred between any two people.",
@@ -1030,10 +1030,10 @@
       "difficulty": 2,
       "q": "What is CFIT and why is it significant in general aviation?",
       "choices": [
-        "Controlled Flight Into Terrain \u2014 an accident where a functioning aircraft is flown into terrain or water without crew awareness. One of the leading causes of fatal GA accidents, typically associated with VFR flight into IMC or loss of situational awareness.",
-        "Crew Flight Instrument Training \u2014 a type of instrument currency requirement",
-        "Certified Flight Instructor Test \u2014 the checkride for CFI applicants",
-        "Commercial Flight IFR Training \u2014 a category of instrument flight hours"
+        "Controlled Flight Into Terrain — an accident where a functioning aircraft is flown into terrain or water without crew awareness. One of the leading causes of fatal GA accidents, typically associated with VFR flight into IMC or loss of situational awareness.",
+        "Crew Flight Instrument Training — a type of instrument currency requirement",
+        "Certified Flight Instructor Test — the checkride for CFI applicants",
+        "Commercial Flight IFR Training — a category of instrument flight hours"
       ],
       "answer": 0,
       "explanation": "CFIT (Controlled Flight Into Terrain) occurs when a properly functioning aircraft is inadvertently flown into terrain, water, or obstacles. Causes include: VFR into IMC, spatial disorientation, poor situational awareness, and terrain avoidance complacency. Use terrain awareness tools, maintain SA, and always have an out when flying near terrain.",
