@@ -4,4 +4,8 @@ import './styles/layout.css';
 import './styles/components.css';
 import './styles/quiz.css';
 
-// Phase 2.2+ modules will be wired here
+import { initSidebar, showAreaPage } from './views/sidebar.js';
+
+initSidebar();
+// Activate the first area on load (matches v10 default)
+showAreaPage('pg-a1');
