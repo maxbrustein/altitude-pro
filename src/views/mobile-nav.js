@@ -1,69 +1,50 @@
 // Mobile-only navigation: breadcrumb + bottom sheet picker + bottom nav +
 // scroll observer that updates the breadcrumb's current task as you scroll.
+// Reads areas/tasks from manifest.json (via content loader).
 
-const MOB_AREAS = [
-  {id:'pg-a1',num:'I',  short:'PREFLIGHT PREP', name:'Preflight Preparation', tasks:[
-    ['t-ia','A · PILOT QUALS'],['t-ib','B · AIRWORTHINESS'],['t-ic','C · WEATHER'],
-    ['t-id','D · XC PLANNING'],['t-ie','E · AIRSPACE'],['t-if','F · PERFORMANCE'],
-    ['t-ig','G · SYSTEMS'],['t-ih','H · HUMAN FACTORS']]},
-  {id:'pg-a2',num:'II', short:'PREFLIGHT PROC', name:'Preflight Procedures', tasks:[
-    ['t-iia','A · PREFLIGHT ASSESS'],['t-iib','B · FLIGHT DECK'],
-    ['t-iic','C · ENGINE START'],['t-iid','D · TAXIING'],['t-iif','F · BEFORE T/O']]},
-  {id:'pg-a3',num:'III',short:'AIRPORT OPS',    name:'Airport Operations', tasks:[
-    ['t-iiia','A · COMMS & LIGHTING'],['t-iiib','B · TRAFFIC PATTERN']]},
-  {id:'pg-a4',num:'IV', short:'T/O & LANDINGS', name:'Takeoffs, Landings & Go-Arounds', tasks:[
-    ['t-iva','A · NORMAL T/O'],['t-ivb','B · NORMAL LANDING'],
-    ['t-ivc','C/D · SOFT FIELD'],['t-ive','E/F · SHORT FIELD'],
-    ['t-ivm','M · FORWARD SLIP'],['t-ivn','N · GO-AROUND']]},
-  {id:'pg-a5',num:'V',  short:'PERF & GND REF', name:'Performance & Ground Reference', tasks:[
-    ['t-va','A · STEEP TURNS'],['t-vb','B · GND REFERENCE']]},
-  {id:'pg-a6',num:'VI', short:'NAVIGATION',     name:'Navigation', tasks:[
-    ['t-via','A · PILOTAGE & DR'],['t-vib','B · NAV SYSTEMS'],
-    ['t-vic','C · DIVERSION'],['t-vid','D · LOST PROC']]},
-  {id:'pg-a7',num:'VII',short:'STALLS',         name:'Slow Flight & Stalls', tasks:[
-    ['t-viia','A · SLOW FLIGHT'],['t-viib','B · POWER-OFF STALL'],
-    ['t-viic','C · POWER-ON STALL'],['t-viid','D · SPIN AWARENESS']]},
-  {id:'pg-a8',num:'VIII',short:'INSTRUMENTS',   name:'Basic Instrument Maneuvers', tasks:[
-    ['t-viiiad','A-D · BASIC MANEUVERS'],['t-viiie','E · UNUSUAL ATTITUDE'],
-    ['t-viiif','F · PARTIAL PANEL']]},
-  {id:'pg-a9',num:'IX', short:'EMERGENCIES',    name:'Emergency Operations', tasks:[
-    ['t-ixa','A · EMERG DESCENT'],['t-ixb','B · EMERG LANDING'],
-    ['t-ixc','C · SYS MALFUNCTIONS'],['t-ixd','D · EMERG EQUIP']]},
-  {id:'pg-a11',num:'XI', short:'NIGHT OPS',     name:'Night Operations', tasks:[
-    ['t-xia','A · NIGHT OPERATIONS']]},
-  {id:'pg-a12',num:'XII',short:'POSTFLIGHT',    name:'Postflight Procedures', tasks:[
-    ['t-xiia','A · AFTER LANDING']]}
-];
+import { areaDomId, taskDomId } from './dom-ids.js';
 
-let mobActiveSectionId = 'pg-a1';
+let manifestData = null;
+let mobActiveAreaId = 'I'; // manifest ID
 
-export function getMobActiveSectionId() { return mobActiveSectionId; }
+export function getMobActiveSectionId() { return areaDomId(mobActiveAreaId); }
 
-export function initMobileNav() {
+export function initMobileNav(manifest) {
+  manifestData = manifest;
   buildBottomNav();
   document.addEventListener('click', handleClick);
   initScrollObserver();
-  activateSection('pg-a1');
+  activateSection('I');
 }
 
-export function activateSection(areaId) {
-  mobActiveSectionId = areaId;
+// Accepts either a manifest area id (e.g., "I") or a DOM id (e.g., "pg-a1").
+// External callers (like reactivateCurrentSection) pass the manifest id.
+export function activateSection(areaIdOrDomId) {
+  // Normalize to manifest id
+  let manifestAreaId = areaIdOrDomId;
+  if (areaIdOrDomId.startsWith('pg-')) {
+    // Find the manifest id that maps to this DOM id
+    const area = manifestData?.areas.find(a => areaDomId(a.id) === areaIdOrDomId);
+    if (area) manifestAreaId = area.id;
+  }
+  mobActiveAreaId = manifestAreaId;
+  const areaPgId = areaDomId(manifestAreaId);
   document.querySelectorAll('.study-area').forEach(el => {
-    el.classList.toggle('active', el.id === areaId);
+    el.classList.toggle('active', el.id === areaPgId);
   });
   const contentEl = document.querySelector('.content');
   if (contentEl) contentEl.scrollTop = 0;
-  const area = MOB_AREAS.find(a => a.id === areaId);
+  const area = manifestData?.areas.find(a => a.id === manifestAreaId);
   if (area) {
     const sv = document.getElementById('bc-section-val');
     const tv = document.getElementById('bc-task-val');
-    if (sv) sv.textContent = area.num + ' · ' + area.short;
-    if (tv && area.tasks[0]) tv.textContent = area.tasks[0][1];
+    if (sv) sv.textContent = `${area.id} · ${area.short}`;
+    if (tv && area.tasks[0]) tv.textContent = `${area.tasks[0].letter} · ${area.tasks[0].short}`;
   }
 }
 
 export function reactivateCurrentSection() {
-  activateSection(mobActiveSectionId);
+  activateSection(mobActiveAreaId);
 }
 
 function buildBottomNav() {
@@ -91,36 +72,37 @@ function handleClick(e) {
   const overlay = e.target.closest('[data-action="sheet-overlay"]');
   if (overlay && e.target === overlay) { closeSheet(); return; }
   const pickSec = e.target.closest('[data-action="sheet-pick-section"]');
-  if (pickSec) { sheetPickSection(pickSec.dataset.areaId); return; }
+  if (pickSec) { sheetPickSection(pickSec.dataset.manifestAreaId); return; }
   const pickTask = e.target.closest('[data-action="sheet-pick-task"]');
-  if (pickTask) { sheetPickTask(pickTask.dataset.taskId, pickTask.dataset.taskVal); return; }
+  if (pickTask) { sheetPickTask(pickTask.dataset.taskElId, pickTask.dataset.taskVal); return; }
 }
 
 function openSheet(type) {
   const overlay = document.getElementById('sheet-overlay');
   const list = document.getElementById('sheet-list');
   const title = document.getElementById('sheet-title');
-  if (!overlay || !list || !title) return;
+  if (!overlay || !list || !title || !manifestData) return;
 
   if (type === 'section') {
     title.textContent = 'Jump to Section';
-    list.innerHTML = MOB_AREAS.map(area => {
-      const isActive = area.id === mobActiveSectionId;
-      return `<div class="sheet-item${isActive ? ' active-item' : ''}" data-action="sheet-pick-section" data-area-id="${area.id}">
-        <span class="si-num">${area.num}</span>
-        <span>${area.name}</span>
+    list.innerHTML = manifestData.areas.map(area => {
+      const isActive = area.id === mobActiveAreaId;
+      return `<div class="sheet-item${isActive ? ' active-item' : ''}" data-action="sheet-pick-section" data-manifest-area-id="${area.id}">
+        <span class="si-num">${area.id}</span>
+        <span>${area.title}</span>
       </div>`;
     }).join('');
   } else {
     title.textContent = 'Jump to Task';
-    const area = MOB_AREAS.find(a => a.id === mobActiveSectionId) || MOB_AREAS[0];
+    const area = manifestData.areas.find(a => a.id === mobActiveAreaId) || manifestData.areas[0];
     const curTaskVal = (document.getElementById('bc-task-val') || {}).textContent || '';
     list.innerHTML = area.tasks.map(t => {
-      const isActive = t[1] === curTaskVal;
-      const escapedVal = t[1].replace(/"/g, '&quot;');
-      return `<div class="sheet-item${isActive ? ' active-item' : ''}" data-action="sheet-pick-task" data-task-id="${t[0]}" data-task-val="${escapedVal}">
-        <span class="si-num">${t[0].replace('t-', '').toUpperCase()}</span>
-        <span>${t[1].split(' · ')[1] || t[1]}</span>
+      const taskVal = `${t.letter} · ${t.short}`;
+      const isActive = taskVal === curTaskVal;
+      const escapedVal = taskVal.replace(/"/g, '&quot;');
+      return `<div class="sheet-item${isActive ? ' active-item' : ''}" data-action="sheet-pick-task" data-task-el-id="${taskDomId(t.id)}" data-task-val="${escapedVal}">
+        <span class="si-num">${t.letter}</span>
+        <span>${t.short}</span>
       </div>`;
     }).join('');
   }
@@ -133,17 +115,17 @@ function closeSheet() {
   if (overlay) overlay.classList.remove('open');
 }
 
-function sheetPickSection(areaId) {
+function sheetPickSection(manifestAreaId) {
   closeSheet();
-  activateSection(areaId);
+  activateSection(manifestAreaId);
 }
 
-function sheetPickTask(taskId, taskVal) {
+function sheetPickTask(taskElId, taskVal) {
   closeSheet();
   const tv = document.getElementById('bc-task-val');
   if (tv) tv.textContent = taskVal;
   setTimeout(() => {
-    const el = document.getElementById(taskId);
+    const el = document.getElementById(taskElId);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, 80);
 }
@@ -154,7 +136,8 @@ function initScrollObserver() {
 
   function onScroll() {
     if (window.innerWidth >= 768) return;
-    const activeArea = document.getElementById(mobActiveSectionId);
+    const areaPgId = areaDomId(mobActiveAreaId);
+    const activeArea = document.getElementById(areaPgId);
     if (!activeArea) return;
     const tasks = activeArea.querySelectorAll('.task-section.task-anchor[data-task-val]');
     let best = null;

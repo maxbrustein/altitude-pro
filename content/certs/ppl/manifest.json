@@ -5,11 +5,13 @@
     {
       "id": "I",
       "title": "Preflight Preparation",
+      "short": "PREFLIGHT PREP",
       "tasks": [
         {
           "id": "I-A",
           "letter": "A",
           "title": "Pilot Qualifications",
+          "short": "PILOT QUALS",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -20,6 +22,7 @@
           "id": "I-B",
           "letter": "B",
           "title": "Airworthiness Requirements",
+          "short": "AIRWORTHINESS",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -30,6 +33,7 @@
           "id": "I-C",
           "letter": "C",
           "title": "Weather Information",
+          "short": "WEATHER",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -40,6 +44,7 @@
           "id": "I-D",
           "letter": "D",
           "title": "Cross-Country Planning",
+          "short": "XC PLANNING",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -50,6 +55,7 @@
           "id": "I-E",
           "letter": "E",
           "title": "National Airspace System",
+          "short": "AIRSPACE",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -60,6 +66,7 @@
           "id": "I-F",
           "letter": "F",
           "title": "Performance & Limitations",
+          "short": "PERFORMANCE",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -70,6 +77,7 @@
           "id": "I-G",
           "letter": "G",
           "title": "Operation of Systems",
+          "short": "SYSTEMS",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -80,6 +88,7 @@
           "id": "I-H",
           "letter": "H",
           "title": "Human Factors",
+          "short": "HUMAN FACTORS",
           "references": [
             "14 CFR 61",
             "14 CFR 91",
@@ -91,11 +100,13 @@
     {
       "id": "II",
       "title": "Preflight Procedures",
+      "short": "PREFLIGHT PROC",
       "tasks": [
         {
           "id": "II-A",
           "letter": "A",
           "title": "Preflight Assessment",
+          "short": "PREFLIGHT ASSESS",
           "references": [
             "14 CFR 91",
             "POH/AFM",
@@ -106,6 +117,7 @@
           "id": "II-B",
           "letter": "B",
           "title": "Flight Deck Management",
+          "short": "FLIGHT DECK",
           "references": [
             "14 CFR 91",
             "POH/AFM",
@@ -116,6 +128,7 @@
           "id": "II-C",
           "letter": "C",
           "title": "Engine Starting",
+          "short": "ENGINE START",
           "references": [
             "14 CFR 91",
             "POH/AFM",
@@ -126,6 +139,7 @@
           "id": "II-D",
           "letter": "D",
           "title": "Taxiing",
+          "short": "TAXIING",
           "references": [
             "14 CFR 91",
             "POH/AFM",
@@ -136,6 +150,7 @@
           "id": "II-F",
           "letter": "F",
           "title": "Before Takeoff Check",
+          "short": "BEFORE T/O",
           "references": [
             "14 CFR 91",
             "POH/AFM",
@@ -147,11 +162,13 @@
     {
       "id": "III",
       "title": "Airport Operations",
+      "short": "AIRPORT OPS",
       "tasks": [
         {
           "id": "III-A",
           "letter": "A",
           "title": "Comms & Runway Lighting",
+          "short": "COMMS & LIGHTING",
           "references": [
             "AIM",
             "FAA-H-8083-3"
@@ -161,6 +178,7 @@
           "id": "III-B",
           "letter": "B",
           "title": "Traffic Patterns",
+          "short": "TRAFFIC PATTERN",
           "references": [
             "AIM",
             "FAA-H-8083-3"
@@ -171,11 +189,13 @@
     {
       "id": "IV",
       "title": "Takeoffs, Landings & Go-Arounds",
+      "short": "T/O & LANDINGS",
       "tasks": [
         {
           "id": "IV-A",
           "letter": "A",
           "title": "Normal Takeoff & Climb",
+          "short": "NORMAL T/O",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -185,6 +205,7 @@
           "id": "IV-B",
           "letter": "B",
           "title": "Normal Approach & Landing",
+          "short": "NORMAL LANDING",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -194,6 +215,7 @@
           "id": "IV-C",
           "letter": "C",
           "title": "Soft-Field T/O & Landing",
+          "short": "SOFT FIELD",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -203,6 +225,7 @@
           "id": "IV-E",
           "letter": "E",
           "title": "Short-Field T/O & Landing",
+          "short": "SHORT FIELD",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -212,6 +235,7 @@
           "id": "IV-M",
           "letter": "M",
           "title": "Forward Slip to Landing",
+          "short": "FORWARD SLIP",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -221,6 +245,7 @@
           "id": "IV-N",
           "letter": "N",
           "title": "Go-Around / Rejected Landing",
+          "short": "GO-AROUND",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -231,11 +256,13 @@
     {
       "id": "V",
       "title": "Performance & Ground Reference",
+      "short": "PERF & GND REF",
       "tasks": [
         {
           "id": "V-A",
           "letter": "A",
           "title": "Steep Turns",
+          "short": "STEEP TURNS",
           "references": [
             "FAA-H-8083-3"
           ]
@@ -244,6 +271,7 @@
           "id": "V-B",
           "letter": "B",
           "title": "Ground Reference Maneuvers",
+          "short": "GND REFERENCE",
           "references": [
             "FAA-H-8083-3"
           ]
@@ -253,11 +281,13 @@
     {
       "id": "VI",
       "title": "Navigation",
+      "short": "NAVIGATION",
       "tasks": [
         {
           "id": "VI-A",
           "letter": "A",
           "title": "Pilotage & Dead Reckoning",
+          "short": "PILOTAGE & DR",
           "references": [
             "AIM",
             "FAA-H-8083-25"
@@ -267,6 +297,7 @@
           "id": "VI-B",
           "letter": "B",
           "title": "Navigation Systems & Radar",
+          "short": "NAV SYSTEMS",
           "references": [
             "AIM",
             "FAA-H-8083-25"
@@ -276,6 +307,7 @@
           "id": "VI-C",
           "letter": "C",
           "title": "Diversion",
+          "short": "DIVERSION",
           "references": [
             "AIM",
             "FAA-H-8083-25"
@@ -285,6 +317,7 @@
           "id": "VI-D",
           "letter": "D",
           "title": "Lost Procedures",
+          "short": "LOST PROC",
           "references": [
             "AIM",
             "FAA-H-8083-25"
@@ -295,11 +328,13 @@
     {
       "id": "VII",
       "title": "Slow Flight & Stalls",
+      "short": "STALLS",
       "tasks": [
         {
           "id": "VII-A",
           "letter": "A",
           "title": "Maneuvering During Slow Flight",
+          "short": "SLOW FLIGHT",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -309,6 +344,7 @@
           "id": "VII-B",
           "letter": "B",
           "title": "Power-Off Stalls",
+          "short": "POWER-OFF STALL",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -318,6 +354,7 @@
           "id": "VII-C",
           "letter": "C",
           "title": "Power-On Stalls",
+          "short": "POWER-ON STALL",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -327,6 +364,7 @@
           "id": "VII-D",
           "letter": "D",
           "title": "Spin Awareness",
+          "short": "SPIN AWARENESS",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -337,11 +375,13 @@
     {
       "id": "VIII",
       "title": "Basic Instrument Maneuvers",
+      "short": "INSTRUMENTS",
       "tasks": [
         {
           "id": "VIII-A",
           "letter": "A",
           "title": "Straight-Level, Climbs, Descents, Turns",
+          "short": "BASIC MANEUVERS",
           "references": [
             "FAA-H-8083-15",
             "FAA-H-8083-3"
@@ -351,6 +391,7 @@
           "id": "VIII-E",
           "letter": "E",
           "title": "Unusual Attitude Recovery",
+          "short": "UNUSUAL ATTITUDE",
           "references": [
             "FAA-H-8083-15",
             "FAA-H-8083-3"
@@ -360,6 +401,7 @@
           "id": "VIII-F",
           "letter": "F",
           "title": "Partial Panel & Radio Nav",
+          "short": "PARTIAL PANEL",
           "references": [
             "FAA-H-8083-15",
             "FAA-H-8083-3"
@@ -370,11 +412,13 @@
     {
       "id": "IX",
       "title": "Emergency Operations",
+      "short": "EMERGENCIES",
       "tasks": [
         {
           "id": "IX-A",
           "letter": "A",
           "title": "Emergency Descent",
+          "short": "EMERG DESCENT",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -384,6 +428,7 @@
           "id": "IX-B",
           "letter": "B",
           "title": "Emergency Approach & Landing",
+          "short": "EMERG LANDING",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -393,6 +438,7 @@
           "id": "IX-C",
           "letter": "C",
           "title": "Systems & Equipment Malfunctions",
+          "short": "SYS MALFUNCTIONS",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -402,6 +448,7 @@
           "id": "IX-D",
           "letter": "D",
           "title": "Emergency Equipment & ELT",
+          "short": "EMERG EQUIP",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
@@ -412,11 +459,13 @@
     {
       "id": "XI",
       "title": "Night Operations",
+      "short": "NIGHT OPS",
       "tasks": [
         {
           "id": "XI-A",
           "letter": "A",
           "title": "Night Operations",
+          "short": "NIGHT OPERATIONS",
           "references": [
             "AIM",
             "FAA-H-8083-25"
@@ -427,11 +476,13 @@
     {
       "id": "XII",
       "title": "Postflight Procedures",
+      "short": "POSTFLIGHT",
       "tasks": [
         {
           "id": "XII-A",
           "letter": "A",
           "title": "After Landing, Parking & Securing",
+          "short": "AFTER LANDING",
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
