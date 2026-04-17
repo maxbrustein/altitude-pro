@@ -1,0 +1,14 @@
+/* ── RESET & BASE ── */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-text-size-adjust:100%;}
+body{background:var(--void);color:var(--cloud);font-family:var(--fo);min-height:100vh;overflow-x:hidden;}
+
+/* ── TABLE BASE ── */
+table{width:100%;border-collapse:collapse;font-size:12px;}
+th{background:var(--lift);padding:8px 10px;text-align:left;font-family:var(--fm);font-size:7.5px;letter-spacing:1.5px;color:var(--glow);text-transform:uppercase;border-bottom:1px solid var(--border-hi);}
+td{padding:8px 10px;border-bottom:1px solid var(--border);color:var(--cloud);font-weight:300;vertical-align:top;line-height:1.5;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:rgba(255,255,255,.02);}
+
+/* ── TAP FEEDBACK (global) ── */
+*{-webkit-tap-highlight-color:transparent;}

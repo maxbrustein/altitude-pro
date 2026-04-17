@@ -1,6 +1,9 @@
-/* tokens — will be populated in Phase 1 */
-:root {
-  --void: #080B07;
-  --glow: #9DD968;
+/* ── DESIGN TOKENS ── */
+:root{
+  --void:#080B07;--deep:#0D120B;--bunker:#111A0F;--panel:#182114;--surface:#1F2D19;--lift:#263620;
+  --primary:#5D8A3C;--bright:#7AB84E;--glow:#9DD968;--neon:#BEFF85;
+  --tan:#C8B887;--amber:#D4880A;--red:#C94040;--signal:#4AA8A0;
+  --white:#EBF0E5;--cloud:#C2CDB8;--ghost:#8A9E80;
+  --border:rgba(93,138,60,0.18);--border-hi:rgba(157,217,104,0.30);
+  --fo:'Outfit',sans-serif;--fm:'Orbitron',sans-serif;
 }
-body { background: var(--void); color: #fff; margin: 0; }
