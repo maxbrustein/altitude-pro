@@ -1,28 +1,38 @@
-// Top-level Study Guide / Quiz mode toggle. Coordinates which panel is
-// visible (study-area vs quiz-page) and nudges dependent modules when the
-// mode changes.
+// Top-level Study Guide / Quiz mode toggle. Click handlers call navigate()
+// (so the router drives mode changes); switchMode() is called by the
+// router's handlers and by other modules that need a direct mode swap.
 
 import { showAreaPage, getCurrentAreaId, rebuildSidebar } from './sidebar.js';
+import { areaDomId } from './dom-ids.js';
+import { navigate } from '../router.js';
 
 let mode = 'study';
+let manifestData = null;
 let quizModeEntered = null;
 let quizModeLeft = null;
+let mobileShowArea = null;
 
 export function getMode() { return mode; }
 
-export function initModeSwitch({ onEnterQuiz, onLeaveQuiz, onMobileShowArea } = {}) {
+export function initModeSwitch(manifest, { onEnterQuiz, onLeaveQuiz, onMobileShowArea } = {}) {
+  manifestData = manifest;
   quizModeEntered = onEnterQuiz || null;
   quizModeLeft = onLeaveQuiz || null;
   mobileShowArea = onMobileShowArea || null;
   document.addEventListener('click', handleClick);
 }
 
-let mobileShowArea = null;
-
 function handleClick(e) {
   const btn = e.target.closest('[data-action="mode"]');
   if (!btn) return;
-  switchMode(btn.dataset.mode);
+  if (btn.dataset.mode === 'quiz') {
+    navigate('#/quiz');
+  } else {
+    // Study: return to whatever area is currently selected
+    const curDom = getCurrentAreaId();
+    const area = manifestData?.areas.find(a => areaDomId(a.id) === curDom);
+    navigate(area ? `#/area/${area.id}` : '#/');
+  }
 }
 
 export function switchMode(m) {

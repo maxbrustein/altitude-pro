@@ -1,16 +1,19 @@
 // Desktop sidebar: area accordion + task list + ref link.
-// Data comes from manifest.json. Navigation primitives exported for other
-// views. DOM IDs (pg-a1, t-ia) remain v10-style until Phase 4b regenerates
-// HTML from a cleaner format.
+// Navigation goes through the hash router — click handlers call navigate()
+// rather than calling view functions directly. The router then calls the
+// exported view functions (showAreaPage, scrollToTask, showRefPage).
 
 import { areaDomId, taskDomId } from './dom-ids.js';
+import { navigate } from '../router.js';
 
 let manifestData = null;
 let curAreaDomId = 'pg-a1';
-let curTaskElId = null;              // per-task highlighting (only the clicked task is .active)
-const openSections = new Set(['pg-a1']); // multiple sections can be expanded at once
+let curTaskElId = null;                   // only the clicked task is highlighted
+const openSections = new Set(['pg-a1']);  // multiple areas can be expanded
 
 export function getCurrentAreaId() { return curAreaDomId; }
+
+export function setCurrentTaskElId(id) { curTaskElId = id; }
 
 export function initSidebar(manifest) {
   manifestData = manifest;
@@ -30,7 +33,7 @@ function buildSidebar() {
     const taskItems = area.tasks.map(t => {
       const tDomId = taskDomId(t.id);
       return `
-      <div class="sb-task${tDomId === curTaskElId ? ' active' : ''}" data-action="goto-task" data-area-id="${areaPgId}" data-task-id="${tDomId}">
+      <div class="sb-task${tDomId === curTaskElId ? ' active' : ''}" data-action="goto-task" data-area-id="${areaPgId}" data-manifest-area-id="${area.id}" data-task-letter="${t.letter}">
         <span class="sb-task-code">${t.letter}</span>
         ${t.title}
       </div>`;
@@ -59,13 +62,13 @@ function handleClick(e) {
   if (action === 'toggle-area') {
     toggleSbArea(target.dataset.areaId);
   } else if (action === 'goto-task') {
-    goToTask(target.dataset.areaId, target.dataset.taskId);
+    navigate(`#/area/${target.dataset.manifestAreaId}/task/${target.dataset.taskLetter}`);
   } else if (action === 'show-ref') {
-    showRefPage();
+    navigate('#/ref');
   }
 }
 
-// Toggles area open/close in the sidebar without navigating
+// Local sidebar open/close — no navigation
 function toggleSbArea(areaPgId) {
   if (openSections.has(areaPgId)) openSections.delete(areaPgId);
   else openSections.add(areaPgId);
@@ -85,22 +88,11 @@ export function showAreaPage(areaPgId) {
 
 export function showRefPage() {
   curAreaDomId = 'pg-ref';
+  curTaskElId = null;
   document.querySelectorAll('.study-area, .ref-page').forEach(p => p.classList.remove('active'));
   const pg = document.getElementById('pg-ref');
   if (pg) pg.classList.add('active');
   buildSidebar();
-}
-
-export function goToTask(areaPgId, taskElId) {
-  curTaskElId = taskElId;
-  openSections.add(areaPgId);
-  if (curAreaDomId !== areaPgId) {
-    showAreaPage(areaPgId);
-    setTimeout(() => scrollToTask(taskElId), 80);
-  } else {
-    buildSidebar();
-    scrollToTask(taskElId);
-  }
 }
 
 export function scrollToTask(taskElId) {

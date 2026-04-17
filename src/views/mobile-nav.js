@@ -1,32 +1,24 @@
-// Mobile-only navigation: breadcrumb + bottom sheet picker + bottom nav +
-// scroll observer that updates the breadcrumb's current task as you scroll.
-// Reads areas/tasks from manifest.json (via content loader).
+// Mobile-only navigation. Breadcrumb + bottom sheet picker + bottom nav +
+// scroll observer. Sheet picks call navigate() to update the hash; the
+// router dispatches back to activateSection / scrollToTask.
 
 import { areaDomId, taskDomId } from './dom-ids.js';
+import { navigate } from '../router.js';
 
 let manifestData = null;
-let mobActiveAreaId = 'I'; // manifest ID
+let mobActiveAreaId = 'I';
 
-export function getMobActiveSectionId() { return areaDomId(mobActiveAreaId); }
+export function getMobActiveAreaId() { return mobActiveAreaId; }
 
 export function initMobileNav(manifest) {
   manifestData = manifest;
   buildBottomNav();
   document.addEventListener('click', handleClick);
   initScrollObserver();
-  activateSection('I');
 }
 
-// Accepts either a manifest area id (e.g., "I") or a DOM id (e.g., "pg-a1").
-// External callers (like reactivateCurrentSection) pass the manifest id.
-export function activateSection(areaIdOrDomId) {
-  // Normalize to manifest id
-  let manifestAreaId = areaIdOrDomId;
-  if (areaIdOrDomId.startsWith('pg-')) {
-    // Find the manifest id that maps to this DOM id
-    const area = manifestData?.areas.find(a => areaDomId(a.id) === areaIdOrDomId);
-    if (area) manifestAreaId = area.id;
-  }
+// Called by the router for #/area/<id>[/task/<letter>] routes.
+export function activateSection(manifestAreaId, taskLetter = null) {
   mobActiveAreaId = manifestAreaId;
   const areaPgId = areaDomId(manifestAreaId);
   document.querySelectorAll('.study-area').forEach(el => {
@@ -39,7 +31,10 @@ export function activateSection(areaIdOrDomId) {
     const sv = document.getElementById('bc-section-val');
     const tv = document.getElementById('bc-task-val');
     if (sv) sv.textContent = `${area.id} · ${area.short}`;
-    if (tv && area.tasks[0]) tv.textContent = `${area.tasks[0].letter} · ${area.tasks[0].short}`;
+    // Pick the task for the breadcrumb: the explicit one from the route,
+    // or fall back to the first task in the area.
+    const bcTask = (taskLetter ? area.tasks.find(t => t.letter === taskLetter) : null) || area.tasks[0];
+    if (tv && bcTask) tv.textContent = `${bcTask.letter} · ${bcTask.short}`;
   }
 }
 
@@ -72,9 +67,17 @@ function handleClick(e) {
   const overlay = e.target.closest('[data-action="sheet-overlay"]');
   if (overlay && e.target === overlay) { closeSheet(); return; }
   const pickSec = e.target.closest('[data-action="sheet-pick-section"]');
-  if (pickSec) { sheetPickSection(pickSec.dataset.manifestAreaId); return; }
+  if (pickSec) {
+    closeSheet();
+    navigate(`#/area/${pickSec.dataset.manifestAreaId}`);
+    return;
+  }
   const pickTask = e.target.closest('[data-action="sheet-pick-task"]');
-  if (pickTask) { sheetPickTask(pickTask.dataset.taskElId, pickTask.dataset.taskVal); return; }
+  if (pickTask) {
+    closeSheet();
+    navigate(`#/area/${pickTask.dataset.manifestAreaId}/task/${pickTask.dataset.taskLetter}`);
+    return;
+  }
 }
 
 function openSheet(type) {
@@ -99,8 +102,7 @@ function openSheet(type) {
     list.innerHTML = area.tasks.map(t => {
       const taskVal = `${t.letter} · ${t.short}`;
       const isActive = taskVal === curTaskVal;
-      const escapedVal = taskVal.replace(/"/g, '&quot;');
-      return `<div class="sheet-item${isActive ? ' active-item' : ''}" data-action="sheet-pick-task" data-task-el-id="${taskDomId(t.id)}" data-task-val="${escapedVal}">
+      return `<div class="sheet-item${isActive ? ' active-item' : ''}" data-action="sheet-pick-task" data-manifest-area-id="${area.id}" data-task-letter="${t.letter}">
         <span class="si-num">${t.letter}</span>
         <span>${t.short}</span>
       </div>`;
@@ -113,21 +115,6 @@ function openSheet(type) {
 function closeSheet() {
   const overlay = document.getElementById('sheet-overlay');
   if (overlay) overlay.classList.remove('open');
-}
-
-function sheetPickSection(manifestAreaId) {
-  closeSheet();
-  activateSection(manifestAreaId);
-}
-
-function sheetPickTask(taskElId, taskVal) {
-  closeSheet();
-  const tv = document.getElementById('bc-task-val');
-  if (tv) tv.textContent = taskVal;
-  setTimeout(() => {
-    const el = document.getElementById(taskElId);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, 80);
 }
 
 function initScrollObserver() {
