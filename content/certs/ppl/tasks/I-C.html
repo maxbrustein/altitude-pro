@@ -1,0 +1,124 @@
+<div class="task-section task-anchor" id="t-ic" data-section-val="I · PREFLIGHT PREP" data-task-val="C · WEATHER">
+<div class="task-hdr">
+  <span class="task-badge">Task C</span>
+  <span class="task-title">Weather Information</span>
+</div>
+
+<div class="subsec-lbl">Decoding a METAR <span class="src-tag aim">AIM 7-1-30</span></div>
+<div class="decode-block">
+  <div class="decode-raw">METAR KBWI 141854Z 27018G28KT 10SM FEW045 BKN070 OVC250 18/05 A2998 RMK AO2 SLP152</div>
+  <div class="decode-line"><div class="decode-token">METAR</div><div class="decode-desc">Routine hourly observation (SPECI = unscheduled special observation)</div></div>
+  <div class="decode-line"><div class="decode-token">KBWI</div><div class="decode-desc">ICAO airport identifier — Baltimore/Washington International</div></div>
+  <div class="decode-line"><div class="decode-token">141854Z</div><div class="decode-desc">Day 14, time 1854 UTC (Zulu). Always UTC — never local time.</div></div>
+  <div class="decode-line"><div class="decode-token">27018G28KT</div><div class="decode-desc">Wind FROM 270° (west) at 18 kts, gusting to 28 kts. Variable: VRB05KT. Calm: 00000KT.</div></div>
+  <div class="decode-line"><div class="decode-token">10SM</div><div class="decode-desc">Visibility 10 statute miles. &lt;1/4SM = M1/4SM. Fractions: 1 1/2SM.</div></div>
+  <div class="decode-line"><div class="decode-token">FEW045</div><div class="decode-desc">Few clouds at 4,500 ft AGL (heights always in hundreds of feet AGL). FEW=1-2/8, SCT=3-4/8, BKN=5-7/8 (ceiling), OVC=8/8 (ceiling).</div></div>
+  <div class="decode-line"><div class="decode-token">BKN070</div><div class="decode-desc">Broken ceiling at 7,000 ft AGL. BKN or OVC = ceiling. FEW/SCT = not a ceiling.</div></div>
+  <div class="decode-line"><div class="decode-token">OVC250</div><div class="decode-desc">Overcast at 25,000 ft AGL. CB = cumulonimbus; TCU = towering cumulus.</div></div>
+  <div class="decode-line"><div class="decode-token">18/05</div><div class="decode-desc">Temperature / Dewpoint in °C. Spread = 13°C. Closer spread = higher chance of fog/low clouds.</div></div>
+  <div class="decode-line"><div class="decode-token">A2998</div><div class="decode-desc">Altimeter setting 29.98 in Hg. Set this in your altimeter before departure and update en route.</div></div>
+  <div class="decode-line"><div class="decode-token">RMK AO2</div><div class="decode-desc">Remarks: AO2 = automated station with precipitation discriminator. SLP152 = sea level pressure 1015.2 mb.</div></div>
+</div>
+
+<div class="subsec-lbl">Decoding a TAF <span class="src-tag aim">AIM 7-1-31</span></div>
+<div class="decode-block">
+  <div class="decode-raw">TAF KORD 141730Z 1418/1524 27020KT P6SM BKN030 FM152000 30015KT 6SM -SHRA BKN025 OVC060 TEMPO 1522/1524 2SM TSRA OVC015CB</div>
+  <div class="decode-line"><div class="decode-token">TAF KORD</div><div class="decode-desc">Terminal Aerodrome Forecast for Chicago O'Hare. 5 statute miles around the airport.</div></div>
+  <div class="decode-line"><div class="decode-token">141730Z</div><div class="decode-desc">Issued day 14 at 1730Z</div></div>
+  <div class="decode-line"><div class="decode-token">1418/1524</div><div class="decode-desc">Valid period: day 14 from 1800Z through day 15 at 2400Z (24-30 hour TAFs)</div></div>
+  <div class="decode-line"><div class="decode-token">27020KT P6SM BKN030</div><div class="decode-desc">Base conditions: 270/20kts, visibility &gt;6SM, broken at 3,000</div></div>
+  <div class="decode-line"><div class="decode-token">FM152000</div><div class="decode-desc">FROM: new conditions starting day 15 at 2000Z — rapid complete change</div></div>
+  <div class="decode-line"><div class="decode-token">TEMPO 1522/1524</div><div class="decode-desc">Temporary conditions day 15 from 2200–2400Z (lasting &lt;60 min, &lt;50% of the time). During this period expect: 2SM visibility, thunderstorms + rain, overcast at 1,500 with cumulonimbus</div></div>
+  <div class="decode-line"><div class="decode-token">BECMG (not shown)</div><div class="decode-desc">Becoming: gradual change over 2 hours. PROB30/40: 30% or 40% probability of conditions occurring during the time period.</div></div>
+</div>
+
+<div class="subsec-lbl">Weather Products Overview <span class="src-tag aim">AIM 7-1</span></div>
+<div class="fact-grid two-col">
+<div class="fact-card hi"><div class="fact-title">SIGMET and AIRMET Reference</div><div class="fact-body">
+<div class="tbl-wrap"><table>
+<tbody><tr><th>Product</th><th>Category</th><th>Covers</th><th>Valid</th></tr>
+<tr><td>SIGMET</td><td>WS</td><td>Severe/extreme turb, severe icing, widespread dust/sandstorm, volcanic ash</td><td>4 hrs (6 hrs tropical)</td></tr>
+<tr><td>Convective SIGMET</td><td>WST</td><td>Severe CB activity, embedded TSs, hail ≥3/4", tornado</td><td>2 hrs</td></tr>
+<tr><td>AIRMET Sierra</td><td>WA</td><td>IFR (ceiling &lt;1000/vis &lt;3SM over 3000+ sq mi), mountain obscuration</td><td>6 hrs</td></tr>
+<tr><td>AIRMET Tango</td><td>WA</td><td>Moderate turbulence, sustained sfc winds ≥30 kts, low-level wind shear</td><td>6 hrs</td></tr>
+<tr><td>AIRMET Zulu</td><td>WA</td><td>Moderate icing, freezing level data</td><td>6 hrs</td></tr>
+<tr><td>CWA</td><td>—</td><td>ARTCC area — doesn't meet SIGMET criteria but affects safety</td><td>2 hrs</td></tr>
+</tbody></table></div></div><div class="fact-ref">AIM 7-1-6</div></div>
+<div class="fact-card"><div class="fact-title">GFA — Graphical Forecast for Aviation</div><div class="fact-body">
+Replaced the area forecast (FA). Available at aviationweather.gov. Updated every 6 hours. Valid for 18 hours in two 6-hour increments.<br><br>
+<span class="hl">What it shows</span>: Ceiling and visibility forecasts, precipitation type and intensity, turbulence (low and high altitude), icing (low and high altitude), freezing levels, surface winds, convective outlook.<br><br>
+<span class="hl">How DPEs use it</span>: Expect to open aviationweather.gov, select GFA, interpret ceiling/vis and turbulence layers for a proposed route. You should know how to read the interactive layers.</div><div class="fact-ref">AIM 7-1-5; ACS PA.I.C</div></div>
+<div class="fact-card"><div class="fact-title">Winds Aloft Forecast (FB)</div><div class="fact-body">
+Issued twice daily (based on 00Z and 12Z upper-air data). Covers altitudes from 3,000 ft through FL390.<br><br>
+<span class="hl">Format</span>: ddsstt — direction (true north), speed in knots, temperature in °C. Example: 2722-04 = wind from 270°, 22 kts, -4°C.<br>
+<span class="hl">Light &amp; variable</span>: 9900<br>
+<span class="hl">Over 99 kts</span>: Coded as direction + 50, speed − 100. 731960 = from 230°, 119 kts, -60°C<br>
+<span class="hl">No temperature</span>: At 3,000 and 6,000 ft (too close to surface for reliable data)<br>
+<span class="hl">No winds below 1,500 AGL</span></div><div class="fact-ref">AC 00-45H</div></div>
+</div>
+
+<div class="subsec-lbl">Hazardous Weather In Depth <span class="src-tag">PHAK Ch.12</span></div>
+<div class="fact-grid two-col">
+<div class="fact-card hi"><div class="fact-title">Thunderstorm Stages</div><div class="fact-body">
+<span class="hl">Cumulus stage</span>: Strong updrafts only. No lightning. No precipitation at surface. Can last 20 min.<br><br>
+<span class="hl">Mature stage</span>: <span class="hl-r">Most hazardous.</span> Both updrafts AND downdrafts present simultaneously. Precipitation at surface. Lightning, hail, severe turbulence, possible tornado, microburst outflow. Can last 10–30 min.<br><br>
+<span class="hl">Dissipating stage</span>: Downdrafts only. Precipitation decreases. Still dangerous — outflow winds and possible lightning. Cell collapses inward.<br><br>
+<span class="hl">Avoidance rule</span>: Avoid by at least 20 nm (do not fly near anvil tops — hail can extend well beyond the visible cloud). Never attempt to fly under a CB.<br><br>
+<span class="hl">Embedded thunderstorms</span>: The most dangerous — hidden inside stratiform clouds, invisible on EFB radar without onboard weather radar.</div></div>
+<div class="fact-card"><div class="fact-title">Icing Types — Temperature Ranges</div><div class="fact-body">
+<span class="hl">Clear ice (glaze ice)</span>: 0°C to -10°C. Large supercooled droplets spread before freezing. Dense, hard to remove, severely disrupts airfoil. Most dangerous.<br><br>
+<span class="hl">Rime ice</span>: -10°C to -20°C. Small droplets freeze instantly on impact. Rough, opaque, brittle. Less dense than clear ice. Leading edge buildup.<br><br>
+<span class="hl">Mixed ice</span>: Combination; occurs in temperature transitions or mixed cloud populations. Unpredictable buildup.<br><br>
+<span class="hl">Required conditions</span>: Visible moisture (clouds, rain, drizzle) AND OAT at or below 0°C. Both required simultaneously.<br><br>
+<span class="hl">Carburetor ice</span>: Not structural icing — requires only high humidity + 20–70°F temps. No visible moisture required.</div></div>
+<div class="fact-card"><div class="fact-title">Fog Types — How They Form</div><div class="fact-body">
+<div class="tbl-wrap"><table>
+<tbody><tr><th>Type</th><th>Mechanism</th><th>Wind</th><th>When</th></tr>
+<tr><td><span class="hl">Radiation</span></td><td>Ground cools air to dewpoint at night</td><td>Calm</td><td>Clear nights, fall/winter</td></tr>
+<tr><td><span class="hl">Advection</span></td><td>Warm moist air moves over cool surface</td><td>Required</td><td>Coastal, all seasons</td></tr>
+<tr><td><span class="hl">Upslope</span></td><td>Moist air forced up slope, cools adiabatically</td><td>Required</td><td>Eastern Rockies, windward slopes</td></tr>
+<tr><td><span class="hl">Steam (evaporation)</span></td><td>Cold air over warm water — steam evaporates and recondenses</td><td>Light</td><td>Cold outbreaks, arctic sea smoke</td></tr>
+<tr><td><span class="hl">Frontal</span></td><td>Rain evaporates, saturates cold air below warm front</td><td>Variable</td><td>Ahead of warm fronts</td></tr>
+</tbody></table></div></div><div class="fact-ref">PHAK Ch.12</div></div>
+<div class="fact-card"><div class="fact-title">Mountain Wave &amp; Lenticular</div><div class="fact-body">
+<span class="hl">Formation</span>: Wind ≥25 kts perpendicular to a mountain ridge creates a standing wave on the leeward side. Waves can extend hundreds of miles downwind and to very high altitudes.<br><br>
+<span class="hl">Lenticular clouds</span>: Lens-shaped, stationary, form at wave crests. A lenticular cloud is a direct indicator of mountain wave activity.<br><br>
+<span class="hl">Rotor zone</span>: Below the lenticular, at the mountain base elevation or lower. Extremely violent horizontal swirling turbulence — most dangerous aviation turbulence outside of a thunderstorm.<br><br>
+<span class="hl">Cap cloud</span>: Sits on top of the mountain peak. The mountain is "wearing a cap."<br><br>
+<span class="hl">Avoidance</span>: Do not fly below lenticular clouds on the leeward side of mountains. Gain significant altitude before crossing.</div></div>
+<div class="fact-card warn"><div class="fact-title">Microburst — The Silent Killer</div><div class="fact-body">
+<span class="hl">Definition</span>: A localized downdraft that diverges outward when it hits the ground. Horizontal outflow can exceed <span class="hl">45 kts</span> within a diameter of 1–2 nm. Lasts only 2–5 minutes but can be deadly during that window.<br><br>
+<span class="hl">Sequence on approach</span>:<br>
+1. Aircraft enters headwind → airspeed increases → pilot reduces power<br>
+2. Aircraft passes through the core downdraft<br>
+3. Aircraft exits into tailwind → airspeed drops dramatically → pilot already at low power<br>
+4. Aircraft cannot accelerate fast enough at low altitude → collision with terrain<br><br>
+<span class="hl">Avoidance</span>: Do not attempt to continue approach through wind shear or loss of airspeed. Go around immediately at the first indication — low-level wind shear alert, airspeed fluctuation, or unusual glidepath deviation.</div><div class="fact-ref">AIM 7-1-24</div></div>
+<div class="fact-card"><div class="fact-title">Stability &amp; Cloud Type</div><div class="fact-body">
+<span class="hl">Stable air</span>: Resists vertical motion. Produces stratiform clouds, steady precipitation, poor visibility in fog and haze, smooth flight.<br><br>
+<span class="hl">Unstable air</span>: Encourages vertical development. Produces cumuliform clouds, convective showers, good visibility in precipitation, turbulent flight.<br><br>
+<span class="hl">Cloud type reference</span>:<br>
+• Cirrus / cirrostratus / cirrocumulus: High (16,000+), ice crystals<br>
+• Altostratus / altocumulus: Middle (6,500–20,000)<br>
+• Stratus / nimbostratus: Low (&lt;6,500), liquid water<br>
+• Cumulus: Convective, all levels<br>
+• CB: Tall enough to span all levels — the thunderstorm cloud</div><div class="fact-ref">PHAK Ch.12</div></div>
+</div>
+
+<div class="subsec-lbl">Go / No-Go Decision Making <span class="src-tag acs">ACS PA.I.C.R1</span></div>
+<div class="fact-grid two-col">
+<div class="fact-card hi"><div class="fact-title">Personal Weather Minimums</div><div class="fact-body">
+DPEs frequently ask about personal minimums. You must have a thoughtful answer that goes beyond "VFR minimums."<br><br>
+<span class="hl">Establish in advance</span>: Write them down, share them with passengers, commit to them before the flight. Example minimums for a new private pilot:<br>
+• Ceiling: 3,000 ft or higher at departure and along route<br>
+• Visibility: 5 SM or better<br>
+• Winds: &lt;15 kts, crosswind &lt;8 kts<br>
+• No known icing, no convective activity within 50 nm of route<br><br>
+<span class="hl">Stick to them</span>: Get-there-itis, passenger pressure, and sunk-cost thinking are the primary killers. If conditions breach your minimums, the flight does not depart — regardless of external pressure.</div></div>
+<div class="fact-card"><div class="fact-title">EFB Weather Limitations</div><div class="fact-body">
+<span class="hl">NEXRAD radar delay</span>: Data displayed on EFBs (ForeFlight, Garmin Pilot) has a 5–20 minute delay from the NWS radar sweep. Storms move. Do not navigate around storm cells using EFB radar as a real-time avoidance tool.<br><br>
+<span class="hl">Use EFB radar for</span>: Strategic planning, understanding the overall storm pattern, determining if you are clearly outside all convective activity.<br><br>
+<span class="hl">Use onboard Stormscope / XM for</span>: Real-time (or near real-time) strike detection. Still not a substitute for avoidance — all convective weather should be avoided.<br><br>
+<span class="hl">Weather briefing requirement</span>: FSS or an approved EFB briefing counts as a proper weather briefing for regulatory purposes.</div><div class="fact-ref">AIM 7-1-11; ACS PA.I.C</div></div>
+</div>
+</div>

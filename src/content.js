@@ -1,9 +1,10 @@
-// Loads cert manifests and quiz topic JSON.
+// Loads cert manifests, task HTML, and quiz topic JSON.
 // Vite's import.meta.glob bundles content at build time, so loads are
 // synchronous after the first call (no per-task network roundtrip).
 
 const manifestCache = new Map();
 const quizCache = new Map();
+const taskCache = new Map();
 
 const manifests = import.meta.glob('/content/certs/*/manifest.json', {
   eager: true,
@@ -12,6 +13,12 @@ const manifests = import.meta.glob('/content/certs/*/manifest.json', {
 
 const quizFiles = import.meta.glob('/content/certs/*/quiz/*.json', {
   eager: true,
+  import: 'default',
+});
+
+const taskFiles = import.meta.glob('/content/certs/*/tasks/*.html', {
+  eager: true,
+  query: '?raw',
   import: 'default',
 });
 
@@ -39,7 +46,17 @@ export async function loadAllQuizTopics(cert) {
   return Object.entries(quizFiles)
     .filter(([path]) => path.startsWith(prefix))
     .map(([path, data]) => ({
-      topic: path.slice(prefix.length, -5), // strip prefix and ".json"
+      topic: path.slice(prefix.length, -5),
       data,
     }));
+}
+
+export async function loadTask(cert, taskId) {
+  const key = `${cert}:${taskId}`;
+  if (taskCache.has(key)) return taskCache.get(key);
+  const path = `/content/certs/${cert}/tasks/${taskId}.html`;
+  const data = taskFiles[path];
+  if (!data) throw new Error(`No task HTML for ${cert}/${taskId}`);
+  taskCache.set(key, data);
+  return data;
 }

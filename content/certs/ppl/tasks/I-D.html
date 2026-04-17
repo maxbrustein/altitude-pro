@@ -1,0 +1,95 @@
+<div class="task-section task-anchor" id="t-id" data-section-val="I · PREFLIGHT PREP" data-task-val="D · XC PLANNING">
+<div class="task-hdr">
+  <span class="task-badge">Task D</span>
+  <span class="task-title">Cross-Country Flight Planning</span>
+</div>
+
+<div class="subsec-lbl">TVMDC — Heading Conversion <span class="src-tag">PHAK Ch.16</span></div>
+<div class="fact-grid two-col">
+<div class="fact-card hi"><div class="fact-title">Full TVMDC Conversion</div><div class="fact-body">
+<span class="hl">True course ± Variation = Magnetic course ± Deviation = Compass course</span><br>
+Memory: <span class="hl">T</span>rue <span class="hl">V</span>irgins <span class="hl">M</span>ake <span class="hl">D</span>ull <span class="hl">C</span>ompany<br><br>
+<span class="hl">Variation</span>: Geographic angle between true north and magnetic north. Read from isogonic lines on the sectional chart. Fixed by location.<br>
+• <span class="hl">East variation</span> = subtract from TC → MC (east is least)<br>
+• <span class="hl">West variation</span> = add to TC → MC (west is best)<br><br>
+<span class="hl">Deviation</span>: Error in a specific compass from magnetic fields inside the aircraft. From the compass deviation card. Unique to each aircraft and each heading.<br><br>
+<span class="hl">Example</span>: TC 090°, Var 15°W (add), Dev +2° → MC = 090 + 15 = 105, CC = 105 + 2 = 107°</div><div class="fact-ref">PHAK Ch.16</div></div>
+<div class="fact-card"><div class="fact-title">Wind Correction Angle</div><div class="fact-body">
+WCA accounts for crosswind drift to maintain the desired ground track.<br><br>
+<span class="hl">Quick calculation</span>: WCA ≈ (crosswind component ÷ TAS) × 60<br><br>
+Example: Crosswind component 18 kts, TAS 120 kts → WCA ≈ (18/120) × 60 = 9°. Turn 9° into the wind to compensate.<br><br>
+<span class="hl">Using E6B</span>: Set TAS on the speed ring, center the wind, read WCA and GS from the flight computer. EFBs do this automatically but understanding the manual calculation is required for the checkride.<br><br>
+<span class="hl">Groundspeed</span> = TAS ± headwind/tailwind component. Head = subtract, tail = add.</div><div class="fact-ref">PHAK Ch.17</div></div>
+</div>
+
+<div class="subsec-lbl">Navigation Log &amp; Fuel <span class="src-tag far">14 CFR 91.151</span></div>
+<div class="fact-grid two-col">
+<div class="fact-card"><div class="fact-title">Navigation Log Format</div><div class="fact-body">
+For a cross-country flight, a nav log contains per leg:<br>
+• Checkpoint name<br>
+• True course<br>
+• Wind direction/speed at altitude<br>
+• Wind correction angle<br>
+• True heading<br>
+• Magnetic variation<br>
+• Magnetic heading<br>
+• Compass deviation<br>
+• Compass heading<br>
+• Distance (nm)<br>
+• True airspeed (TAS)<br>
+• Groundspeed (GS)<br>
+• ETE per leg (distance ÷ GS)<br>
+• Fuel burn per leg (fuel flow × ETE)<br>
+• Cumulative ETE and fuel<br><br>
+DPEs do not require a perfect nav log but expect you to demonstrate you can build one and understand every value.</div></div>
+<div class="fact-card hi"><div class="fact-title">Fuel Requirements</div><div class="fact-body">
+<span class="hl">Day VFR</span>: Enough fuel to reach the first intended destination plus <span class="hl">30 minutes at normal cruise speed</span>.<br><br>
+<span class="hl">Night VFR</span>: First destination plus <span class="hl">45 minutes at normal cruise speed</span>.<br><br>
+<span class="hl">Fuel planning process</span>:<br>
+1. Look up fuel flow in POH at planned power setting and altitude<br>
+2. Calculate burn per leg (flow × time)<br>
+3. Sum all legs<br>
+4. Add reserve<br>
+5. Add taxi/runup allowance (typically 1.0–1.5 gal)<br>
+6. Compare to usable fuel capacity<br><br>
+<span class="hl">Usable vs total fuel</span>: Some aircraft have unusable fuel (trapped below fuel outlet). Use only usable fuel in planning.<br><br>
+<span class="hl">Convert gallons → pounds</span>: 100LL avgas = 6 lbs/gal</div><div class="fact-ref">14 CFR 91.151; PHAK Ch.17</div></div>
+</div>
+
+<div class="subsec-lbl">NOTAMs, TFRs &amp; VFR Flight Plan <span class="src-tag aim">AIM Ch.5</span></div>
+<div class="fact-grid two-col">
+<div class="fact-card"><div class="fact-title">NOTAM Types</div><div class="fact-body">
+<span class="hl">KNTM (Domestic NOTAMs)</span>: Issued by FSS. Covers airport and runway closures, NAVAID outages, lighting changes, obstacles, temporary changes to procedures.<br><br>
+<span class="hl">FDC (Flight Data Center)</span>: Regulatory NOTAMs — changes to instrument approach procedures, chart corrections, TFRs, airspace changes. Published by FAA.<br><br>
+<span class="hl">GPS NOTAMs</span>: GPS testing or interference affecting GPS reception in specific areas.<br><br>
+<span class="hl">POIW</span>: International NOTAMs pointing to additional information for international flights.<br><br>
+Check NOTAMs at <span class="hl">1800wxbrief.com</span> or via EFB app. Always check within 1–2 hours of departure for fresh TFRs.<br><br>
+<span class="hl">Runway closures in NOTAMs</span>: Specified as M (marked), L (lighted), C (closed).</div><div class="fact-ref">AIM 5-1-3</div></div>
+<div class="fact-card"><div class="fact-title">TFR Types</div><div class="fact-body">
+<span class="hl">91.137(a)(1)</span>: Disaster TFR — protects relief aircraft operating below 1,000 AGL. Unauthorized aircraft may still fly above.<br>
+<span class="hl">91.137(a)(2)</span>: Disaster TFR — protects a disaster site. Broader restriction.<br>
+<span class="hl">91.137(a)(3)</span>: Disaster TFR — most restrictive, blanket protection for emergency ops.<br>
+<span class="hl">91.141</span>: Presidential / VIP movement. Inner ring (typically 10 nm, SFC–FL180) — no civilian flight. Outer ring (30 nm) — ATC coordination required.<br>
+<span class="hl">91.143</span>: Space operations (rocket launches, landings).<br>
+<span class="hl">91.145</span>: Aerial demonstrations, air shows.<br><br>
+Check: <span class="hl">tfr.faa.gov</span> (interactive map) before every XC and within a few hours of departure.</div><div class="fact-ref">14 CFR 91.137–91.145</div></div>
+<div class="fact-card hi"><div class="fact-title">VFR Flight Plan — Filing &amp; Closing</div><div class="fact-body">
+Not legally required for VFR but <span class="hl">strongly recommended</span> — it is your SAR safety net.<br><br>
+<span class="hl">File with</span>: FSS via 1800wxbrief.com, phone 1-800-WX-BRIEF, or EFB app.<br><br>
+<span class="hl">Contents</span>: Aircraft type/ID, TAS, departure airport and time, cruise altitude, route, destination, ETE, fuel aboard (in hours + minutes), POB (persons on board), pilot name and contact.<br><br>
+<span class="hl">Activate</span>: Call FSS on 122.2 MHz after departure or before when filing.<br><br>
+<span class="hl-r">CLOSE after landing</span>: Call FSS or use EFB. If not closed within 30 minutes of ETA, the FAA/USAF Rescue Coordination Center initiates a search. Failure to close = significant emergency response resources wasted.</div><div class="fact-ref">AIM 5-1-4, 5-1-13</div></div>
+<div class="fact-card"><div class="fact-title">VFR Cruising Altitudes &amp; Intercept</div><div class="fact-body">
+<span class="hl">VFR cruising altitude rule</span> (above 3,000 ft AGL, not MSL):<br>
+MC 0–179° (East): odd thousands + 500 ft → 3,500 / 5,500 / 7,500<br>
+MC 180–359° (West): even thousands + 500 ft → 4,500 / 6,500 / 8,500<br><br>
+<span class="hl">Intercept procedures</span> (14 CFR 91.3, ICAO Annex 2): If intercepted by military aircraft:<br>
+• Rock wings to acknowledge<br>
+• Turn and follow the intercepting aircraft<br>
+• Do not transmit without instructions<br>
+• Transmit on 121.5 MHz and/or 243.0 MHz<br>
+• Squawk 7700 unless instructed otherwise<br>
+• Follow ICAO visual signals precisely<br><br>
+<span class="hl">ADIZ</span>: File a DVFR flight plan, have two-way radio and operable transponder, depart within 5 min of filed time.</div><div class="fact-ref">14 CFR 91.159; AIM 5-6-2</div></div>
+</div>
+</div>
