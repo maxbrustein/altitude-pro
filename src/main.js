@@ -5,7 +5,8 @@ import './styles/components.css';
 import './styles/quiz.css';
 
 import { initSidebar, showAreaPage } from './views/sidebar.js';
+import { initModeSwitch } from './views/mode-switch.js';
 
 initSidebar();
-// Activate the first area on load (matches v10 default)
+initModeSwitch();
 showAreaPage('pg-a1');
