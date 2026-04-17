@@ -107,3 +107,47 @@ export function scrollToTask(taskElId) {
 export function rebuildSidebar() {
   buildSidebar();
 }
+
+// Desktop scroll-spy: as the user scrolls through the active area, update
+// the sidebar's highlighted task (and the hash URL silently via
+// replaceState, so reload/bookmark reflects what's on screen).
+export function initSidebarScrollSpy() {
+  const contentEl = document.querySelector('.content');
+  if (!contentEl) return;
+
+  function onScroll() {
+    if (window.innerWidth < 768) return;
+    if (!manifestData) return;
+    const activeArea = document.getElementById(curAreaDomId);
+    if (!activeArea) return;
+    const tasks = activeArea.querySelectorAll('.task-section.task-anchor');
+    if (!tasks.length) return;
+    let best = null;
+    for (const el of tasks) {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.3) best = el;
+      else break;
+    }
+    if (!best) best = tasks[0];
+    if (best.id === curTaskElId) return;
+
+    curTaskElId = best.id;
+    buildSidebar();
+
+    // Keep URL in sync without polluting history. Translate DOM task id →
+    // manifest task id to build the hash.
+    const area = manifestData.areas.find(a => areaDomId(a.id) === curAreaDomId);
+    if (area) {
+      const task = area.tasks.find(t => taskDomId(t.id) === best.id);
+      if (task) {
+        const newHash = `#/area/${area.id}/task/${task.letter}`;
+        if (location.hash !== newHash) {
+          history.replaceState(null, '', newHash);
+        }
+      }
+    }
+  }
+
+  contentEl.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('scroll', onScroll, { passive: true });
+}

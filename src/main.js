@@ -7,7 +7,8 @@ import './styles/quiz.css';
 import { loadManifest } from './content.js';
 import { mountAllTasks } from './views/task.js';
 import {
-  initSidebar, showAreaPage, showRefPage, scrollToTask, setCurrentTaskElId
+  initSidebar, showAreaPage, showRefPage, scrollToTask, setCurrentTaskElId,
+  initSidebarScrollSpy
 } from './views/sidebar.js';
 import {
   initModeSwitch, switchMode, getMode
@@ -26,6 +27,7 @@ async function boot() {
   await mountAllTasks(manifest);
 
   initSidebar(manifest);
+  initSidebarScrollSpy();
   initMobileNav(manifest);
   initQuiz();
   initModeSwitch(manifest, {
