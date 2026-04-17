@@ -622,10 +622,10 @@
       "difficulty": 3,
       "q": "When is a pre-solo written test required and who administers it?",
       "choices": [
-        "Never — practical evaluation only",
+        "Never — the practical test standards require only an oral evaluation; no written test is mandated for solo flight, only for the private pilot certificate knowledge test administered at an FAA-approved testing center",
         "Before the first solo flight — the student must pass a written test on the applicable regulations and the flight characteristics of the aircraft, administered and graded by the student's instructor",
-        "Only before the checkride",
-        "Only if the student fails the initial oral evaluation"
+        "Before the first solo cross-country flight — the student must pass a written test on cross-country navigation procedures and the performance limitations of the aircraft, administered and graded by a designated pilot examiner",
+        "Before the private pilot checkride only — the student must pass a written test on the applicable regulations, administered and graded by an FAA inspector or designated pilot examiner at an approved knowledge testing center"
       ],
       "answer": 1,
       "explanation": "14 CFR 61.87(b): Before solo flight, an instructor must administer and grade a written test covering Part 91 rules applicable to student solo flight and the flight characteristics and limitations of the aircraft.",
@@ -741,10 +741,10 @@
       "difficulty": 3,
       "q": "What is the difference between a safety pilot and a safety pilot acting as PIC?",
       "choices": [
-        "There is no difference — safety pilots are always PIC",
+        "There is no legal distinction — the safety pilot always occupies the PIC seat, logs all flight time as PIC, and must meet all currency requirements including flight reviews and medical certificates for the class of airspace",
         "A safety pilot may act as required crewmember (not PIC) when the flying pilot maintains PIC status, OR the safety pilot may be designated PIC before the flight begins — this affects who must meet currency and medical requirements",
-        "Safety pilots never need to meet any currency requirements",
-        "Safety pilots must always be PIC"
+        "A safety pilot must always be designated PIC before flight — logging all flight time as PIC while the pilot under the foggles logs simulated instrument time as SIC — this division is required by currency rules for both crew positions",
+        "A safety pilot may substitute for a flight instructor during simulated instrument flight when the flying pilot holds an instrument rating — this arrangement affects only the instrument currency logging, not medical or flight review requirements"
       ],
       "answer": 1,
       "explanation": "14 CFR 91.109(c): A safety pilot must at minimum hold a private certificate and appropriate medical. If the safety pilot is the required PIC, they log PIC time and must be current. If the flying pilot is PIC, they log PIC and the safety pilot logs SIC. This must be agreed upon before flight.",
@@ -1031,9 +1031,9 @@
       "q": "What is CFIT and why is it significant in general aviation?",
       "choices": [
         "Controlled Flight Into Terrain — an accident where a functioning aircraft is flown into terrain or water without crew awareness. One of the leading causes of fatal GA accidents, typically associated with VFR flight into IMC or loss of situational awareness.",
-        "Crew Flight Instrument Training — a type of instrument currency requirement",
-        "Certified Flight Instructor Test — the checkride for CFI applicants",
-        "Commercial Flight IFR Training — a category of instrument flight hours"
+        "Crew-initiated Flight Instrument Transition — a technique where the pilot deliberately shifts from visual to instrument references during VFR flight, required when visibility deteriorates, helping prevent spatial disorientation and terrain contact.",
+        "Certified Flight Into Terrain rating — an advanced endorsement required before pilots may legally conduct low-level flights below 500 ft AGL for agricultural operations, powerline patrol, or aerial survey missions under 14 CFR Part 137.",
+        "Controlled Flight Instrument Training — a recurrent proficiency program requiring pilots to log six hours of simulated IMC each 24-month period, intended to maintain scan technique and reduce inadvertent VFR-into-IMC accident rates."
       ],
       "answer": 0,
       "explanation": "CFIT (Controlled Flight Into Terrain) occurs when a properly functioning aircraft is inadvertently flown into terrain, water, or obstacles. Causes include: VFR into IMC, spatial disorientation, poor situational awareness, and terrain avoidance complacency. Use terrain awareness tools, maintain SA, and always have an out when flying near terrain.",

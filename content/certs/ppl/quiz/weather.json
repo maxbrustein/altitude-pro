@@ -84,7 +84,7 @@
         "Data unavailable"
       ],
       "answer": 2,
-      "explanation": "In the winds aloft (FB) forecast, 9900 means light and variable winds \u2014 speed less than 5 knots.",
+      "explanation": "In the winds aloft (FB) forecast, 9900 means light and variable winds — speed less than 5 knots.",
       "ref": "AC 00-45"
     },
     {
@@ -110,7 +110,7 @@
         "I-C"
       ],
       "difficulty": 2,
-      "q": "METAR cloud layer BKN025 \u2014 what does this indicate?",
+      "q": "METAR cloud layer BKN025 — what does this indicate?",
       "choices": [
         "Broken at 25000 ft MSL",
         "Broken at 2500 ft AGL",
@@ -152,7 +152,7 @@
         "5 SM and 1000 below 1000 above 1 SM horizontal"
       ],
       "answer": 2,
-      "explanation": "14 CFR 91.155: Class B requires 3 SM visibility and clear of clouds. No specific cloud distance required \u2014 unique to Class B.",
+      "explanation": "14 CFR 91.155: Class B requires 3 SM visibility and clear of clouds. No specific cloud distance required — unique to Class B.",
       "ref": "14 CFR 91.155"
     },
     {
@@ -169,7 +169,7 @@
         "Severe turbulence above 10000 ft"
       ],
       "answer": 1,
-      "explanation": "A microburst produces outflow exceeding 45 knots. Aircraft flying through encounters headwind then tailwind causing rapid airspeed and altitude loss \u2014 most dangerous on approach or departure.",
+      "explanation": "A microburst produces outflow exceeding 45 knots. Aircraft flying through encounters headwind then tailwind causing rapid airspeed and altitude loss — most dangerous on approach or departure.",
       "ref": "AIM 7-1-24"
     },
     {
@@ -180,13 +180,13 @@
       "difficulty": 2,
       "q": "Most dangerous type of structural icing and why?",
       "choices": [
-        "Rime ice \u2014 forms most quickly",
-        "Clear ice \u2014 dense, hard to remove, severely disrupts airfoil shape",
-        "Mixed ice \u2014 unpredictable",
-        "Frost \u2014 forms on ground"
+        "Rime ice — forms most quickly",
+        "Clear ice — dense, hard to remove, severely disrupts airfoil shape",
+        "Mixed ice — unpredictable",
+        "Frost — forms on ground"
       ],
       "answer": 1,
-      "explanation": "Clear ice forms from large supercooled droplets spreading before freezing \u2014 dense, transparent, hard to remove, severely alters airfoil shape.",
+      "explanation": "Clear ice forms from large supercooled droplets spreading before freezing — dense, transparent, hard to remove, severely alters airfoil shape.",
       "ref": "PHAK Ch.12"
     },
     {
@@ -249,7 +249,7 @@
       "q": "What is density altitude?",
       "choices": [
         "Altimeter reading when set to 29.92 in Hg",
-        "Pressure altitude corrected for non-standard temperature \u2014 determines aircraft performance",
+        "Pressure altitude corrected for non-standard temperature — determines aircraft performance",
         "Altitude AGL for obstacle clearance",
         "Height above sea level corrected for humidity only"
       ],
@@ -348,12 +348,12 @@
         "I-C"
       ],
       "difficulty": 3,
-      "q": "At 9000 ft MSL in IMC with freezing level at 8000 ft \u2014 primary structural hazard?",
+      "q": "At 9000 ft MSL in IMC with freezing level at 8000 ft — primary structural hazard?",
       "choices": [
         "Carburetor ice",
-        "Structural airframe icing \u2014 above freezing level means below 0 C in visible moisture",
+        "Structural airframe icing — above freezing level means below 0 C in visible moisture",
         "Instrument icing only",
-        "No hazard \u2014 you are above the freezing level"
+        "No hazard — you are above the freezing level"
       ],
       "answer": 1,
       "explanation": "At 9000 ft you are above the 8000 ft freezing level, meaning temperatures are below 0 C. Combined with visible moisture (IMC), both conditions for structural icing are present.",
@@ -385,7 +385,7 @@
       "q": "What does a lenticular cloud indicate to a pilot?",
       "choices": [
         "Approaching thunderstorm activity",
-        "Mountain wave activity \u2014 rotor zone and severe turbulence possible on the leeward side",
+        "Mountain wave activity — rotor zone and severe turbulence possible on the leeward side",
         "Approaching warm front",
         "Moderate icing conditions at that level"
       ],
@@ -435,10 +435,10 @@
       "difficulty": 3,
       "q": "What is wind shear and at what phase of flight is it most dangerous?",
       "choices": [
-        "Any wind \u2014 most dangerous at cruise altitude",
-        "Change in wind speed or direction over a short distance \u2014 most dangerous at low altitude during approach and departure",
+        "Any wind — most dangerous at cruise altitude",
+        "Change in wind speed or direction over a short distance — most dangerous at low altitude during approach and departure",
         "Only relevant in and near thunderstorms",
-        "A gust front \u2014 only dangerous on the ground"
+        "A gust front — only dangerous on the ground"
       ],
       "answer": 1,
       "explanation": "Wind shear is a change in wind speed or direction over a short distance. Most hazardous at low altitude near thunderstorms, fronts, and temperature inversions during approach and departure.",
@@ -452,9 +452,9 @@
       "difficulty": 3,
       "q": "What is a temperature inversion and what can it cause?",
       "choices": [
-        "Normal lapse rate \u2014 no special hazard",
-        "Temperature increases with altitude instead of decreasing \u2014 can trap fog near surface and cause low-level wind shear",
-        "Temperature drops rapidly \u2014 associated only with thunderstorms",
+        "Normal lapse rate — no special hazard",
+        "Temperature increases with altitude instead of decreasing — can trap fog near surface and cause low-level wind shear",
+        "Temperature drops rapidly — associated only with thunderstorms",
         "Equal temperature at all altitudes"
       ],
       "answer": 1,
@@ -469,9 +469,9 @@
       "difficulty": 4,
       "q": "VFR on top at 8500 ft when clouds below close in. No instrument rating. Best immediate action?",
       "choices": [
-        "Descend through the clouds \u2014 it is an emergency",
+        "Descend through the clouds — it is an emergency",
         "Continue VFR on top until you find a gap",
-        "Immediately contact ATC, declare the situation, and request assistance \u2014 radar vectors to VFR, SVFR, or nearest suitable airport",
+        "Immediately contact ATC, declare the situation, and request assistance — radar vectors to VFR, SVFR, or nearest suitable airport",
         "Climb to Class A airspace"
       ],
       "answer": 2,
@@ -487,12 +487,12 @@
       "q": "Carburetor icing most likely at what conditions?",
       "choices": [
         "Below minus 20 C only",
-        "Between 20 and 70 degrees F with high relative humidity \u2014 even on clear days",
+        "Between 20 and 70 degrees F with high relative humidity — even on clear days",
         "Only when flying through rain or visible moisture",
         "Only at night"
       ],
       "answer": 1,
-      "explanation": "Carburetor ice can form between 20 and 70 degrees F with high relative humidity. The venturi effect and fuel vaporization can lower carb temperatures up to 70 degrees F \u2014 ice even on warm clear days.",
+      "explanation": "Carburetor ice can form between 20 and 70 degrees F with high relative humidity. The venturi effect and fuel vaporization can lower carb temperatures up to 70 degrees F — ice even on warm clear days.",
       "ref": "PHAK Ch.7"
     },
     {
@@ -503,8 +503,8 @@
       "difficulty": 2,
       "q": "A PIREP of MOD ICE indicates?",
       "choices": [
-        "Minor frost on windshield \u2014 not a hazard",
-        "Moderate structural icing \u2014 a change of course or altitude is recommended",
+        "Minor frost on windshield — not a hazard",
+        "Moderate structural icing — a change of course or altitude is recommended",
         "Severe icing requiring immediate action",
         "Ice only on airspeed probe"
       ],
@@ -520,10 +520,10 @@
       "difficulty": 2,
       "q": "What is a convective SIGMET and how long is it valid?",
       "choices": [
-        "Same as a regular SIGMET \u2014 4 hours",
-        "A SIGMET specifically for severe convective weather (thunderstorms) covering an area 3000 sq mi or more, or embedded thunderstorms, or tornadoes, or hail 3/4 inch or greater \u2014 valid 2 hours",
-        "A SIGMET issued by pilots only \u2014 valid until conditions end",
-        "A SIGMET for volcanic ash only \u2014 valid 6 hours"
+        "Same as a regular SIGMET — 4 hours",
+        "A SIGMET specifically for severe convective weather (thunderstorms) covering an area 3000 sq mi or more, or embedded thunderstorms, or tornadoes, or hail 3/4 inch or greater — valid 2 hours",
+        "A SIGMET issued by pilots only — valid until conditions end",
+        "A SIGMET for volcanic ash only — valid 6 hours"
       ],
       "answer": 1,
       "explanation": "Convective SIGMETs (WST) cover severe or extreme convective weather including tornadoes, hail at or above 3/4 inch diameter, severe or extreme turbulence, severe icing, and widespread thunderstorms. Issued hourly (or special), valid 2 hours.",
@@ -537,10 +537,10 @@
       "difficulty": 2,
       "q": "What is a PIREP and what format does it follow?",
       "choices": [
-        "Pilot Route Evaluation Plan \u2014 informal pilot checklist",
-        "Pilot Report \u2014 standardized report from a pilot in flight providing actual weather observations; includes: UA/UUA, location, time, altitude, aircraft type, sky, temp, wind, turbulence, icing, remarks",
-        "Pressure Indication Reference for En-route Planning \u2014 a weather product",
-        "Published Instrument Route Entry Procedure \u2014 an IFR document"
+        "Pilot Route Evaluation Plan — informal pilot checklist",
+        "Pilot Report — standardized report from a pilot in flight providing actual weather observations; includes: UA/UUA, location, time, altitude, aircraft type, sky, temp, wind, turbulence, icing, remarks",
+        "Pressure Indication Reference for En-route Planning — a weather product",
+        "Published Instrument Route Entry Procedure — an IFR document"
       ],
       "answer": 1,
       "explanation": "PIREPs (Pilot Reports) provide real-time weather data from pilots in flight. Format: type (UA=routine, UUA=urgent), location (3-letter identifier), time (UTC), altitude (FL), aircraft type (AC), sky (SK), temperature (TA), wind (WV), turbulence (TB), icing (IC), remarks (RM).",
@@ -588,7 +588,7 @@
       "difficulty": 2,
       "q": "What is the difference between IFR and LIFR conditions?",
       "choices": [
-        "There is no difference \u2014 IFR and LIFR are the same",
+        "There is no difference — IFR and LIFR are the same",
         "IFR is ceiling 500 to below 1000 ft and/or visibility 1 to below 3 SM. LIFR (Low IFR) is ceiling below 500 ft and/or visibility below 1 SM.",
         "IFR is any ceiling below 3000 ft. LIFR is any ceiling below 1000 ft.",
         "LIFR is only used in military aviation"
@@ -606,7 +606,7 @@
       "q": "What is a cold front occlusion and a warm front occlusion?",
       "choices": [
         "These are the same weather phenomenon called an occluded front",
-        "Cold front occlusion: the cold front catches and lifts the warm front \u2014 colder air behind. Warm front occlusion: the air ahead of the warm front is colder \u2014 less common in the US.",
+        "Cold front occlusion: the cold front catches and lifts the warm front — colder air behind. Warm front occlusion: the air ahead of the warm front is colder — less common in the US.",
         "Occluded fronts do not have subtypes",
         "An occluded front is simply a stationary front that has changed direction"
       ],
@@ -623,7 +623,7 @@
       "q": "What does a METAR SKY cover of OVC010 indicate?",
       "choices": [
         "Overcast clouds at 10000 ft",
-        "Overcast clouds at 1000 ft AGL \u2014 this is the ceiling",
+        "Overcast clouds at 1000 ft AGL — this is the ceiling",
         "Overcast clouds at 100 ft AGL",
         "10 percent overcast cloud coverage"
       ],
@@ -640,7 +640,7 @@
       "q": "What is the freezing level and how does it affect flight planning?",
       "choices": [
         "The altitude at which cabin temperature reaches 0 degrees C",
-        "The altitude at which the ambient air temperature is 0 degrees C \u2014 above this altitude temperatures are below freezing and structural icing is possible in visible moisture",
+        "The altitude at which the ambient air temperature is 0 degrees C — above this altitude temperatures are below freezing and structural icing is possible in visible moisture",
         "The altitude at which fuel begins to freeze in the tanks",
         "The altitude at which carburetor ice is most likely"
       ],
@@ -656,7 +656,7 @@
       "difficulty": 3,
       "q": "What is a pressure gradient and how does it affect wind speed?",
       "choices": [
-        "Pressure gradient is the difference in pressure between engine intake and exhaust \u2014 affects engine performance",
+        "Pressure gradient is the difference in pressure between engine intake and exhaust — affects engine performance",
         "Pressure gradient is the rate of pressure change per unit horizontal distance. A steep pressure gradient (closely spaced isobars) indicates stronger winds. A shallow gradient (widely spaced isobars) indicates light winds.",
         "Pressure gradient only affects altimeter readings",
         "Pressure gradient is only relevant for IFR flight planning"
@@ -674,8 +674,8 @@
       "q": "What is orographic lift and what type of clouds does it produce?",
       "choices": [
         "Lift created by hot asphalt runways in summer",
-        "Lift created when air is forced to rise over terrain \u2014 produces orographic clouds including cap clouds, lenticular clouds, and can trigger significant thunderstorm activity",
-        "Lift created by jet engines \u2014 only applies to jets",
+        "Lift created when air is forced to rise over terrain — produces orographic clouds including cap clouds, lenticular clouds, and can trigger significant thunderstorm activity",
+        "Lift created by jet engines — only applies to jets",
         "Lift created by temperature inversions"
       ],
       "answer": 1,
@@ -691,7 +691,7 @@
       "q": "What does a center weather advisory (CWA) provide?",
       "choices": [
         "A replacement for the GFA for a specific center's area",
-        "An unscheduled weather advisory issued by an ARTCC meteorologist for conditions that don't meet SIGMET criteria but may affect the safety of IFR operations or VFR flight in the area \u2014 valid 2 hours",
+        "An unscheduled weather advisory issued by an ARTCC meteorologist for conditions that don't meet SIGMET criteria but may affect the safety of IFR operations or VFR flight in the area — valid 2 hours",
         "A daily weather briefing for center aircraft only",
         "A forecast issued by the NWS for oceanic operations"
       ],
@@ -707,10 +707,10 @@
       "difficulty": 3,
       "q": "What is frost and why is it dangerous to aircraft?",
       "choices": [
-        "Frost is essentially the same as light snow \u2014 it melts on takeoff and is not dangerous",
+        "Frost is essentially the same as light freezing drizzle — it forms from supercooled droplets and melts rapidly after takeoff, posing no significant lift penalty for aircraft with a wing loading above 10 pounds per square foot",
         "Frost is ice crystals that form on aircraft surfaces when the surface temperature is at or below the dewpoint AND below freezing. Even light frost can significantly disrupt airflow over the wing and reduce lift by up to 30%.",
-        "Frost is only dangerous on the windshield \u2014 not on wings",
-        "Frost is only dangerous for large transport aircraft"
+        "Rime ice is ice crystals that form on aircraft surfaces when the surface temperature is above the dewpoint but below freezing. Even light rime ice can significantly disrupt airflow over the wing and reduce lift by up to 30%.",
+        "Frost is supercooled water droplets that freeze on aircraft surfaces when the airframe descends through a temperature inversion below freezing. Even light frost can significantly disrupt airflow over the wing and reduce lift by up to 30%."
       ],
       "answer": 1,
       "explanation": "Frost forms when a surface is at or below the dewpoint and below 0 degrees C. Even a thin layer of frost significantly disrupts the smooth flow of air over the wing by increasing surface roughness, reducing lift up to 30 percent and increasing drag. All frost must be removed before flight.",
@@ -724,10 +724,10 @@
       "difficulty": 2,
       "q": "What is a stability index and what does a high/low value indicate?",
       "choices": [
-        "A number indicating aircraft stability in turbulence \u2014 higher is more stable",
+        "Atmospheric stability indices such as the Showalter Index measure the potential for turbulence development. A positive Showalter Index indicates instability and clear-air turbulence potential. Negative values indicate convectively stable air.",
         "Atmospheric stability indices such as the Lifted Index measure the potential for thunderstorm development. A negative Lifted Index indicates instability and thunderstorm potential. Positive values indicate stable air.",
-        "A measure of autopilot performance",
-        "An instrument indicator in the cockpit"
+        "Atmospheric stability indices such as the K-Index measure the potential for structural icing at altitude. A positive K-Index above 20 indicates high instability and icing potential. Negative values indicate stable, ice-free conditions.",
+        "Atmospheric stability indices such as the CAPE value measure the potential for radiation fog development. A negative CAPE value indicates unstable air with high fog potential. Positive CAPE values indicate stable and likely clear conditions."
       ],
       "answer": 1,
       "explanation": "Stability indices like the Lifted Index compare the temperature of a parcel of air lifted to 500 mb with the actual temperature at that level. Negative values indicate the parcel is warmer than its environment (unstable), suggesting convective potential. Values below -6 suggest severe thunderstorms.",
@@ -742,7 +742,7 @@
       "q": "What weather phenomenon is associated with a rapidly falling barometric pressure?",
       "choices": [
         "Improving VFR conditions",
-        "Approaching low pressure system \u2014 typically deteriorating weather, increasing winds, and possible precipitation",
+        "Approaching low pressure system — typically deteriorating weather, increasing winds, and possible precipitation",
         "Fog formation",
         "Stable high pressure settling in"
       ],
@@ -758,7 +758,7 @@
       "difficulty": 3,
       "q": "What is a squall line and how does it affect VFR flight planning?",
       "choices": [
-        "A line of thunderstorms that can extend hundreds of miles and contain severe weather, embedded thunderstorms, and violent turbulence \u2014 VFR pilots should consider it a no-go boundary",
+        "A line of thunderstorms that can extend hundreds of miles and contain severe weather, embedded thunderstorms, and violent turbulence — VFR pilots should consider it a no-go boundary",
         "A minor weather system similar to a warm front",
         "A line of fog banks along a coastline",
         "A boundary between different air masses with no significant weather"
@@ -776,7 +776,7 @@
       "q": "What is an isobar and how is it used on a surface analysis chart?",
       "choices": [
         "A line connecting points of equal temperature",
-        "A line connecting points of equal atmospheric pressure \u2014 isobars show wind patterns, frontal systems, and help identify areas of strong pressure gradient (strong winds)",
+        "A line connecting points of equal atmospheric pressure — isobars show wind patterns, frontal systems, and help identify areas of strong pressure gradient (strong winds)",
         "A line connecting points of equal humidity",
         "A line connecting points of equal cloud cover"
       ],
@@ -793,7 +793,7 @@
       "q": "What is the Coriolis force and how does it affect wind direction in the northern hemisphere?",
       "choices": [
         "Coriolis force has no effect on aviation weather",
-        "The Coriolis effect causes winds to deflect to the right in the northern hemisphere due to the Earth's rotation \u2014 results in clockwise circulation around high pressure and counterclockwise around low pressure",
+        "The Coriolis effect causes winds to deflect to the right in the northern hemisphere due to the Earth's rotation — results in clockwise circulation around high pressure and counterclockwise around low pressure",
         "Coriolis force causes winds to deflect left in the northern hemisphere",
         "Coriolis force only affects high-altitude jet streams"
       ],
@@ -826,10 +826,10 @@
       "difficulty": 2,
       "q": "What is MVFR and what ceiling and visibility define it?",
       "choices": [
-        "Minimum VFR \u2014 ceiling at or above 3000 ft and visibility at or above 5 SM",
-        "Marginal VFR \u2014 ceiling 1000 to 3000 ft and/or visibility 3 to 5 SM",
-        "Military VFR \u2014 only applies to military operations",
-        "Medium VFR \u2014 ceiling between 1000 and 10000 ft"
+        "Minimum VFR — ceiling at or above 3000 ft and visibility at or above 5 SM",
+        "Marginal VFR — ceiling 1000 to 3000 ft and/or visibility 3 to 5 SM",
+        "Military VFR — only applies to military operations",
+        "Medium VFR — ceiling between 1000 and 10000 ft"
       ],
       "answer": 1,
       "explanation": "MVFR (Marginal VFR) is a flight category defined as ceiling 1000 to 3000 ft and/or visibility 3 to 5 SM. These conditions are legal for VFR flight but represent marginal margins. Many accidents occur in MVFR conditions as weather deteriorates to IFR.",
@@ -844,7 +844,7 @@
       "q": "How does humidity affect aircraft performance and density altitude?",
       "choices": [
         "Humidity has no effect on aircraft performance",
-        "High humidity increases density altitude because water vapor is lighter than dry air, replacing denser oxygen and nitrogen molecules \u2014 this reduces engine power and aerodynamic performance",
+        "High humidity increases density altitude because water vapor is lighter than dry air, replacing denser oxygen and nitrogen molecules — this reduces engine power and aerodynamic performance",
         "High humidity decreases density altitude because water is heavier than air",
         "Humidity only affects turbine engines, not piston aircraft"
       ],
@@ -860,10 +860,10 @@
       "difficulty": 3,
       "q": "What is the significance of the tropopause for VFR pilots?",
       "choices": [
-        "No significance \u2014 VFR pilots never reach the tropopause",
-        "The tropopause is the boundary between the troposphere (where all weather occurs) and the stratosphere \u2014 most severe weather occurs below it; pilots planning high-altitude VFR flights should understand it marks the top of the weather-containing atmosphere",
-        "VFR pilots must always fly above the tropopause",
-        "The tropopause is where VFR cloud clearance rules change"
+        "The tropopause marks the altitude at which standard lapse rate reverses and temperature starts rising — VFR pilots must note it because above this level cloud formation is impossible and VFR visibility minima no longer apply.",
+        "The tropopause is the boundary between the troposphere (where all weather occurs) and the stratosphere — most severe weather occurs below it; pilots planning high-altitude VFR flights should understand it marks the top of the weather-containing atmosphere",
+        "The tropopause is the altitude at which standard atmospheric pressure drops below 500 mb — VFR pilots crossing it experience sudden altimeter errors requiring resetting the Kollsman window to the ISA standard of 29.92 in Hg.",
+        "The tropopause defines the transition from subsonic to supersonic airflow around the airframe — VFR pilots operating near it risk compressibility buffet and must reduce airspeed to below Mmo as published in the aircraft flight manual."
       ],
       "answer": 1,
       "explanation": "The tropopause marks the top of the troposphere where virtually all weather occurs. Temperature stops decreasing and may increase or stabilize. Most severe weather is below it. The tropopause height varies from about 25,000 ft at the poles to 60,000 ft at the equator.",
@@ -895,9 +895,9 @@
       "q": "What does a lenticular cloud indicate to a pilot?",
       "choices": [
         "Approaching warm front with gradual deterioration",
-        "Mountain wave turbulence \u2014 severe rotor turbulence possible below the cloud on the leeward side",
+        "Mountain wave turbulence — severe rotor turbulence possible below the cloud on the leeward side",
         "Good VFR conditions with stable air",
-        "Convective activity \u2014 thunderstorms likely nearby"
+        "Convective activity — thunderstorms likely nearby"
       ],
       "answer": 1,
       "explanation": "Lenticular (lens-shaped) clouds form at the crest of mountain waves and remain stationary as air flows through them. The rotor zone below the wave crest can contain extremely violent turbulence. Avoid lenticular clouds and the area below them.",
@@ -945,10 +945,10 @@
       "difficulty": 2,
       "q": "What is the Convective Outlook (AC) and when is it useful?",
       "choices": [
-        "A forecast of mountain wave turbulence issued by the FAA",
+        "A forecast issued by Aviation Weather Center identifying areas of potential mountain wave turbulence and severe clear-air turbulence risk for up to 6 hours. Useful for tactical route planning when turbulence avoidance is a significant concern.",
         "A forecast issued by the Storm Prediction Center identifying areas of potential convective activity and severe thunderstorm risk for up to 8 days. Useful for strategic trip planning when convective weather is a concern.",
-        "An ATC advisory of active convective SIGMETs in your area",
-        "A pilot report of convective activity along your route"
+        "A forecast issued by the National Hurricane Center identifying areas of potential tropical convective activity and severe weather risk for up to 5 days. Useful for strategic coastal trip planning when tropical weather systems are present.",
+        "A forecast issued by local NWS offices identifying areas of potential convective activity and flash flood risk for up to 3 days. Useful for strategic low-altitude trip planning when convective weather and terrain flooding are a concern."
       ],
       "answer": 1,
       "explanation": "The Convective Outlook (AC) is issued by the Storm Prediction Center and identifies areas of slight, enhanced, moderate, and high risk for severe thunderstorm development. It is a planning tool for the next 1-8 days and should be consulted before any cross-country when convective weather is possible.",
@@ -963,9 +963,9 @@
       "q": "Cirrus clouds at high altitude with wispy streaks indicate what weather trend?",
       "choices": [
         "Good VFR conditions will persist for many hours",
-        "A possible approaching warm front \u2014 cirrus typically appear 24-48 hours before a warm front surface passage",
+        "A possible approaching warm front — cirrus typically appear 24-48 hours before a warm front surface passage",
         "Thunderstorm development in the next few hours",
-        "High winds aloft only \u2014 no surface weather significance"
+        "High winds aloft only — no surface weather significance"
       ],
       "answer": 1,
       "explanation": "Cirrus clouds form at high altitudes (above 20,000 ft) and are composed of ice crystals. Their presence can indicate an approaching warm front, which typically reaches a given area 24-48 hours after cirrus is first spotted. Also associated with jet stream turbulence (CAT).",
@@ -980,7 +980,7 @@
       "q": "What weather conditions does AIRMET Sierra specifically warn about?",
       "choices": [
         "Moderate turbulence and low-level wind shear",
-        "IFR conditions \u2014 ceilings below 1,000 ft and/or visibility below 3 SM over a large area, or mountain obscuration",
+        "IFR conditions — ceilings below 1,000 ft and/or visibility below 3 SM over a large area, or mountain obscuration",
         "Moderate icing and freezing level information",
         "Severe turbulence that could affect all aircraft"
       ],
@@ -997,7 +997,7 @@
       "q": "What is the Surface Analysis Chart used for in preflight planning?",
       "choices": [
         "It shows forecast winds aloft for the next 12 hours",
-        "It shows current surface weather including pressure systems, frontal locations, and isobars \u2014 not a forecast. Used to identify current frontal positions, pressure gradient, and overall weather pattern.",
+        "It shows current surface weather including pressure systems, frontal locations, and isobars — not a forecast. Used to identify current frontal positions, pressure gradient, and overall weather pattern.",
         "It shows a forecast of ceiling and visibility for the route",
         "It is the same as the TAF but in graphic form"
       ],

@@ -8,10 +8,10 @@
         "I-H"
       ],
       "difficulty": 1,
-      "q": "I'M SAFE checklist \u2014 what does each letter represent?",
+      "q": "I'M SAFE checklist — what does each letter represent?",
       "choices": [
         "Instruments Mixture Speed Altitude Fuel Engine",
-        "Illness Medication Stress Alcohol Fatigue Emotion \u2014 personal fitness self-assessment before flight",
+        "Illness Medication Stress Alcohol Fatigue Emotion — personal fitness self-assessment before flight",
         "Ice Moisture Storms Airspace Fog Equipment",
         "Ignition Magnetos Stall speed AOA Fuel ELT"
       ],
@@ -113,7 +113,7 @@
       "q": "What is the leans illusion?",
       "choices": [
         "The sensation of pitching up when actually in level flight",
-        "A false sensation of being in a bank after returning to straight-and-level flight \u2014 the pilot may unconsciously re-bank to restore the feel of level",
+        "A false sensation of being in a bank after returning to straight-and-level flight — the pilot may unconsciously re-bank to restore the feel of level",
         "A visual illusion caused by sloping terrain beneath the aircraft",
         "Only occurs when an instrument fails"
       ],
@@ -127,12 +127,12 @@
         "I-H"
       ],
       "difficulty": 2,
-      "q": "Carbon monoxide poisoning \u2014 symptoms and immediate action?",
+      "q": "Carbon monoxide poisoning — symptoms and immediate action?",
       "choices": [
-        "Excessive oxygen \u2014 treat by reducing oxygen flow",
+        "Colorless odorless inert gas displacing cockpit oxygen through pressurization seal leaks; symptoms: headache, drowsiness, tunnel vision; action: select alternate static source, open ram air vent, descend immediately, breathe rapidly",
         "Colorless odorless combustion byproduct entering cabin through heater leaks; symptoms: headache, drowsiness, gray vision; action: shut off heater, open fresh air vents, land immediately, use supplemental oxygen",
-        "Nitrogen toxicity requiring immediate descent",
-        "Only affects smokers with pre-existing lung conditions"
+        "Colorless pungent fuel vapor entering cabin through firewall seal leaks; symptoms: nausea, eye irritation, blue tint to vision; action: shut off fuel selector, open fresh air vents, land immediately, do not use supplemental oxygen",
+        "Odorless refrigerant gas accumulating in cockpit through air conditioning leaks; symptoms: headache, drowsiness, distorted color vision; action: shut off avionics cooling, open fresh air vents, land immediately, notify maintenance"
       ],
       "answer": 1,
       "explanation": "CO is colorless and odorless. Sources include heater exhaust leaks. Symptoms: headache, drowsiness, gray tint to vision, impaired judgment. Immediate action: shut off cabin heat, open fresh air vents, land as soon as possible, use supplemental oxygen.",
@@ -147,7 +147,7 @@
       "q": "Visual illusion causing a pilot to fly an unexpectedly low approach at night over featureless terrain?",
       "choices": [
         "Wide runway illusion causing the pilot to fly too high",
-        "Black hole approach \u2014 absence of visual cues causes pilots to fly a dangerously low approach; always use VASI or PAPI",
+        "Black hole approach — absence of visual cues causes pilots to fly a dangerously low approach; always use VASI or PAPI",
         "Narrow runway illusion causing the pilot to fly too low",
         "Upslope runway illusion making the runway appear longer"
       ],
@@ -163,8 +163,8 @@
       "difficulty": 2,
       "q": "Upslope runway creates what visual illusion and what is the hazard?",
       "choices": [
-        "Makes aircraft appear lower than it is \u2014 pilot tends to fly a high approach",
-        "Makes aircraft appear higher than it is \u2014 pilot may fly a lower-than-normal approach and undershoot the runway",
+        "Makes aircraft appear lower than it is — pilot tends to fly a high approach",
+        "Makes aircraft appear higher than it is — pilot may fly a lower-than-normal approach and undershoot the runway",
         "Has no effect on approach angle perception",
         "Creates the same illusion as a downslope runway"
       ],
@@ -180,8 +180,8 @@
       "difficulty": 2,
       "q": "Euphoria is an early symptom of which condition?",
       "choices": [
-        "Hyperventilation \u2014 too much breathing",
-        "Hypoxia \u2014 early euphoria and false sense of well-being are insidious symptoms that may prevent the pilot from recognizing the condition",
+        "Hyperventilation — too much breathing",
+        "Hypoxia — early euphoria and false sense of well-being are insidious symptoms that may prevent the pilot from recognizing the condition",
         "Carbon monoxide poisoning",
         "Dehydration at altitude"
       ],
@@ -195,10 +195,10 @@
         "I-H"
       ],
       "difficulty": 3,
-      "q": "Pilot experiences tingling fingers and dizziness on approach at 6000 ft after a 2-hour flight \u2014 most likely cause?",
+      "q": "Pilot experiences tingling fingers and dizziness on approach at 6000 ft after a 2-hour flight — most likely cause?",
       "choices": [
-        "Hypoxia \u2014 6000 ft is too high without supplemental oxygen",
-        "Hyperventilation from anxiety or stress \u2014 slow breathing consciously to diagnose and treat",
+        "Hypoxia — 6000 ft is too high without supplemental oxygen",
+        "Hyperventilation from anxiety or stress — slow breathing consciously to diagnose and treat",
         "Carbon monoxide poisoning from the heater system",
         "Dehydration causing electrolyte imbalance"
       ],
@@ -215,7 +215,7 @@
       "q": "What is the Coriolis illusion and when does it occur?",
       "choices": [
         "A visual illusion from a sloping runway surface",
-        "Occurs when a pilot moves their head in a different plane while in a sustained turn \u2014 the inner ear senses rotation in multiple planes creating a strong tumbling or spinning sensation",
+        "Occurs when a pilot moves their head in a different plane while in a sustained turn — the inner ear senses rotation in multiple planes creating a strong tumbling or spinning sensation",
         "The sensation of climbing when power is suddenly increased",
         "A compass reading error in polar regions due to magnetic anomalies"
       ],
@@ -231,9 +231,9 @@
       "difficulty": 3,
       "q": "Last drink at 8 PM. Earliest legal departure time as a crewmember?",
       "choices": [
-        "Midnight \u2014 4 hours is sufficient",
-        "4:00 AM the following day \u2014 8 hours after the last drink",
-        "10:00 PM \u2014 2 hours is enough if you feel fine",
+        "Midnight — 4 hours is sufficient",
+        "4:00 AM the following day — 8 hours after the last drink",
+        "10:00 PM — 2 hours is enough if you feel fine",
         "Any time you personally feel capable of flying safely"
       ],
       "answer": 1,
@@ -248,9 +248,9 @@
       "difficulty": 3,
       "q": "A pilot is on an OTC medication and feels no side effects. Can they legally and safely fly?",
       "choices": [
-        "Yes \u2014 no perceived side effects means the medication is safe for flight",
-        "No \u2014 many OTC medications have physiological effects on aviation performance even without noticeable symptoms; always consult an AME before flying on any medication",
-        "Yes \u2014 over-the-counter medications are always permitted for flight",
+        "Yes — no perceived side effects means the medication is safe for flight",
+        "No — many OTC medications have physiological effects on aviation performance even without noticeable symptoms; always consult an AME before flying on any medication",
+        "Yes — over-the-counter medications are always permitted for flight",
         "Only prescription medications require AME consultation before flying"
       ],
       "answer": 1,
@@ -265,7 +265,7 @@
       "difficulty": 2,
       "q": "At what altitude between 12500 and 14000 ft MSL must the pilot use supplemental oxygen?",
       "choices": [
-        "Never \u2014 O2 only required above 14000",
+        "Never — O2 only required above 14000",
         "When this altitude range is flown for more than 30 minutes",
         "Anytime above 12500 MSL regardless of duration",
         "Only above 13500 MSL"
@@ -283,7 +283,7 @@
       "q": "What is spatial disorientation?",
       "choices": [
         "Becoming geographically lost during a cross-country flight",
-        "A false sense of the aircraft's attitude, motion, or position caused by misleading sensory inputs \u2014 corrected by trusting and flying by flight instruments",
+        "A false sense of the aircraft's attitude, motion, or position caused by misleading sensory inputs — corrected by trusting and flying by flight instruments",
         "A condition that only occurs when instruments fail",
         "A gradual disorientation from fatigue over long flights"
       ],
@@ -297,10 +297,10 @@
         "I-H"
       ],
       "difficulty": 2,
-      "q": "Narrow runway illusion \u2014 what approach error does it cause?",
+      "q": "Narrow runway illusion — what approach error does it cause?",
       "choices": [
-        "Pilot flies a lower than normal approach \u2014 risk of undershooting",
-        "Pilot flies a higher than normal approach \u2014 risk of landing long or floating",
+        "Pilot flies a lower than normal approach — risk of undershooting",
+        "Pilot flies a higher than normal approach — risk of landing long or floating",
         "No effect on approach angle perception",
         "Same as wide runway illusion but less severe"
       ],
@@ -333,7 +333,7 @@
       "difficulty": 2,
       "q": "What is hypoxia and what makes hypemic hypoxia particularly dangerous?",
       "choices": [
-        "Excess oxygen in the bloodstream \u2014 rare at altitude",
+        "Excess oxygen in the bloodstream — rare at altitude",
         "Oxygen deficiency at the cellular level. Hypemic hypoxia (carbon monoxide poisoning) is considered particularly dangerous because CO has no color or smell and the pilot may feel fine initially.",
         "Only occurs above 18000 ft MSL",
         "Hypoxia only affects unfit or elderly pilots"
@@ -350,10 +350,10 @@
       "difficulty": 3,
       "q": "A pilot notices their thinking is slowing down and they feel unusually warm and comfortable at FL100 in IMC. What should they suspect?",
       "choices": [
-        "Normal physiological response to cruise flight \u2014 nothing to worry about",
-        "Possible hypoxia \u2014 descend to lower altitude immediately, use supplemental oxygen, and reassess the situation",
-        "Hyperventilation \u2014 increase breathing rate to restore alertness",
-        "Dehydration \u2014 drink water and continue the flight"
+        "Normal physiological response to cruise flight — nothing to worry about",
+        "Possible hypoxia — descend to lower altitude immediately, use supplemental oxygen, and reassess the situation",
+        "Hyperventilation — increase breathing rate to restore alertness",
+        "Dehydration — drink water and continue the flight"
       ],
       "answer": 1,
       "explanation": "Slowed thinking, warmth, and unusual comfort at altitude are classic hypoxia symptoms. The insidious nature means the pilot may not recognize the impairment. Immediate action: descend, use oxygen, and assess whether flight can safely continue.",
@@ -367,13 +367,13 @@
       "difficulty": 2,
       "q": "What is the purpose of the I'M SAFE checklist?",
       "choices": [
-        "To check the aircraft before flight \u2014 same as TOMATO FLAMES",
+        "To check the aircraft before flight — same as TOMATO FLAMES",
         "To provide a personal self-assessment of pilot fitness to fly before each flight, covering the most common human factors that cause accidents",
         "To check ATC frequencies before flight",
         "To verify weather is above VFR minimums"
       ],
       "answer": 1,
-      "explanation": "I'M SAFE is a personal minimums and human factors checklist. A pilot who identifies a concern in any category \u2014 illness, impairing medication, excessive stress, alcohol within limits, fatigue, or emotional distress \u2014 should not fly.",
+      "explanation": "I'M SAFE is a personal minimums and human factors checklist. A pilot who identifies a concern in any category — illness, impairing medication, excessive stress, alcohol within limits, fatigue, or emotional distress — should not fly.",
       "ref": "AIM 8-1-1; PHAK Ch.17"
     },
     {
@@ -382,12 +382,12 @@
         "I-H"
       ],
       "difficulty": 2,
-      "q": "Continuing to fly while knowingly ill, on impairing medication, or while significantly fatigued \u2014 what regulatory concept applies?",
+      "q": "Continuing to fly while knowingly ill, on impairing medication, or while significantly fatigued — what regulatory concept applies?",
       "choices": [
         "The pilot must self-certify fitness using the I'M SAFE checklist and may not legally fly if any item is a concern",
         "Only a medical doctor can ground a pilot",
         "FAA will notify the pilot if they are unfit to fly",
-        "Self-certification is not required \u2014 it is always the airline's responsibility"
+        "Self-certification is not required — it is always the airline's responsibility"
       ],
       "answer": 0,
       "explanation": "Pilots are responsible for self-certifying their fitness to fly. The I'M SAFE checklist formalizes this. A pilot who is ill, on impairing medication, excessively fatigued, or emotionally distressed should not exercise pilot privileges.",
@@ -435,13 +435,13 @@
       "difficulty": 2,
       "q": "What is flicker vertigo and when does it occur?",
       "choices": [
-        "A type of vertigo caused only by turbulence",
-        "Flicker vertigo can occur when sunlight flickers through rotating propeller blades at certain frequencies (4 to 20 cycles per second) \u2014 can cause nausea, dizziness, unconsciousness, or even seizures in susceptible individuals. Wearing sunglasses reduces risk.",
-        "Flicker vertigo only affects helicopter pilots",
-        "Flicker vertigo is a myth \u2014 not recognized medically"
+        "Flicker vertigo is caused by rapid altitude changes that disrupt the vestibular system — symptoms include spatial disorientation and false horizon perception. It primarily occurs during instrument approaches in IMC and is mitigated by keeping cockpit lighting at maximum brightness during descents.",
+        "Flicker vertigo can occur when sunlight flickers through rotating propeller blades at certain frequencies (4 to 20 cycles per second) — can cause nausea, dizziness, unconsciousness, or even seizures in susceptible individuals. Wearing sunglasses reduces risk.",
+        "Flicker vertigo results from strobe anti-collision lights reflecting off clouds or fog, producing a pulsing effect in the 1 to 3 cycles per second range. FAA Advisory Circular 91-51B recommends turning off strobe lights when taxiing in fog or during flight in clouds to avoid triggering it.",
+        "Flicker vertigo is a form of somatosensory conflict triggered when visual input from the flight instruments disagrees with the inner ear during turns. It is most common during steep banked approaches and is treated by transitioning to full instrument scan within 30 seconds of symptom onset."
       ],
       "answer": 1,
-      "explanation": "Flicker vertigo (photic driving or photosensitive epilepsy) can be induced when light flickers in the frequency range of 4 to 20 cycles per second \u2014 which can occur with a propeller blocking sunlight. Symptoms range from nausea and dizziness to loss of consciousness. Wearing sunglasses reduces the flicker effect.",
+      "explanation": "Flicker vertigo (photic driving or photosensitive epilepsy) can be induced when light flickers in the frequency range of 4 to 20 cycles per second — which can occur with a propeller blocking sunlight. Symptoms range from nausea and dizziness to loss of consciousness. Wearing sunglasses reduces the flicker effect.",
       "ref": "AIM 8-1-5"
     },
     {
@@ -452,13 +452,13 @@
       "difficulty": 2,
       "q": "What is the somatogravic illusion and when is it most dangerous?",
       "choices": [
-        "An illusion only experienced by astronauts",
-        "The somatogravic illusion occurs during rapid acceleration \u2014 the pilot senses a nose-high pitch attitude (like a gravity vector pulling them back into the seat) when actually accelerating in level flight. Most dangerous during a go-around or catapult launch \u2014 can cause the pilot to push forward into the ground.",
-        "The somatogravic illusion only occurs at night",
-        "The somatogravic illusion is the same as the leans"
+        "The somatogravic illusion occurs during sustained level turns when the vestibular system adapts to the bank angle — the pilot perceives wings-level flight while actually in a graveyard spiral. Most dangerous in IMC at night when outside visual cues are unavailable; correcting it requires trusting cockpit instruments exclusively.",
+        "The somatogravic illusion occurs during rapid acceleration — the pilot senses a nose-high pitch attitude (like a gravity vector pulling them back into the seat) when actually accelerating in level flight. Most dangerous during a go-around or catapult launch — can cause the pilot to push forward into the ground.",
+        "The somatogravic illusion is triggered by rapid deceleration during approach — the pilot senses a nose-low descent attitude when actually flying level, causing an instinctive pitch-up response. Most dangerous during short-field approaches, where pulling back prematurely leads to an accelerated stall close to the runway.",
+        "The somatogravic illusion arises from conflicting signals between the otolith organs and semicircular canals during prolonged climbs at a constant rate — the brain interprets sustained climb G-loads as level flight. Most dangerous when leveling off from a long climb in IMC, causing the pilot to initiate an unintended climb."
       ],
       "answer": 1,
-      "explanation": "The somatogravic illusion: during rapid acceleration, the increased G-force causes the pilot to sense a nose-high pitch attitude (false climb sensation). This can cause the pilot to push forward on the controls, pitching the nose down at low altitude. Most dangerous during go-around, takeoff, or cat shots \u2014 especially at night or in IMC.",
+      "explanation": "The somatogravic illusion: during rapid acceleration, the increased G-force causes the pilot to sense a nose-high pitch attitude (false climb sensation). This can cause the pilot to push forward on the controls, pitching the nose down at low altitude. Most dangerous during go-around, takeoff, or cat shots — especially at night or in IMC.",
       "ref": "AIM 8-1-5"
     },
     {
@@ -469,10 +469,10 @@
       "difficulty": 2,
       "q": "What is time of useful consciousness (TUC) and why is it important?",
       "choices": [
-        "TUC is the time before a pilot must land to avoid fatigue",
-        "TUC is the time after oxygen supply is lost during which a pilot retains the ability to perform useful mental and physical tasks before hypoxia causes incapacitation. TUC decreases rapidly with increasing altitude \u2014 at FL250 it may be only 3-5 minutes, at FL350 it may be 30-60 seconds.",
-        "TUC is the maximum flight time per day",
-        "TUC is the time between engine starts at high altitude airports"
+        "TUC is the maximum time a pilot may operate above FL180 without supplemental oxygen under 14 CFR 91.211 — applicable to unpressurized aircraft only. TUC varies by fitness level but is standardized at 30 minutes at FL180, 15 minutes at FL250, and 5 minutes at FL350 for regulatory compliance purposes.",
+        "TUC is the time after oxygen supply is lost during which a pilot retains the ability to perform useful mental and physical tasks before hypoxia causes incapacitation. TUC decreases rapidly with increasing altitude — at FL250 it may be only 3-5 minutes, at FL350 it may be 30-60 seconds.",
+        "TUC is the time interval between the onset of hyperventilation symptoms and the point at which a pilot must increase CO2 by breathing into a bag or reducing breathing rate. TUC shortens with altitude because lower partial pressures of CO2 accelerate the respiratory alkalosis cascade — typically 8-12 minutes at FL250.",
+        "TUC is the period during which a pilot experiencing carbon monoxide poisoning can safely divert to the nearest airport before losing executive function. The FAA defines TUC as inversely proportional to CO concentration in the cabin — at 200 ppm CO exposure, TUC is approximately 2-4 minutes regardless of altitude."
       ],
       "answer": 1,
       "explanation": "Time of Useful Consciousness (TUC) is the time after oxygen supply is interrupted (or hypoxia begins) during which the pilot can still perform purposeful actions. At FL180: ~20-30 min. At FL250: ~3-5 min. At FL350: ~30-60 sec. At FL430: ~9-12 sec. This is why rapid donning of oxygen equipment is critical at high altitude.",
@@ -486,10 +486,10 @@
       "difficulty": 2,
       "q": "What is motion sickness and how should a pilot manage it?",
       "choices": [
-        "Motion sickness has no effect on flight safety because it is only gastrointestinal",
-        "Motion sickness causes nausea, vomiting, sweating, disorientation, and fatigue \u2014 significantly impairing pilot performance. Management: focus on horizon or fixed points, avoid reading, use fresh air/ventilation, and in severe cases, land. OTC anti-motion sickness drugs are generally disqualifying.",
-        "Motion sickness is normal and does not affect flight performance",
-        "Motion sickness only occurs in turbulence and resolves when turbulence ends"
+        "Motion sickness results from fluid imbalance in the semicircular canals caused by repeated pitch oscillations — it is self-correcting within 20 minutes as the vestibular system adapts. Management: reduce pitch inputs, maintain coordinated flight, and avoid abrupt control movements. Scopolamine patches are disqualifying for pilots.",
+        "Motion sickness causes nausea, vomiting, sweating, disorientation, and fatigue — significantly impairing pilot performance. Management: focus on horizon or fixed points, avoid reading, use fresh air/ventilation, and in severe cases, land. OTC anti-motion sickness drugs are generally disqualifying.",
+        "Motion sickness is triggered by hypercapnia from restricted cockpit ventilation during low-altitude flight — elevated CO2 stimulates the chemoreceptor trigger zone, causing nausea and disorientation comparable to mild hypoxia. Management: increase ventilation flow, climb to cooler air, and monitor oxygen saturation with a pulse oximeter.",
+        "Motion sickness develops when the otolith organs sense linear acceleration inconsistent with visual input during turbulence — resolved by climbing above the turbulent layer or engaging the autopilot. 14 CFR 61.53 requires pilots to ground themselves if motion sickness symptoms persist beyond 30 minutes in flight."
       ],
       "answer": 1,
       "explanation": "Motion sickness significantly impairs pilot performance through nausea, dizziness, fatigue, and disorientation. In early stages: focus on outside horizon, control ventilation, avoid tasks requiring head movements. Most OTC remedies (Dramamine, Benadryl) cause sedation and are disqualifying. Severe motion sickness is an I'M SAFE concern.",
@@ -503,10 +503,10 @@
       "difficulty": 3,
       "q": "What effect does high altitude flight have on trapped gas in body cavities?",
       "choices": [
-        "High altitude reduces trapped gas \u2014 beneficial for body cavities",
+        "Henry's Law: as altitude increases, reduced nitrogen partial pressure causes dissolved gases to outgas from body fluids into surrounding tissue. Trapped gas in the middle ear, sinuses, and teeth undergoes rapid expansion above FL180, causing sinus block and tooth squeeze — a recognized hazard only in unpressurized aircraft above 18,000 ft MSL.",
         "Boyle's Law: as pressure decreases with altitude, trapped gas expands. Gas in the middle ear, sinuses, gastrointestinal tract, and any trapped gas from dental work or recent surgery can cause significant pain. Flying with a cold or upper respiratory infection can trap gas in the middle ear causing aerotitis media.",
-        "High altitude has no effect on body gas \u2014 only affects air in tanks",
-        "This only applies to unpressurized aircraft above 25,000 ft"
+        "Dalton's Law: as altitude increases, each constituent gas in body cavities exerts less partial pressure, causing water vapor in sinus tissue to expand and displace mucosal lining. Gas trapped after recent oral surgery is the primary concern above FL100, and pilots should wait at least 72 hours after any dental extraction before flying.",
+        "Charles's Law: at altitude, lower cabin temperatures cause body cavity gas to contract, creating a vacuum effect in the middle ear and sinuses that pulls on tissue. This is most pronounced during rapid descents in pressurized aircraft and causes ear barotrauma — prevented by performing the Valsalva maneuver only on the way up, not on descent."
       ],
       "answer": 1,
       "explanation": "Boyle's Law: gas volume is inversely proportional to pressure. As altitude increases (lower pressure), trapped gas in body cavities expands. Middle ear and sinus problems (barotitis/barosinusitis) from trapped gas are serious aeromedical hazards. Never fly with a cold that blocks sinus or Eustachian tube drainage. This affects ALL altitudes in unpressurized aircraft.",
@@ -520,13 +520,13 @@
       "difficulty": 2,
       "q": "What is the sclerae hypoxia effect and at what altitude does night vision first degrade?",
       "choices": [
-        "Sclerae hypoxia causes the whites of the eyes to turn blue at altitude",
+        "Hypoxia causes the cornea to swell at altitude, which distorts peripheral vision first; night vision is unaffected until above 10,000 ft MSL where cone cell sensitivity drops and supplemental oxygen restores normal acuity.",
         "Night vision begins to degrade at approximately 5000 ft MSL because the rods in the retina (which detect low light) are extremely sensitive to hypoxia. Supplemental oxygen at night is recommended even at altitudes well below legal requirements.",
-        "Night vision degrades only above 14000 ft",
-        "Night vision is not affected by altitude"
+        "Night vision degrades only above 12,500 ft MSL where supplemental oxygen is legally required; below that altitude, the partial pressure of oxygen is sufficient to sustain full rod cell function and normal dark-adapted vision.",
+        "Night vision begins to deteriorate at approximately 14,000 ft MSL when hypoxia causes cone cells in the fovea to lose color sensitivity; rods are robust and maintain low-light detection ability well above the supplemental oxygen threshold."
       ],
       "answer": 1,
-      "explanation": "The rod cells in the retina, which provide night (low-light) vision, are extremely sensitive to hypoxia. Night visual acuity begins to degrade at approximately 5000 ft MSL \u2014 significantly below the altitude at which supplemental oxygen is legally required (12,500 ft). Use of supplemental oxygen on night flights is strongly recommended above 5000 ft.",
+      "explanation": "The rod cells in the retina, which provide night (low-light) vision, are extremely sensitive to hypoxia. Night visual acuity begins to degrade at approximately 5000 ft MSL — significantly below the altitude at which supplemental oxygen is legally required (12,500 ft). Use of supplemental oxygen on night flights is strongly recommended above 5000 ft.",
       "ref": "AIM 8-1-2"
     },
     {
@@ -537,10 +537,10 @@
       "difficulty": 3,
       "q": "What is the recommended off-axis scanning technique for night vision?",
       "choices": [
-        "Look directly at objects for best night vision",
-        "Look approximately 5-10 degrees off to the side of an object rather than directly at it \u2014 the center of the retina (fovea) contains cones (color/detail vision) which are less sensitive in low light. The peripheral retina has more rods which are better for low-light detection.",
-        "Night vision is best when looking directly into bright lights",
-        "Focus directly at runway threshold lights for best night vision"
+        "Scan in a systematic left-to-right sweep, pausing 2-3 seconds per sector to allow the fovea to fully resolve targets — the fovea's cone density provides superior contrast sensitivity under any lighting condition. Avoid prolonged staring at a single point, which causes empty-field myopia in low-light conditions.",
+        "Look approximately 5-10 degrees off to the side of an object rather than directly at it — the center of the retina (fovea) contains cones (color/detail vision) which are less sensitive in low light. The peripheral retina has more rods which are better for low-light detection.",
+        "Keep instrument panel lighting dimmed to allow maximum pupil dilation at night — rhodopsin in the rods regenerates 40% faster when cockpit light levels are minimized. Both eyes should remain fully open and focused at the horizon to maintain maximum peripheral rod sensitivity during night cross-country operations.",
+        "Focus at a distance of approximately 15 feet in front of the aircraft at night to prevent the eye from defaulting to its resting focal length of about 6 feet — known as night myopia. Alternating focus between near instruments and far horizon every 30 seconds keeps ciliary muscles from locking up and maximizes rod activation."
       ],
       "answer": 1,
       "explanation": "The fovea (center of the retina) contains cones which detect color and detail but require more light. In low-light conditions, rods in the peripheral retina provide better detection. By looking approximately 5-10 degrees off to the side of an object (off-axis viewing), you use the more sensitive rods rather than the less-sensitive fovea.",
@@ -554,10 +554,10 @@
       "difficulty": 2,
       "q": "What are the symptoms of dehydration at altitude and how does it affect pilot performance?",
       "choices": [
-        "Dehydration has no measurable effect on pilot performance",
-        "Dehydration at altitude causes fatigue, reduced concentration, headache, and impaired decision-making \u2014 often misidentified as other conditions. The low humidity in aircraft cabins accelerates dehydration. Pilots should drink water regularly during flight.",
-        "Dehydration only affects physical performance, not cognitive performance",
-        "Dehydration effects are cancelled by the pressurization system"
+        "Dehydration has no meaningful effect on pilot cognition below 18,000 ft — the primary aeromedical concern at lower altitudes is hyperventilation, which mimics dehydration symptoms and is the condition pilots should monitor during flight.",
+        "Dehydration at altitude causes fatigue, reduced concentration, headache, and impaired decision-making — often misidentified as other conditions. The low humidity in aircraft cabins accelerates dehydration. Pilots should drink water regularly during flight.",
+        "Dehydration only reduces physical endurance during high-workload ground operations; cognitive performance is unaffected because brain tissue has a dedicated blood-brain barrier that maintains normal neural function despite systemic fluid loss.",
+        "Dehydration effects at altitude are fully offset by the pressurization system, which maintains cabin humidity above 40% — pilots flying unpressurized aircraft below 10,000 ft face no meaningful fluid loss during normal flight operations."
       ],
       "answer": 1,
       "explanation": "Dehydration impairs cognitive performance and contributes to fatigue, poor decision-making, and susceptibility to hypoxia effects. Low humidity in aircraft cabins (especially at altitude) accelerates fluid loss even without obvious sweating. Pilots should drink water regularly before and during flight and avoid caffeine and alcohol which worsen dehydration.",
@@ -571,10 +571,10 @@
       "difficulty": 3,
       "q": "What is the danger of self-medicating with over-the-counter pain relievers before flight?",
       "choices": [
-        "OTC pain relievers are always safe for flight",
+        "OTC pain relievers are acceptable for flight as long as the underlying condition does not affect pilot performance — the FAA's policy under 14 CFR 61.53 evaluates the medical condition, not the medication. Single-ingredient acetaminophen at standard doses is considered safe by the FAA for certificated pilots.",
         "Many OTC pain relievers can impair judgment, cause drowsiness (antihistamines in combination products), mask pain indicating a serious underlying condition, or have drug interactions. Aspirin can affect platelets; ibuprofen and naproxen can cause gastrointestinal issues at altitude.",
-        "OTC pain relievers only affect pilots on long flights",
-        "Pain relievers have no effect on pilot cognitive performance"
+        "OTC pain relievers are evaluated by the FAA solely on their half-life — medications with a half-life under 4 hours are considered flight-safe after two doses have cleared the system. Ibuprofen (half-life 2 hours) is therefore permitted 8 hours after the last dose; naproxen (half-life 12-17 hours) requires a 34-hour waiting period.",
+        "Self-medicating with OTC pain relievers is acceptable under BasicMed provided the pilot certifies on CMEC Form 8700-2 that the condition treated is non-disqualifying. Ibuprofen and naproxen are explicitly listed in FAA Order 8900.1 as approved for flight use at standard OTC dosages without an AME consultation."
       ],
       "answer": 1,
       "explanation": "OTC medications require careful consideration before flight. Combination products (cold and flu medications) often contain antihistamines causing drowsiness. Aspirin affects platelet function. Any medication that treats a condition (pain, congestion) may mask symptoms of a medical condition that itself is disqualifying. Always consult an AME before flying on any medication.",
@@ -588,10 +588,10 @@
       "difficulty": 2,
       "q": "What is the danger of flying within 24 hours of scuba diving?",
       "choices": [
-        "No danger \u2014 scuba diving and flying are compatible activities",
+        "After scuba diving, elevated blood oxygen from enriched-air Nitrox mixes can cause retinal hypoxia when the pilot ascends above 8,000 ft MSL in an unpressurized aircraft. The FAA requires a minimum 8-hour surface interval before flying to allow blood oxygen levels to return to normal atmospheric saturation.",
         "After scuba diving, dissolved nitrogen in the body tissues can form bubbles (decompression sickness / the bends) when exposed to lower pressure at altitude. The FAA recommends waiting at least 12 hours after a no-decompression dive and at least 24 hours after decompression diving or multiple dives.",
-        "The danger is only for dives below 100 feet",
-        "The danger only applies if the pilot had ear problems during diving"
+        "After scuba diving, carbon dioxide retained from breath-hold diving causes respiratory acidosis that persists for 6-8 hours at the surface. FAA Advisory Circular 61-107B recommends a 6-hour surface interval after any open-circuit scuba dive before acting as pilot-in-command, extended to 18 hours after dives below 60 feet.",
+        "After scuba diving, residual nitrogen tracked by dive tables affects vestibular function because dissolved N2 alters endolymph density in the semicircular canals, increasing susceptibility to spatial disorientation. The FAA recommends waiting 4 hours per 30 feet of dive depth before acting as pilot-in-command of any aircraft."
       ],
       "answer": 1,
       "explanation": "Scuba diving dissolves nitrogen into body tissues under pressure. At altitude, lower pressure can cause dissolved nitrogen to form bubbles in tissues and blood (decompression sickness), causing joint pain, paralysis, or death. FAA guidelines: wait at least 12 hours after a single no-decompression dive; at least 24 hours after multiple dives, decompression dives, or any problems during diving.",
@@ -606,7 +606,7 @@
       "q": "What is the 'DECIDE' model in aeronautical decision-making?",
       "choices": [
         "A checklist for engine failure procedures",
-        "Detect a problem, Estimate need to react, Choose a course of action, Identify actions needed, Do the necessary actions, Evaluate the effect \u2014 a structured in-flight decision-making process",
+        "Detect a problem, Estimate need to react, Choose a course of action, Identify actions needed, Do the necessary actions, Evaluate the effect — a structured in-flight decision-making process",
         "A weather evaluation system",
         "An ATC communication protocol"
       ],
@@ -623,7 +623,7 @@
       "q": "What are the five hazardous attitudes identified by the FAA?",
       "choices": [
         "Overconfidence, carelessness, laziness, haste, and fear",
-        "Anti-authority, Impulsivity, Invulnerability, Macho, and Resignation \u2014 each has a specific antidote",
+        "Anti-authority, Impulsivity, Invulnerability, Macho, and Resignation — each has a specific antidote",
         "Speed, ego, pride, stubbornness, peer pressure",
         "Risk, reward, urgency, habit, tradition"
       ],
@@ -639,10 +639,10 @@
       "difficulty": 2,
       "q": "What is the impact of prescription medications on flight safety?",
       "choices": [
-        "All prescription medications are approved for flight if the pilot feels fine",
+        "Many over-the-counter antihistamines have sedating side effects (drowsiness, impaired judgment, slowed reaction time) that can be dangerous in flight even without obvious subjective effects; these are among the most common causes of pilot impairment",
         "Many prescription medications have side effects (sedation, impaired judgment, reduced reaction time) that can be dangerous in flight even without obvious subjective effects; always consult an AME before flying on any medication",
-        "Prescription medications are safer than OTC medications for flight",
-        "Only controlled substances require AME consultation"
+        "Many herbal supplements have side effects (sedation, impaired judgment, reduced reaction time) that can be dangerous in flight even without obvious subjective effects; however, herbal remedies are excluded from FAA medication reporting requirements",
+        "Many caffeinated beverages cause side effects (anxiety, impaired judgment, elevated heart rate) that can be dangerous in flight even without obvious subjective effects; the FAA recommends limiting caffeine to under 200 mg before any flight"
       ],
       "answer": 1,
       "explanation": "Prescription medications may cause side effects that impair pilot performance, be prescribed for conditions that are themselves disqualifying, or interact with altitude, stress, or other substances in unexpected ways. Never fly on prescription medication without explicit AME approval.",
@@ -657,7 +657,7 @@
       "q": "Why should pilots use off-center (eccentric) viewing at night?",
       "choices": [
         "To avoid glare from runway lights by looking to the side",
-        "The center of the retina (fovea) contains cones which require more light \u2014 looking 5-10 degrees off to the side uses the rod-rich peripheral retina which is more sensitive to low light levels",
+        "The center of the retina (fovea) contains cones which require more light — looking 5-10 degrees off to the side uses the rod-rich peripheral retina which is more sensitive to low light levels",
         "Night vision is equally good regardless of where on the retina the image falls",
         "Off-center viewing is for reading charts only, not for spotting aircraft or obstacles"
       ],
@@ -674,7 +674,7 @@
       "q": "How long does full dark adaptation take and what destroys it instantly?",
       "choices": [
         "5 minutes and is not affected by brief light exposure",
-        "Approximately 30 minutes for full dark adaptation \u2014 destroyed instantly by exposure to bright white light. Use red lighting in the cockpit to preserve dark adaptation.",
+        "Approximately 30 minutes for full dark adaptation — destroyed instantly by exposure to bright white light. Use red lighting in the cockpit to preserve dark adaptation.",
         "Approximately 5 minutes and is only partially reduced by light exposure",
         "Dark adaptation is permanent once achieved and is not affected by light exposure"
       ],
@@ -696,7 +696,7 @@
         "5 takeoffs and landings at night within the preceding 60 days"
       ],
       "answer": 1,
-      "explanation": "14 CFR 91.107(a)(3): To carry passengers at night, a pilot must have made 3 takeoffs and 3 full-stop landings during the period from 1 hour after sunset to 1 hour before sunrise within the preceding 90 days. Touch-and-goes do NOT satisfy the night currency requirement \u2014 full stops required.",
+      "explanation": "14 CFR 91.107(a)(3): To carry passengers at night, a pilot must have made 3 takeoffs and 3 full-stop landings during the period from 1 hour after sunset to 1 hour before sunrise within the preceding 90 days. Touch-and-goes do NOT satisfy the night currency requirement — full stops required.",
       "ref": "14 CFR 91.107(a)(3)(ii)"
     }
   ]

@@ -42,7 +42,7 @@
         "I-D"
       ],
       "difficulty": 1,
-      "q": "TVMDC formula \u2014 what does each letter represent?",
+      "q": "TVMDC formula — what does each letter represent?",
       "choices": [
         "Temperature Visibility Moisture Drag Ceiling",
         "True course plus or minus Variation equals Magnetic plus or minus Deviation equals Compass course",
@@ -127,7 +127,7 @@
         "I-D"
       ],
       "difficulty": 2,
-      "q": "TAS 120 kts with a direct 20-kt headwind \u2014 groundspeed?",
+      "q": "TAS 120 kts with a direct 20-kt headwind — groundspeed?",
       "choices": [
         "140 kts",
         "120 kts",
@@ -195,7 +195,7 @@
         "I-D"
       ],
       "difficulty": 3,
-      "q": "True course 045 degrees, magnetic variation 10 degrees East \u2014 magnetic course?",
+      "q": "True course 045 degrees, magnetic variation 10 degrees East — magnetic course?",
       "choices": [
         "055 degrees",
         "045 degrees",
@@ -214,10 +214,10 @@
       "difficulty": 3,
       "q": "What does RAIM stand for and why is it important?",
       "choices": [
-        "Radar Altitude Indication Monitor \u2014 used for altitude alerts",
-        "Receiver Autonomous Integrity Monitoring \u2014 checks GPS signal integrity; required for IFR non-WAAS approaches",
-        "Radio Altitude Instrument Module \u2014 backup gyro system",
-        "Real-time Airspace Information Module \u2014 for airspace alerts"
+        "Radar Altitude Indication Monitor — used for altitude alerts",
+        "Receiver Autonomous Integrity Monitoring — checks GPS signal integrity; required for IFR non-WAAS approaches",
+        "Radio Altitude Instrument Module — backup gyro system",
+        "Real-time Airspace Information Module — for airspace alerts"
       ],
       "answer": 1,
       "explanation": "RAIM uses redundant GPS satellites to monitor signal integrity autonomously. For IFR GPS approaches without WAAS, a RAIM check must confirm adequate signal integrity before departure.",
@@ -233,7 +233,7 @@
       "choices": [
         "Yes for all cross-country flights",
         "Yes for any flight over 50 nm",
-        "No \u2014 strongly recommended for search and rescue but not legally required by the FARs",
+        "No — strongly recommended for search and rescue but not legally required by the FARs",
         "Yes in Class E airspace"
       ],
       "answer": 2,
@@ -266,7 +266,7 @@
       "q": "What is dead reckoning navigation?",
       "choices": [
         "Navigation using only radio navigation aids",
-        "Calculating current position from a known starting point using heading, airspeed or groundspeed, time, and wind \u2014 without external position fixes",
+        "Calculating current position from a known starting point using heading, airspeed or groundspeed, time, and wind — without external position fixes",
         "Navigation by GPS only",
         "Navigation using only visual ground references"
       ],
@@ -282,7 +282,7 @@
       "difficulty": 2,
       "q": "What is magnetic variation and how does easterly variation affect conversion from true to magnetic course?",
       "choices": [
-        "Magnetic variation is compass deviation \u2014 no effect on heading",
+        "Magnetic variation is compass deviation — no effect on heading",
         "Magnetic variation is the angle between true north and magnetic north. East variation: subtract from true course to get magnetic course.",
         "East variation means add to get magnetic course",
         "Variation only applies east of the prime meridian"
@@ -297,12 +297,12 @@
         "I-D"
       ],
       "difficulty": 2,
-      "q": "ATIS \u2014 what information does it provide and where is the frequency found?",
+      "q": "ATIS — what information does it provide and where is the frequency found?",
       "choices": [
-        "Air Traffic Information System \u2014 on sectional chart legend",
-        "Automated Terminal Information Service \u2014 provides current weather, active runways, and NOTAMs; frequency on sectional chart or Chart Supplement",
-        "Air Traffic ILS System \u2014 for instrument approaches only",
-        "Airport Traffic Identification System \u2014 for towered airports only"
+        "Air Traffic Information System — on sectional chart legend",
+        "Automated Terminal Information Service — provides current weather, active runways, and NOTAMs; frequency on sectional chart or Chart Supplement",
+        "Air Traffic ILS System — for instrument approaches only",
+        "Airport Traffic Identification System — for towered airports only"
       ],
       "answer": 1,
       "explanation": "ATIS provides continuous recorded information about weather, runways, NOTAMs, and other terminal information. Frequencies are found on sectional charts near the airport symbol and in the Chart Supplement.",
@@ -314,7 +314,7 @@
         "I-D"
       ],
       "difficulty": 3,
-      "q": "True altitude vs pressure altitude \u2014 what is the difference?",
+      "q": "True altitude vs pressure altitude — what is the difference?",
       "choices": [
         "They are the same thing",
         "True altitude is actual height above MSL; pressure altitude is indicated altitude when altimeter is set to 29.92 in Hg",
@@ -351,7 +351,7 @@
       "q": "What is a VOR radial and how is it defined?",
       "choices": [
         "A radial is a signal transmitted TO the VOR from an aircraft",
-        "A radial is a magnetic bearing FROM the VOR station \u2014 the 090 radial is the line extending east from the VOR. Aircraft position is described by which radial they are ON, not flying.",
+        "A radial is a magnetic bearing FROM the VOR station — the 090 radial is the line extending east from the VOR. Aircraft position is described by which radial they are ON, not flying.",
         "A radial is a true bearing from the VOR",
         "A radial is a GPS direct-to course"
       ],
@@ -367,10 +367,10 @@
       "difficulty": 2,
       "q": "What is a VOR station service volume and why does it matter for flight planning?",
       "choices": [
-        "The service volume is unlimited for all VOR stations",
-        "VOR stations have defined service volumes (T=Terminal, L=Low Altitude, H=High Altitude) within which reliable signal reception is guaranteed \u2014 planning should use VORs within their service volume for the altitude being flown",
-        "VOR service volume only applies to IFR flight",
-        "All VOR stations have the same service volume"
+        "NDB stations have defined service volumes (HH=High, H=Standard, MH=Low) within which usable bearing information is guaranteed — planning should use NDBs within their service volume for the altitude being flown",
+        "VOR stations have defined service volumes (T=Terminal, L=Low Altitude, H=High Altitude) within which reliable signal reception is guaranteed — planning should use VORs within their service volume for the altitude being flown",
+        "DME stations have defined service volumes (T=Terminal, L=Low, H=High Altitude) within which reliable slant-range distance is guaranteed — DME should only be used within the published service volume for the altitude being flown",
+        "ILS localizer stations have defined service volumes (inner, middle, outer) within which reliable course guidance is guaranteed — planning should use ILS approaches only within their certified service volumes for the approach category"
       ],
       "answer": 1,
       "explanation": "VOR stations are classified by their Standard Service Volume (SSV): T (Terminal) 25 nm up to 12,000 ft AGL; L (Low altitude) 40 nm up to 18,000 ft; H (High altitude) 130 nm above 14,500 ft. Using a VOR outside its service volume may result in unreliable signal reception.",
@@ -384,13 +384,13 @@
       "difficulty": 3,
       "q": "What is deviation and how does it differ from variation?",
       "choices": [
-        "Deviation and variation are the same \u2014 both refer to magnetic declination",
-        "Variation is the difference between true north and magnetic north (isogonic lines on charts). Deviation is the error in a specific compass caused by local magnetic influences in the aircraft \u2014 shown on the compass deviation card.",
-        "Deviation is the difference between true north and geographic north",
-        "Variation is the compass error; deviation is the chart correction"
+        "Deviation is the difference between true north and magnetic north shown on sectional charts (agonic lines show zero deviation). Variation is the error in a specific compass caused by onboard electronics — recorded on the aircraft deviation card.",
+        "Variation is the difference between true north and magnetic north (isogonic lines on charts). Deviation is the error in a specific compass caused by local magnetic influences in the aircraft — shown on the compass deviation card.",
+        "Variation is the angular error in a magnetic compass caused by on-board electronics and structure — corrected using a deviation card. Deviation is the geographic difference between true north and magnetic north — shown by isogonic lines on charts.",
+        "Deviation is the difference between true north and grid north used in polar navigation (shown on polar charts). Variation is the compass error caused by proximity to the aircraft's electrical bus — unique to each compass installation."
       ],
       "answer": 1,
-      "explanation": "Magnetic variation is the angular difference between true north and magnetic north \u2014 a fixed geographic value shown by isogonic lines on charts. Deviation is the error in a specific aircraft's magnetic compass caused by magnetic fields from aircraft systems, engines, and structure \u2014 unique to each aircraft and shown on the compass deviation card.",
+      "explanation": "Magnetic variation is the angular difference between true north and magnetic north — a fixed geographic value shown by isogonic lines on charts. Deviation is the error in a specific aircraft's magnetic compass caused by magnetic fields from aircraft systems, engines, and structure — unique to each aircraft and shown on the compass deviation card.",
       "ref": "PHAK Ch.16"
     },
     {
@@ -401,8 +401,8 @@
       "difficulty": 2,
       "q": "When would you use Vx immediately after liftoff during a short field takeoff?",
       "choices": [
-        "Never \u2014 always use Vy after takeoff",
-        "When obstacles are present on the departure end \u2014 Vx provides the greatest altitude gain over horizontal distance, clearing obstacles",
+        "Never — always use Vy after takeoff",
+        "When obstacles are present on the departure end — Vx provides the greatest altitude gain over horizontal distance, clearing obstacles",
         "When the runway is soft or wet",
         "When departing from a high-elevation airport"
       ],
@@ -420,7 +420,7 @@
       "choices": [
         "Applies at all altitudes",
         "Applies only above 18,000 ft MSL",
-        "Applies when more than 3,000 ft above the surface (AGL) \u2014 not MSL. Below 3,000 AGL there is no cruising altitude requirement.",
+        "Applies when more than 3,000 ft above the surface (AGL) — not MSL. Below 3,000 AGL there is no cruising altitude requirement.",
         "Applies above 1,000 ft MSL"
       ],
       "answer": 2,
@@ -435,10 +435,10 @@
       "difficulty": 3,
       "q": "You are flying a magnetic course of 355 degrees at 8,500 ft MSL, more than 3,000 ft AGL. Is this a legal VFR cruising altitude?",
       "choices": [
-        "Yes \u2014 any altitude above 3,000 AGL is fine",
-        "No \u2014 magnetic course 355 degrees is northbound (0-179 degrees range) so odd thousands plus 500 should be used. 8,500 is even thousands plus 500 and would be used for westbound (180-359 degrees). Correct altitude would be 7,500 or 9,500 ft.",
-        "Yes \u2014 8,500 is acceptable for any heading",
-        "No \u2014 you should be at 9,000 ft"
+        "Yes — magnetic course 355 degrees is northbound so odd thousands plus 500 apply, and 8,500 satisfies that rule. The eastbound/westbound rule only governs altitudes below 3,000 ft AGL where the hemispheric rule does not apply.",
+        "No — magnetic course 355 degrees is northbound (0-179 degrees range) so odd thousands plus 500 should be used. 8,500 is even thousands plus 500 and would be used for westbound (180-359 degrees). Correct altitude would be 7,500 or 9,500 ft.",
+        "Yes — 8,500 ft is a legal VFR cruising altitude for any magnetic course because the hemispheric rule only applies to IFR flights operating above FL180 in the contiguous United States airspace system.",
+        "No — 8,500 ft is not legal for any VFR course because the 500-ft addition rule only applies to IFR flight; VFR aircraft must fly at even-thousand-foot altitudes such as 8,000 or 9,000 ft when above 3,000 ft AGL."
       ],
       "answer": 1,
       "explanation": "14 CFR 91.159: MC 355 degrees is northbound (0-179 degrees range), which requires ODD thousands plus 500 ft: 3,500; 5,500; 7,500; 9,500 etc. 8,500 ft is the even + 500 altitude used for westbound/southbound (180-359 degree range). This is a common exam trap.",
@@ -453,7 +453,7 @@
       "q": "What is pilotage and how is it used in VFR navigation?",
       "choices": [
         "Pilotage is automated navigation using GPS",
-        "Pilotage is navigation by visual reference to landmarks \u2014 the pilot identifies ground features and compares them to the aeronautical chart to confirm position and navigate along a route",
+        "Pilotage is navigation by visual reference to landmarks — the pilot identifies ground features and compares them to the aeronautical chart to confirm position and navigate along a route",
         "Pilotage is navigation using only radio aids",
         "Pilotage is the process of taxiing at an unfamiliar airport"
       ],
@@ -469,10 +469,10 @@
       "difficulty": 2,
       "q": "What is the purpose of a flight log or navigation log on a cross-country flight?",
       "choices": [
-        "It is only required for IFR flights",
-        "A navigation log documents the planned route, checkpoints, headings, distances, estimated groundspeeds, fuel burns, and estimated times enroute \u2014 used to track progress and identify when off course during VFR XC flights",
-        "Navigation logs are obsolete now that GPS is available",
-        "A navigation log is required to be filed with the FAA"
+        "A weather briefing documents the planned route, checkpoints, headings, distances, estimated groundspeeds, fuel burns, and estimated times enroute — used to assess go/no-go decisions before VFR XC flights",
+        "A navigation log documents the planned route, checkpoints, headings, distances, estimated groundspeeds, fuel burns, and estimated times enroute — used to track progress and identify when off course during VFR XC flights",
+        "A weight and balance sheet documents the planned route, checkpoints, headings, distances, estimated groundspeeds, fuel burns, and estimated times enroute — used to verify the aircraft remains within CG limits throughout the VFR XC flight",
+        "An ATIS recording documents current conditions, checkpoints, headings, distances, estimated groundspeeds, fuel burns, and estimated times enroute — updated hourly so pilots can compare actual conditions against their VFR XC plan"
       ],
       "answer": 1,
       "explanation": "A navigation log (nav log or flight log) is a planning document that organizes all cross-country flight data: checkpoints, true/magnetic course, wind correction angle, true/magnetic heading, compass heading, distance, groundspeed, estimated time enroute, and fuel burn. It is essential for situational awareness during the flight.",
@@ -486,13 +486,13 @@
       "difficulty": 3,
       "q": "An altimeter set to 29.42 in Hg when the current altimeter setting is 29.92 in Hg. How does this affect the indicated altitude compared to true altitude?",
       "choices": [
-        "No effect \u2014 altimeters are self-correcting",
-        "The altimeter will read approximately 500 feet LOWER than actual altitude \u2014 the pilot is higher than the altimeter indicates. Remember: high to low, look out below.",
+        "No effect — altimeters are self-correcting",
+        "The altimeter will read approximately 500 feet LOWER than actual altitude — the pilot is higher than the altimeter indicates. Remember: high to low, look out below.",
         "The altimeter will read 500 feet higher than actual altitude",
         "The altimeter will be exactly correct but the VSI will be affected"
       ],
       "answer": 1,
-      "explanation": "Each 0.10 in Hg change in altimeter setting corresponds to approximately 100 ft of altitude error. Setting the altimeter too low (29.42 vs. 29.92 = 0.50 in Hg too low) causes the altimeter to read approximately 500 ft LOW \u2014 the aircraft is 500 ft HIGHER than indicated. High to low, look out below.",
+      "explanation": "Each 0.10 in Hg change in altimeter setting corresponds to approximately 100 ft of altitude error. Setting the altimeter too low (29.42 vs. 29.92 = 0.50 in Hg too low) causes the altimeter to read approximately 500 ft LOW — the aircraft is 500 ft HIGHER than indicated. High to low, look out below.",
       "ref": "PHAK Ch.8"
     },
     {
@@ -503,13 +503,13 @@
       "difficulty": 2,
       "q": "What is the difference between indicated airspeed (IAS), calibrated airspeed (CAS), and true airspeed (TAS)?",
       "choices": [
-        "They are all the same \u2014 different names for the same measurement",
-        "IAS is what the airspeed indicator shows. CAS is IAS corrected for instrument and position errors (published in POH). TAS is CAS corrected for altitude and temperature \u2014 the actual speed through the air mass. TAS increases with altitude at a constant IAS.",
-        "IAS is only used on the ground; TAS is used in the air",
-        "CAS is used only for IFR operations"
+        "IAS is what the airspeed indicator shows. CAS is IAS corrected for density altitude and temperature at cruise level. TAS is CAS further corrected for instrument and position errors — the actual reading the pitot-static system delivers to the pilot.",
+        "IAS is what the airspeed indicator shows. CAS is IAS corrected for instrument and position errors (published in POH). TAS is CAS corrected for altitude and temperature — the actual speed through the air mass. TAS increases with altitude at a constant IAS.",
+        "IAS is what the airspeed indicator shows. CAS is IAS corrected for wind and magnetic variation (published in charts). TAS is CAS corrected for runway elevation — the actual groundspeed during takeoff. TAS equals GS in calm wind conditions.",
+        "IAS is what the airspeed indicator shows. CAS is IAS corrected for altitude only (using the flight computer E6B). TAS is CAS corrected for instrument position errors — the calibrated reading used to calculate fuel burn and cruise performance."
       ],
       "answer": 1,
-      "explanation": "IAS (Indicated Airspeed): what the ASI reads. CAS (Calibrated Airspeed): IAS corrected for instrument and position errors (from POH calibration tables). TAS (True Airspeed): CAS corrected for non-standard density (altitude and temperature) \u2014 the actual speed through the air mass. TAS is approximately 2% greater than CAS per 1000 ft of altitude.",
+      "explanation": "IAS (Indicated Airspeed): what the ASI reads. CAS (Calibrated Airspeed): IAS corrected for instrument and position errors (from POH calibration tables). TAS (True Airspeed): CAS corrected for non-standard density (altitude and temperature) — the actual speed through the air mass. TAS is approximately 2% greater than CAS per 1000 ft of altitude.",
       "ref": "PHAK Ch.8"
     },
     {
@@ -537,13 +537,13 @@
       "difficulty": 3,
       "q": "What is a course deviation indicator (CDI) and how does it display VOR guidance?",
       "choices": [
-        "CDI is the Course Direction Indicator \u2014 only used on GPS",
+        "The CDI displays the aircraft's bearing to the VOR station regardless of the OBS setting. The needle always points toward the station; full-scale deflection occurs when you are more than 10 nm from the station on any radial.",
         "The CDI displays how far left or right the aircraft is from the selected course (OBS setting). Each dot of deflection = 2 degrees off course. The course line is the OBS setting; the needle deflects toward the course to re-intercept.",
-        "CDI always displays bearing to the station",
-        "CDI only works within 5 nm of the VOR station"
+        "The CDI displays glidepath deviation above or below the selected approach angle. Each dot of deflection equals 75 ft of altitude deviation; the OBS selector sets the desired glidepath angle from 2.5 to 4.5 degrees.",
+        "The CDI displays distance remaining to the VOR station in nautical miles. Each dot of deflection equals 5 nm; full-scale deflection means you are 25 nm or more from the station with the OBS set to your inbound course."
       ],
       "answer": 1,
-      "explanation": "The CDI displays the aircraft's lateral displacement from the selected VOR course (OBS setting). When the needle deflects right, the course is to the right \u2014 fly right to center it. Each dot = approximately 2 degrees off course. Full-scale deflection = 10 degrees off course. The OBS sets which radial or course is selected.",
+      "explanation": "The CDI displays the aircraft's lateral displacement from the selected VOR course (OBS setting). When the needle deflects right, the course is to the right — fly right to center it. Each dot = approximately 2 degrees off course. Full-scale deflection = 10 degrees off course. The OBS sets which radial or course is selected.",
       "ref": "PHAK Ch.16; AIM 1-1-3"
     },
     {
@@ -555,12 +555,12 @@
       "q": "What is a Class B VFR transition route?",
       "choices": [
         "A high-altitude route above Class B for jet traffic",
-        "Specific published routes through Class B airspace on VFR Terminal Area Charts that VFR aircraft may use at specified altitudes \u2014 NOT a clearance; pilots must receive ATC authorization to use these routes",
-        "A VFR route around Class B airspace \u2014 same as a flyway",
+        "Specific published routes through Class B airspace on VFR Terminal Area Charts that VFR aircraft may use at specified altitudes — NOT a clearance; pilots must receive ATC authorization to use these routes",
+        "A VFR route around Class B airspace — same as a flyway",
         "A VFR route only for turboprops and jets"
       ],
       "answer": 1,
-      "explanation": "VFR transition routes are published on TAC charts and provide specific routes through Class B airspace at designated altitudes. However, VFR pilots must STILL receive ATC clearance to use these routes \u2014 they are not clearance-free corridors. The term 'transition route' on a TAC indicates a commonly used path that ATC is familiar with.",
+      "explanation": "VFR transition routes are published on TAC charts and provide specific routes through Class B airspace at designated altitudes. However, VFR pilots must STILL receive ATC clearance to use these routes — they are not clearance-free corridors. The term 'transition route' on a TAC indicates a commonly used path that ATC is familiar with.",
       "ref": "AIM 3-2-3"
     },
     {
@@ -571,10 +571,10 @@
       "difficulty": 2,
       "q": "How does the E6B flight computer assist with fuel planning and why is it important to use actual data?",
       "choices": [
-        "The E6B cannot assist with fuel planning \u2014 it is only for wind calculations",
-        "The E6B (or electronic equivalent) can calculate fuel burn based on fuel flow rate and time enroute \u2014 but accurate results require using actual POH fuel flow figures for the specific power setting and altitude planned, not standard estimates",
-        "The E6B automatically downloads fuel prices from FBOs",
-        "E6B fuel calculations are not accepted by the FAA"
+        "The E6B (or electronic equivalent) can calculate wind correction angles based on true airspeed and winds aloft — but accurate results require using actual winds-aloft forecasts for the specific altitude and route planned, not estimated surface winds",
+        "The E6B (or electronic equivalent) can calculate fuel burn based on fuel flow rate and time enroute — but accurate results require using actual POH fuel flow figures for the specific power setting and altitude planned, not standard estimates",
+        "The E6B (or electronic equivalent) can calculate weight and balance based on aircraft empty weight and fuel load — but accurate results require using actual POH loading charts for the specific configuration and CG limits, not standard estimates",
+        "The E6B (or electronic equivalent) can calculate density altitude based on pressure altitude and temperature — but accurate results require using actual METAR temperature readings for the specific airport and time of departure, not ISA values"
       ],
       "answer": 1,
       "explanation": "The E6B flight computer can calculate fuel requirements (fuel flow x time = fuel burn). The critical factor is using accurate POH fuel consumption data for the specific power setting and altitude planned. Using manufacturer estimates without accounting for actual power settings or a fuel-enriched mixture leads to dangerous fuel planning errors.",
@@ -589,7 +589,7 @@
       "q": "What is a compass locator and how is it used for navigation?",
       "choices": [
         "A handheld compass used to find the airport",
-        "A low or medium frequency (LF/MF) NDB (Non-Directional Beacon) co-located with an ILS outer or middle marker \u2014 used with an ADF receiver to home to the beacon",
+        "A low or medium frequency (LF/MF) NDB (Non-Directional Beacon) co-located with an ILS outer or middle marker — used with an ADF receiver to home to the beacon",
         "A magnetic compass installed in the control tower",
         "A GPS waypoint near an airport"
       ],
@@ -605,10 +605,10 @@
       "difficulty": 2,
       "q": "What is the purpose of a course line on a sectional chart and how is it used for flight planning?",
       "choices": [
-        "It is drawn by ATC to show your cleared route",
+        "A curved arc generated by a flight-planning app from departure to destination; the software applies magnetic variation automatically to display a magnetic course and highlights Class B and C airspace penetrations along the route.",
         "A straight line drawn from departure to destination on the sectional; the pilot measures the true course with a plotter, applies TVMDC to get compass heading, and identifies checkpoints, terrain, and airspace along the route",
-        "It shows restricted areas only",
-        "Course lines are not used in VFR flight planning"
+        "A dashed line pre-printed by the chart publisher connecting major VFR waypoints across a sectional; pilots follow it to stay on established VFR corridors and apply a standard 10-degree easterly magnetic variation correction.",
+        "A colored line drawn by ATC on your filed flight plan to confirm your cleared VFR route; it indicates mandatory waypoints you must overfly and altitude restrictions that apply between each pair of checkpoints on the route."
       ],
       "answer": 1,
       "explanation": "For VFR flight planning, pilots draw a course line on the sectional chart from departure to destination. Using a plotter, they measure the true course angle. Applying TVMDC gives the compass heading. The line also identifies terrain, airspace, checkpoints, and emergency landing areas along the route.",
@@ -688,12 +688,12 @@
         "I-D"
       ],
       "difficulty": 2,
-      "q": "A crosswind of 90 degrees to the runway at 20 knots \u2014 what is the crosswind component?",
+      "q": "A crosswind of 90 degrees to the runway at 20 knots — what is the crosswind component?",
       "choices": [
         "10 knots",
         "15 knots",
         "20 knots",
-        "Zero \u2014 pure crosswind has no runway component"
+        "Zero — pure crosswind has no runway component"
       ],
       "answer": 2,
       "explanation": "When the wind is exactly 90 degrees to the runway, the full wind speed is a crosswind component. Crosswind component = wind speed x sin(angle off runway). Sin(90) = 1.0, so 20 kts x 1.0 = 20 kts crosswind.",
@@ -707,8 +707,8 @@
       "difficulty": 3,
       "q": "The density altitude at an airport is 7,000 ft but the field elevation is 4,000 ft MSL. What does this mean for takeoff performance?",
       "choices": [
-        "The aircraft will perform as if it were at 4,000 ft \u2014 DA has no practical effect",
-        "The aircraft will perform as if taking off from a 7,000-ft elevation airport \u2014 significantly degraded performance",
+        "The aircraft will perform as if it were at 4,000 ft — DA has no practical effect",
+        "The aircraft will perform as if taking off from a 7,000-ft elevation airport — significantly degraded performance",
         "DA only affects climb performance, not ground roll",
         "DA only matters above 5,000 ft MSL"
       ],
@@ -725,7 +725,7 @@
       "q": "What is the primary purpose of filing a VFR flight plan?",
       "choices": [
         "It is required by law for all cross-country flights over 50 nm",
-        "To provide search and rescue information if the aircraft is overdue \u2014 it is NOT legally required but strongly recommended",
+        "To provide search and rescue information if the aircraft is overdue — it is NOT legally required but strongly recommended",
         "To get an ATC transponder code for radar identification",
         "To reserve airspace for the flight route"
       ],
@@ -741,10 +741,10 @@
       "difficulty": 2,
       "q": "What does RAIM stand for and why does it matter for IFR GPS use?",
       "choices": [
-        "Radar Altitude Instrument Monitor \u2014 used to verify altimeter accuracy",
-        "Receiver Autonomous Integrity Monitoring \u2014 the GPS self-checks signal integrity using redundant satellites. If RAIM is unavailable, GPS cannot be used as a primary navigation source for IFR approaches without WAAS.",
-        "Route Approved Instrument Minimums \u2014 an FAA designation for approach procedures",
-        "Real-time Airspace Information Monitoring \u2014 a system for TFR alerts"
+        "Radar Altitude Instrument Monitor — used to verify altimeter accuracy",
+        "Receiver Autonomous Integrity Monitoring — the GPS self-checks signal integrity using redundant satellites. If RAIM is unavailable, GPS cannot be used as a primary navigation source for IFR approaches without WAAS.",
+        "Route Approved Instrument Minimums — an FAA designation for approach procedures",
+        "Real-time Airspace Information Monitoring — a system for TFR alerts"
       ],
       "answer": 1,
       "explanation": "RAIM allows a GPS receiver to check its own integrity by comparing signals from multiple satellites. For IFR non-WAAS GPS approaches, a RAIM check must be done before departure. If RAIM is unavailable during the approach, the GPS cannot be used as the primary instrument. WAAS-equipped GPS does not require a RAIM check.",
@@ -778,7 +778,7 @@
         "7500 = lost communications; 7600 = emergency; 7700 = hijacking",
         "7500 = hijacking; 7600 = lost communications; 7700 = general emergency",
         "7500 = general emergency; 7600 = hijacking; 7700 = radio failure",
-        "All emergency codes are the same \u2014 7700 covers all situations"
+        "All emergency codes are the same — 7700 covers all situations"
       ],
       "answer": 1,
       "explanation": "7500 = hijacking/unlawful interference. 7600 = radio/communications failure. 7700 = general emergency. These codes are internationally recognized and immediately alert ATC to your situation. Squawk 1200 = VFR flight without flight following.",
@@ -790,12 +790,12 @@
         "I-D"
       ],
       "difficulty": 3,
-      "q": "When lost, what is the recommended first action \u2014 and what do the '5 C's' stand for?",
+      "q": "When lost, what is the recommended first action — and what do the '5 C's' stand for?",
       "choices": [
-        "Immediately declare an emergency on 121.5 MHz",
+        "Confess, Communicate, Climb, Calculate, Continue. First action is to confess position uncertainty to ATC on 121.5 MHz, then communicate intentions, climb for better reception, calculate estimated position, and continue the planned course.",
         "Climb, Conserve, Communicate, Consult, Circle. First action is to climb for better radio/radar reception and visual range, then conserve fuel, communicate with ATC, consult all available navigation, and circle while resolving position.",
-        "Land immediately at the nearest airport regardless of conditions",
-        "Continue on course and hope to identify a landmark"
+        "Circle, Climb, Call, Chart, Correct. First action is to circle at current altitude to maintain visual reference, then climb if ceiling permits, call ATC on 121.5, chart the last known fix, and correct course once position is established.",
+        "Calculate, Conserve, Communicate, Climb, Correct. First action is to calculate groundspeed using elapsed time, then conserve fuel by reducing power, communicate on 121.5, climb for radar contact, and correct heading once confirmed."
       ],
       "answer": 1,
       "explanation": "The 5 C's for lost procedure: Climb (altitude improves radio contact and visual range), Conserve fuel, Communicate (121.5 or ATC), Confess (tell ATC you are lost), Comply (with ATC instructions). Climbing is the first priority as it enables all other actions.",
@@ -809,9 +809,9 @@
       "difficulty": 3,
       "q": "When diverting to an alternate airport in flight, what information do you need to compute?",
       "choices": [
-        "Only the new heading \u2014 everything else can wait until landing",
+        "Only the new heading — everything else can wait until landing",
         "New magnetic course, estimated time enroute (ETE), fuel required for the diversion plus reserve, and whether the alternate has appropriate services for your needs. Communicate intentions to ATC promptly.",
-        "Only the fuel remaining \u2014 heading can be determined by GPS",
+        "Only the fuel remaining — heading can be determined by GPS",
         "The diversion procedure only applies to IFR flights"
       ],
       "answer": 1,
@@ -826,10 +826,10 @@
       "difficulty": 2,
       "q": "What is WAAS and how does it improve GPS accuracy?",
       "choices": [
-        "Wind Adjusted Approach System \u2014 adjusts approaches for wind conditions",
-        "Wide Area Augmentation System \u2014 a network of ground reference stations that transmit corrections to GPS satellites, improving accuracy to approximately 3 meters or better. Enables GPS LPV approaches comparable to ILS.",
-        "Weather Avoidance Advisory System \u2014 weather overlay for EFBs",
-        "Waypoint Automated Alerting System \u2014 warns of nearby waypoints"
+        "Wind Adjusted Approach System — adjusts approaches for wind conditions",
+        "Wide Area Augmentation System — a network of ground reference stations that transmit corrections to GPS satellites, improving accuracy to approximately 3 meters or better. Enables GPS LPV approaches comparable to ILS.",
+        "Weather Avoidance Advisory System — weather overlay for EFBs",
+        "Waypoint Automated Alerting System — warns of nearby waypoints"
       ],
       "answer": 1,
       "explanation": "WAAS (Wide Area Augmentation System) uses a network of ground reference stations throughout the US to compute GPS signal corrections, which are uplinked to geostationary satellites and broadcast to WAAS-capable receivers. WAAS improves GPS accuracy to approximately 1-3 meters and enables LPV approaches with decision heights as low as 200 ft HAT.",

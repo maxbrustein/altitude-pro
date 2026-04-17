@@ -84,7 +84,7 @@
         "Never on a fuel-injected engine regardless of conditions"
       ],
       "answer": 1,
-      "explanation": "Apply carb heat preventively when icing conditions exist. Apply full carb heat \u2014 partial carb heat can partially melt ice, allowing it to refreeze in a more dangerous location.",
+      "explanation": "Apply carb heat preventively when icing conditions exist. Apply full carb heat — partial carb heat can partially melt ice, allowing it to refreeze in a more dangerous location.",
       "ref": "PHAK Ch.7"
     },
     {
@@ -93,10 +93,10 @@
         "I-G"
       ],
       "difficulty": 2,
-      "q": "Pitot tube fully blocked with no drain hole open \u2014 how does the ASI behave?",
+      "q": "Pitot tube fully blocked with no drain hole open — how does the ASI behave?",
       "choices": [
         "ASI reads zero",
-        "ASI acts like an altimeter \u2014 reads higher when climbing and lower when descending",
+        "ASI acts like an altimeter — reads higher when climbing and lower when descending",
         "ASI freezes at the speed when blockage occurred",
         "ASI is unaffected because the static port still functions"
       ],
@@ -127,9 +127,9 @@
         "I-G"
       ],
       "difficulty": 2,
-      "q": "Alternate static source \u2014 effect on pitot-static instruments?",
+      "q": "Alternate static source — effect on pitot-static instruments?",
       "choices": [
-        "No change \u2014 alternate static is perfectly calibrated",
+        "No change — alternate static is perfectly calibrated",
         "ASI reads lower, altimeter reads lower, VSI spikes upward",
         "ASI slightly HIGH, altimeter slightly HIGH, VSI momentarily DOWN then corrects",
         "Only the altimeter is affected; ASI and VSI unchanged"
@@ -161,12 +161,12 @@
         "I-G"
       ],
       "difficulty": 3,
-      "q": "Water found in a fuel sump sample \u2014 what does it look like and what should you do?",
+      "q": "Water found in a fuel sump sample — what does it look like and what should you do?",
       "choices": [
-        "Blue tint throughout \u2014 normal fuel additive, safe to fly",
-        "Clear globules or drops at the bottom \u2014 drain multiple samples until obtaining pure blue fuel; do not fly with contaminated fuel",
-        "Cloudy appearance throughout \u2014 safe after agitating the fuel",
-        "Air bubbles at the surface \u2014 safe to fly"
+        "Blue tint throughout — normal fuel additive, safe to fly",
+        "Clear globules or drops at the bottom — drain multiple samples until obtaining pure blue fuel; do not fly with contaminated fuel",
+        "Cloudy appearance throughout — safe after agitating the fuel",
+        "Air bubbles at the surface — safe to fly"
       ],
       "answer": 1,
       "explanation": "Water is denser than avgas and sinks. It appears as clear globules or drops at the bottom of the sample cup. Drain multiple sump samples until obtaining pure blue fuel with no globules.",
@@ -178,10 +178,10 @@
         "I-G"
       ],
       "difficulty": 3,
-      "q": "Heading indicator precession \u2014 typical rate and corrective action?",
+      "q": "Heading indicator precession — typical rate and corrective action?",
       "choices": [
-        "Up to 1 degree per minute \u2014 realign every 5 minutes",
-        "Up to 3 degrees per 15 minutes \u2014 realign with magnetic compass during straight-and-level unaccelerated flight every 10 to 15 minutes",
+        "Up to 1 degree per minute — realign every 5 minutes",
+        "Up to 3 degrees per 15 minutes — realign with magnetic compass during straight-and-level unaccelerated flight every 10 to 15 minutes",
         "Never precesses if the instrument is functioning properly",
         "Fixed by the deviation card installed in the cockpit"
       ],
@@ -197,7 +197,7 @@
       "difficulty": 3,
       "q": "What is P-factor and when is it most pronounced?",
       "choices": [
-        "Power factor \u2014 ratio of engine efficiency to fuel consumption",
+        "Power factor — ratio of engine efficiency to fuel consumption",
         "Asymmetric blade effect: at high AoA the descending propeller blade has a greater angle of attack and produces more thrust than the ascending blade causing a left-turning tendency; most pronounced at high power and low airspeed",
         "Precession of the directional gyro caused by aircraft maneuvering",
         "Pitch factor relating angle of attack to lift coefficient in high-performance aircraft"
@@ -212,7 +212,7 @@
         "I-G"
       ],
       "difficulty": 3,
-      "q": "Fuel-injected engine vs carbureted engine \u2014 difference in icing risk?",
+      "q": "Fuel-injected engine vs carbureted engine — difference in icing risk?",
       "choices": [
         "Fuel-injected engines have more carburetor ice risk",
         "Fuel-injected engines cannot develop carburetor ice (no carburetor) but air induction icing can occur at the inlet or air filter",
@@ -229,12 +229,12 @@
         "I-G"
       ],
       "difficulty": 3,
-      "q": "Suction gauge reads below the green arc \u2014 what does this indicate?",
+      "q": "Suction gauge reads below the green arc — what does this indicate?",
       "choices": [
-        "Normal operation \u2014 green arc is just a reference",
-        "Low engine oil pressure \u2014 unrelated to suction gauge",
-        "Vacuum system failure \u2014 attitude indicator and heading indicator may be unreliable; transition to partial panel procedures",
-        "Alternator failure \u2014 electrical instruments will fail next"
+        "Normal operation — green arc is just a reference",
+        "Low engine oil pressure — unrelated to suction gauge",
+        "Vacuum system failure — attitude indicator and heading indicator may be unreliable; transition to partial panel procedures",
+        "Alternator failure — electrical instruments will fail next"
       ],
       "answer": 2,
       "explanation": "Suction gauge below the green arc (typically 4.5 to 5.4 in Hg) indicates insufficient vacuum for the vacuum-driven attitude indicator and heading indicator. These instruments may give unreliable or failing readings.",
@@ -248,7 +248,7 @@
       "difficulty": 2,
       "q": "What does gyroscopic rigidity mean and which instruments use this property?",
       "choices": [
-        "A spinning gyroscope resists changes to its axis of rotation \u2014 used in the attitude indicator and heading indicator",
+        "A spinning gyroscope resists changes to its axis of rotation — used in the attitude indicator and heading indicator",
         "Gyroscopes always point toward magnetic north and are used in the magnetic compass",
         "Gyroscopes spin in sync with engine RPM and are used in the tachometer",
         "Gyroscopes resist vibration and are used in the altimeter for smoothing"
@@ -265,10 +265,10 @@
       "difficulty": 1,
       "q": "What does the Vertical Speed Indicator (VSI) measure and does it have any lag?",
       "choices": [
-        "Actual instantaneous climb rate with no lag \u2014 most accurate instrument",
-        "Rate of change of static pressure indicating climb or descent rate \u2014 has a 6 to 9 second lag for accurate readings",
+        "Actual instantaneous climb rate with no lag — most accurate instrument",
+        "Rate of change of static pressure indicating climb or descent rate — has a 6 to 9 second lag for accurate readings",
         "Rate of change of airspeed used for energy management",
-        "Angle of attack converted to feet per minute \u2014 no lag"
+        "Angle of attack converted to feet per minute — no lag"
       ],
       "answer": 1,
       "explanation": "The VSI uses a calibrated leak to measure the rate of change of static pressure. It shows trend immediately but requires 6 to 9 seconds to stabilize at the accurate rate.",
@@ -282,10 +282,10 @@
       "difficulty": 2,
       "q": "What does it mean when oil pressure reads zero immediately after engine start?",
       "choices": [
-        "Normal \u2014 takes time for oil to circulate",
-        "Indication of a serious lubrication failure \u2014 shut down immediately to prevent engine damage",
+        "Normal — takes time for oil to circulate",
+        "Indication of a serious lubrication failure — shut down immediately to prevent engine damage",
         "Only a problem if the oil temperature also rises",
-        "The gauge is probably faulty \u2014 continue the flight"
+        "The gauge is probably faulty — continue the flight"
       ],
       "answer": 1,
       "explanation": "Positive oil pressure should appear within approximately 30 seconds of engine start. If oil pressure does not register within this time, shut the engine down immediately. Operating without oil pressure causes catastrophic engine damage in seconds.",
@@ -297,7 +297,7 @@
         "I-G"
       ],
       "difficulty": 3,
-      "q": "Magnetic compass acceleration and turning errors \u2014 what do ANDS and OSUN mean?",
+      "q": "Magnetic compass acceleration and turning errors — what do ANDS and OSUN mean?",
       "choices": [
         "ANDS = Accurate North Detection System; OSUN = Old Sun navigation",
         "Accelerate-North Decelerate-South on east-west headings. Overshoot-North Undershoot-South when turning through north and south in the northern hemisphere",
@@ -316,10 +316,10 @@
       "difficulty": 2,
       "q": "What is the function of the attitude indicator and what type of error can affect it?",
       "choices": [
-        "Shows magnetic heading \u2014 affected by compass variation",
-        "Shows pitch and bank attitude using gyroscopic rigidity \u2014 may show slight precession error after prolonged coordinated turns",
-        "Shows rate and direction of turn \u2014 affected by ball displacement",
-        "Shows vertical speed \u2014 affected by static port blockage"
+        "Shows magnetic heading — affected by compass variation",
+        "Shows pitch and bank attitude using gyroscopic rigidity — may show slight precession error after prolonged coordinated turns",
+        "Shows rate and direction of turn — affected by ball displacement",
+        "Shows vertical speed — affected by static port blockage"
       ],
       "answer": 1,
       "explanation": "The attitude indicator uses gyroscopic rigidity in space to display pitch and bank attitude relative to the horizon. After sustained coordinated turns, slight precession can occur causing a small apparent bank upon returning to straight and level.",
@@ -333,7 +333,7 @@
       "difficulty": 3,
       "q": "Oil temperature gauge reads in the red arc. What should you do?",
       "choices": [
-        "Continue the flight \u2014 red arcs are just advisory",
+        "Continue the flight — red arcs are just advisory",
         "Land as soon as practicable; reduce power, enrich mixture, check oil pressure, consider opening cowl flaps to increase cooling",
         "Increase power to generate more oil circulation",
         "Ignore it if the oil pressure is still in the green"
@@ -367,13 +367,13 @@
       "difficulty": 3,
       "q": "What is torque as a left-turning tendency and when is it most pronounced?",
       "choices": [
-        "Engine vibration \u2014 affects all flight phases equally",
+        "Engine vibration — affects all flight phases equally",
         "Reaction to the clockwise engine and propeller rotation causes the aircraft to roll to the left; most pronounced at high power and low airspeed",
         "Torque only affects tailwheel aircraft",
         "Torque is only present during aerobatic maneuvers"
       ],
       "answer": 1,
-      "explanation": "Torque: Newton's third law \u2014 clockwise engine/propeller rotation causes an equal and opposite counterclockwise (left roll) reaction on the aircraft. Most pronounced at high power and low airspeed such as during takeoff and climb.",
+      "explanation": "Torque: Newton's third law — clockwise engine/propeller rotation causes an equal and opposite counterclockwise (left roll) reaction on the aircraft. Most pronounced at high power and low airspeed such as during takeoff and climb.",
       "ref": "PHAK Ch.5"
     },
     {
@@ -386,7 +386,7 @@
       "choices": [
         "Battery is discharging and needs replacement",
         "The alternator is producing power and the electrical system is operating normally",
-        "Excessive electrical load \u2014 shed unnecessary equipment",
+        "Excessive electrical load — shed unnecessary equipment",
         "Alternator failure with battery backup active"
       ],
       "answer": 1,
@@ -402,7 +402,7 @@
       "q": "The turn coordinator displays what information?",
       "choices": [
         "Only the rate of turn in degrees per second",
-        "Rate of turn and coordination (slip or skid) via the ball \u2014 standard rate equals 3 degrees per second or 360 degrees in 2 minutes",
+        "Rate of turn and coordination (slip or skid) via the ball — standard rate equals 3 degrees per second or 360 degrees in 2 minutes",
         "Only slip or skid via the inclinometer ball",
         "Pitch attitude and bank angle like the attitude indicator"
       ],
@@ -416,7 +416,7 @@
         "I-G"
       ],
       "difficulty": 3,
-      "q": "Pitot tube blocked with drain hole open \u2014 how does the ASI behave?",
+      "q": "Pitot tube blocked with drain hole open — how does the ASI behave?",
       "choices": [
         "ASI acts like an altimeter",
         "ASI reads zero because no pitot pressure reaches the instrument",
@@ -435,10 +435,10 @@
       "difficulty": 2,
       "q": "What is the purpose of the aircraft's fuel selector valve and what are the common positions?",
       "choices": [
-        "The fuel selector controls fuel temperature \u2014 not common in light aircraft",
+        "The fuel selector valve controls fuel flow rate to the engine by adjusting a metering orifice. Positions include HIGH FLOW, LOW FLOW, and OFF — pilots select HIGH FLOW for takeoff and LOW FLOW for cruise to improve fuel economy.",
         "The fuel selector valve controls which fuel tank(s) feed the engine. Common positions: LEFT (left tank only), RIGHT (right tank only), BOTH (both tanks simultaneously), OFF. Some aircraft require specific takeoff and landing positions per the POH.",
-        "The fuel selector valve also controls the mixture",
-        "The fuel selector is always left in BOTH \u2014 it has no other use"
+        "The fuel selector valve routes fuel either through the gascolator for filtration or directly to the carburetor for high-demand operations. Positions include FILTERED, DIRECT, and OFF, and must be set to FILTERED before starting.",
+        "The fuel selector valve isolates the fuel system from the vent lines during pressurization. Positions are PRESSURIZED, VENTED, and OFF — always set to VENTED before landing to prevent vapor lock in the fuel lines."
       ],
       "answer": 1,
       "explanation": "The fuel selector valve directs fuel from the selected tank(s) to the engine. Improper fuel management (running a tank dry, improper position for takeoff/landing) is a leading cause of engine failures. Always follow POH procedures for fuel selector position during each phase of flight.",
@@ -452,10 +452,10 @@
       "difficulty": 3,
       "q": "What is the function of the aircraft's vacuum system and what instruments depend on it?",
       "choices": [
-        "The vacuum system powers the electrical instruments as a backup",
-        "The vacuum system uses engine-driven vacuum pumps to drive the gyroscopic attitude indicator and heading indicator through suction cups. Most light aircraft have a single vacuum pump \u2014 failure leaves these instruments unreliable.",
-        "The vacuum system only powers the turn coordinator",
-        "The vacuum system powers all six flight instruments"
+        "The electrical system uses alternator-driven AC inverters to power the gyroscopic attitude indicator and heading indicator through dedicated bus bars. Most light aircraft have a single alternator — failure leaves these instruments unreliable.",
+        "The vacuum system uses engine-driven vacuum pumps to drive the gyroscopic attitude indicator and heading indicator through suction cups. Most light aircraft have a single vacuum pump — failure leaves these instruments unreliable.",
+        "The hydraulic system uses engine-driven hydraulic pumps to drive the gyroscopic attitude indicator and heading indicator through fluid pressure lines. Most light aircraft have a single hydraulic pump — failure leaves these instruments unreliable.",
+        "The pitot-static system uses ram air pressure ports to drive the gyroscopic attitude indicator and heading indicator through sealed instrument cases. Most light aircraft have a single pitot probe — blockage leaves these instruments unreliable."
       ],
       "answer": 1,
       "explanation": "The vacuum (suction) system uses an engine-driven pump to spin the gyroscopes in the attitude indicator and heading indicator. A vacuum failure makes these instruments unreliable within minutes. The turn coordinator is typically electrically powered and remains operational after vacuum failure. Check suction gauge in preflight.",
@@ -469,13 +469,13 @@
       "difficulty": 2,
       "q": "What is a magneto and why do aircraft typically have two?",
       "choices": [
-        "A magneto is an electrical generator powered by the battery \u2014 only one is needed",
-        "A magneto is a self-contained high-voltage electrical generator that provides ignition to the engine spark plugs \u2014 independent of the aircraft's electrical system. Two magnetos provide engine redundancy so the engine continues operating if one magneto fails.",
-        "Magnetos power the avionics systems",
-        "Magnetos are only found in turbine engines"
+        "A magneto is a battery-driven high-voltage coil that boosts starter current to the spark plugs during engine start — independent of the alternator. Two magnetos ensure reliable starting even when one coil is weak or fails.",
+        "A magneto is a self-contained high-voltage electrical generator that provides ignition to the engine spark plugs — independent of the aircraft's electrical system. Two magnetos provide engine redundancy so the engine continues operating if one magneto fails.",
+        "A magneto is a permanent-magnet alternator that charges the aircraft battery during flight — independent of the engine-driven alternator. Two magnetos provide redundant battery charging so avionics stay powered if one magneto fails.",
+        "A magneto is a voltage-regulator component that stabilizes generator output to the ignition system — independent of the bus voltage. Two magnetos are used to balance the electrical load equally across both sides of the ignition harness."
       ],
       "answer": 1,
-      "explanation": "Magnetos are self-contained electrical generators that produce high-voltage current for spark plugs independent of the aircraft's battery and alternator. Having two magnetos (each firing one plug per cylinder) provides redundancy \u2014 if one magneto fails, the engine continues on the other. This is checked during the runup.",
+      "explanation": "Magnetos are self-contained electrical generators that produce high-voltage current for spark plugs independent of the aircraft's battery and alternator. Having two magnetos (each firing one plug per cylinder) provides redundancy — if one magneto fails, the engine continues on the other. This is checked during the runup.",
       "ref": "PHAK Ch.7"
     },
     {
@@ -486,10 +486,10 @@
       "difficulty": 2,
       "q": "What is the purpose of the landing gear extension and retraction system position indicator?",
       "choices": [
-        "It shows hydraulic system pressure",
-        "The landing gear position indicator shows whether the gear is up-and-locked, down-and-locked, or in transit \u2014 typically with lights: green for down-and-locked, red for in-transit or unsafe, and no light for gear up and locked on some aircraft",
-        "It shows brake wear status",
-        "It only indicates if the nose gear is extended"
+        "The landing gear position indicator shows hydraulic system pressure in each gear actuator — typically with gauges: green for normal pressure, amber for low pressure, and red for critically low pressure requiring an alternate extension.",
+        "The landing gear position indicator shows whether the gear is up-and-locked, down-and-locked, or in transit — typically with lights: green for down-and-locked, red for in-transit or unsafe, and no light for gear up and locked on some aircraft",
+        "The landing gear position indicator shows the remaining brake pad thickness on each wheel assembly — typically with lights: green for adequate wear, amber for inspect-soon, and red for replace-before-next-flight on each gear leg.",
+        "The landing gear position indicator shows nose-wheel steering alignment relative to the runway centerline — typically with lights: green for aligned, amber for slight deflection, and red for a steering-limit exceedance on the ground."
       ],
       "answer": 1,
       "explanation": "The landing gear position indicator typically uses lights (green = down and locked, red/amber = in transit or unsafe, dark = up and locked on some aircraft) to indicate landing gear position. Some aircraft use mechanically displayed indicators. Always verify gear position using both the indicator and any available audible warnings.",
@@ -503,10 +503,10 @@
       "difficulty": 3,
       "q": "What is a fuel-injected engine's throttle body and how does it differ from a carburetor?",
       "choices": [
-        "Fuel injection and carburetor systems are identical \u2014 different names only",
+        "A fuel injection system uses a carburetor mounted downstream of the throttle plate that atomizes fuel using a venturi and delivers it to a common plenum chamber. The throttle body in fuel-injected engines simply replaces the carburetor float bowl with an electronically metered needle valve, reducing icing risk at the venturi throat.",
         "A fuel injection system meters fuel directly into each cylinder's intake port (port injection) or into the intake manifold (throttle body injection) rather than mixing it in a venturi as in a carburetor. Benefits include more precise fuel metering, no carburetor ice risk, and better fuel distribution.",
-        "Fuel injection systems always use more fuel than carburetors",
-        "Fuel injection is only used in turbine engines"
+        "A throttle body in a fuel-injected engine serves the same function as the accelerator pump in a carburetor — providing an enriched fuel charge during rapid throttle advancement to prevent lean stumble. Unlike carburetors, fuel injection systems meter fuel by monitoring manifold pressure and engine RPM via analog pressure diaphragms.",
+        "A fuel-injected engine's throttle body regulates airflow via a butterfly valve identical to a carburetor's venturi, but draws fuel from a high-pressure injection pump rather than a float bowl. The primary advantage over carburetion is that the injector nozzles are self-draining, preventing fuel pooling and hot-start vapor lock issues."
       ],
       "answer": 1,
       "explanation": "Fuel injection systems deliver fuel directly to each cylinder intake port or throttle body, bypassing the carburetor venturi. This eliminates carburetor icing, provides more precise fuel metering, better fuel distribution among cylinders, and generally better performance. However, fuel-injected engines can experience hot-start difficulties and vapor lock.",
@@ -520,13 +520,13 @@
       "difficulty": 2,
       "q": "What is the purpose of the primer in a fuel-injected engine vs a carbureted engine?",
       "choices": [
-        "Both use primers identically \u2014 no difference",
-        "Carbureted engines use a primer to inject fuel into cylinder(s) for cold starts. Many fuel-injected engines do not have traditional primers but instead use the throttle position and boost pump to prime the system \u2014 specific cold start procedures vary significantly by aircraft.",
-        "Primers are only used in carbureted engines",
-        "Primers are not used in any modern aircraft engine"
+        "Both carbureted and fuel-injected engines use a mechanically identical primer that injects fuel into the intake manifold before cranking. The only difference is pressure — carbureted primers operate at 2-4 PSI while fuel-injected primers use the system's full rail pressure of 14-45 PSI.",
+        "Carbureted engines use a primer to inject fuel into cylinder(s) for cold starts. Many fuel-injected engines do not have traditional primers but instead use the throttle position and boost pump to prime the system — specific cold start procedures vary significantly by aircraft.",
+        "Carbureted engines do not use primers — the accelerator pump provides adequate fuel enrichment during cold cranking. Primers are used exclusively in fuel-injected engines to purge vapor from injection lines before start; failure to prime for at least 5 seconds risks a lean misfire during cranking.",
+        "Primers in carbureted engines inject fuel downstream of the throttle plate, bypassing the venturi entirely. Fuel-injected engines need no primer because continuous-flow fuel injection maintains positive pressure at each cylinder nozzle at all times — including when the engine is stopped and cold."
       ],
       "answer": 1,
-      "explanation": "In carbureted engines, the primer injects fuel directly into cylinders for cold starts. Many fuel-injected engines use a different cold-start procedure involving the throttle and electric fuel boost pump to prime the fuel injection system \u2014 the POH cold-start procedure must be followed precisely to avoid flooding or fire.",
+      "explanation": "In carbureted engines, the primer injects fuel directly into cylinders for cold starts. Many fuel-injected engines use a different cold-start procedure involving the throttle and electric fuel boost pump to prime the fuel injection system — the POH cold-start procedure must be followed precisely to avoid flooding or fire.",
       "ref": "PHAK Ch.7; POH"
     },
     {
@@ -537,10 +537,10 @@
       "difficulty": 3,
       "q": "What are the four forces acting on an aircraft in flight and when are they balanced?",
       "choices": [
-        "Lift, drag, weight, and thrust \u2014 balanced during climbing only",
+        "Lift, drag, weight, and thrust — balanced during climbing only",
         "Lift, drag, weight, and thrust act on an aircraft at all times. They are in equilibrium (balanced) during straight-and-level, unaccelerated flight when lift equals weight and thrust equals drag.",
         "Lift and weight are always equal; thrust and drag are only equal at cruise",
-        "Only two forces act on an aircraft \u2014 gravity and engine thrust"
+        "Only two forces act on an aircraft — gravity and engine thrust"
       ],
       "answer": 1,
       "explanation": "The four forces are: Lift (opposes weight, acts perpendicular to flightpath), Weight (gravity, acts toward Earth's center), Thrust (acts along flightpath, forward), Drag (opposes motion, acts along flightpath, rearward). In straight-and-level, unaccelerated flight: Lift = Weight and Thrust = Drag.",
@@ -554,10 +554,10 @@
       "difficulty": 2,
       "q": "What is Vne and what does exceeding it risk?",
       "choices": [
-        "Vne is normal cruise speed \u2014 no risk to exceed briefly",
+        "Vne (Never Exceed Speed) is the maximum speed allowed during normal cruise operations; exceeding it briefly in smooth air is permitted up to 110% Vne before the manufacturer requires an airframe inspection per the maintenance manual.",
         "Vne (Never Exceed Speed) is the maximum speed for the aircraft in any flight operation. Exceeding Vne risks structural failure or control surface flutter, which can cause catastrophic airframe failure. Shown as a red line on the airspeed indicator.",
-        "Vne is the maximum flap speed \u2014 only risks flap damage",
-        "Vne is the maximum takeoff speed \u2014 only applies on the ground"
+        "Vne (Never Exceed Speed) is the maximum speed above which flap operation is prohibited; exceeding it with flaps extended risks flap structural failure but poses no danger to the basic airframe or primary control surfaces.",
+        "Vne (Never Exceed Speed) is the maximum descent speed permitted during emergency procedures; exceeding it in a spiral dive risks exceeding limit load on the empennage but the wings are structurally protected by a separate Vno limit."
       ],
       "answer": 1,
       "explanation": "Vne (Never Exceed Speed) is the speed above which structural damage or failure may occur due to aeroelastic flutter, control surface flutter, or exceeding design load limits. It is shown as a red radial line on the airspeed indicator. Never exceed Vne under any circumstances.",
@@ -571,13 +571,13 @@
       "difficulty": 2,
       "q": "What color coding is used on the airspeed indicator and what does each color represent?",
       "choices": [
-        "Airspeed indicators have no color coding \u2014 only numbers",
-        "White arc: flap operating range (Vs0 to Vfe). Green arc: normal operating range (Vs1 to Vno). Yellow arc: caution range \u2014 smooth air only (Vno to Vne). Red line: never exceed speed (Vne).",
+        "Airspeed indicators have no color coding — only numbers",
+        "White arc: flap operating range (Vs0 to Vfe). Green arc: normal operating range (Vs1 to Vno). Yellow arc: caution range — smooth air only (Vno to Vne). Red line: never exceed speed (Vne).",
         "Green arc is the takeoff range; red line is cruise speed",
         "White arc is IFR range; green arc is VFR range"
       ],
       "answer": 1,
-      "explanation": "Airspeed indicator color coding: White arc (flap range) = Vs0 (stall, gear/flaps down) to Vfe (maximum flap extension). Green arc (normal ops) = Vs1 (stall, clean) to Vno (maximum structural cruise). Yellow arc (caution \u2014 smooth air only) = Vno to Vne. Red radial line = Vne (never exceed).",
+      "explanation": "Airspeed indicator color coding: White arc (flap range) = Vs0 (stall, gear/flaps down) to Vfe (maximum flap extension). Green arc (normal ops) = Vs1 (stall, clean) to Vno (maximum structural cruise). Yellow arc (caution — smooth air only) = Vno to Vne. Red radial line = Vne (never exceed).",
       "ref": "PHAK Ch.8; 14 CFR 23"
     },
     {
@@ -588,13 +588,13 @@
       "difficulty": 3,
       "q": "What is gyroscopic precession and which instrument uses this property?",
       "choices": [
-        "Precession is the tendency of a gyro to resist changes to its spin axis \u2014 not used in any flight instrument",
-        "Gyroscopic precession: a force applied to a spinning gyroscope causes it to react 90 degrees later in the direction of rotation. The turn coordinator uses precession \u2014 a yaw input (rudder) causes the gyro to precess and display a bank-rate indication.",
-        "Precession is the same as rigidity \u2014 used in the heading indicator",
-        "Precession only occurs at high RPM gyros in turbine aircraft"
+        "Gyroscopic rigidity: a force applied to a spinning gyroscope causes it to react 90 degrees later in the direction of rotation. The attitude indicator uses rigidity — a bank input (ailerons) causes the gyro to maintain orientation and display a pitch-attitude reading.",
+        "Gyroscopic precession: a force applied to a spinning gyroscope causes it to react 90 degrees later in the direction of rotation. The turn coordinator uses precession — a yaw input (rudder) causes the gyro to precess and display a bank-rate indication.",
+        "Gyroscopic precession: a force applied to a spinning gyroscope causes it to react 90 degrees later in the direction of rotation. The heading indicator uses precession — a pitch input (elevator) causes the gyro to precess and display a heading-change indication.",
+        "Gyroscopic tumbling: a force applied to a spinning gyroscope causes it to react 90 degrees later in the direction of rotation. The attitude indicator uses tumbling — a bank input (ailerons) causes the gyro to tumble and display a roll-rate indication."
       ],
       "answer": 1,
-      "explanation": "Gyroscopic precession: when a force is applied to a spinning gyroscope, the effect appears 90 degrees later in the direction of rotation. The turn coordinator (TC) uses precession \u2014 a yaw input causes the gimbal-mounted gyro to precess, deflecting the miniature aircraft to indicate rate of turn. The TC is NOT a direct bank angle indicator.",
+      "explanation": "Gyroscopic precession: when a force is applied to a spinning gyroscope, the effect appears 90 degrees later in the direction of rotation. The turn coordinator (TC) uses precession — a yaw input causes the gimbal-mounted gyro to precess, deflecting the miniature aircraft to indicate rate of turn. The TC is NOT a direct bank angle indicator.",
       "ref": "PHAK Ch.8"
     },
     {
@@ -606,7 +606,7 @@
       "q": "What is the purpose of the aircraft's position lights (navigation lights) and when are they required?",
       "choices": [
         "Required only during IFR flight",
-        "Position lights show aircraft position and direction to other pilots at night \u2014 red (left wing), green (right wing), white (tail); required from sunset to sunrise",
+        "Position lights show aircraft position and direction to other pilots at night — red (left wing), green (right wing), white (tail); required from sunset to sunrise",
         "Required at all times day and night",
         "Required only near airports"
       ],
@@ -622,13 +622,13 @@
       "difficulty": 2,
       "q": "What does the symbol at the top of the yellow arc on the airspeed indicator represent?",
       "choices": [
-        "Vfe \u2014 maximum flap extension speed",
-        "Vne \u2014 never-exceed speed; the red radial line is the absolute maximum \u2014 exceeding it risks structural failure",
-        "Va \u2014 maneuvering speed",
-        "Vy \u2014 best rate of climb"
+        "Vfe — maximum flap extension speed",
+        "Vne — never-exceed speed; the red radial line is the absolute maximum — exceeding it risks structural failure",
+        "Va — maneuvering speed",
+        "Vy — best rate of climb"
       ],
       "answer": 1,
-      "explanation": "Vne (never-exceed speed) is marked by the red radial line at the high end of the yellow caution arc. The yellow arc itself is the caution range \u2014 smooth air only. Exceeding Vne risks structural failure. It is the absolute maximum operating speed.",
+      "explanation": "Vne (never-exceed speed) is marked by the red radial line at the high end of the yellow caution arc. The yellow arc itself is the caution range — smooth air only. Exceeding Vne risks structural failure. It is the absolute maximum operating speed.",
       "ref": "PHAK Ch.8, Ch.11"
     },
     {
@@ -639,13 +639,13 @@
       "difficulty": 2,
       "q": "What is the purpose of the vacuum system and which instruments does it power?",
       "choices": [
-        "Generates electricity for avionics",
+        "Creates pressure to drive gyroscopes in the turn coordinator and magnetic compass; a venturi tube driven by ram airflow generates suction; the pressure gauge monitors system health (normal 4.5-5.4 in Hg)",
         "Creates suction to spin gyroscopes in the attitude indicator and heading indicator; a vacuum pump driven by the engine generates suction; the suction gauge monitors system health (normal 4.5-5.4 in Hg)",
-        "Controls landing gear operation",
-        "Powers the magnetos"
+        "Creates suction to spin gyroscopes in the turn coordinator and airspeed indicator; an electric vacuum pump driven by the battery generates suction; the suction gauge monitors system health (normal 2.0-3.5 in Hg)",
+        "Creates pressure to operate gyroscopes in the attitude indicator and altimeter; a vacuum pump driven by the engine generates pressure; the manifold pressure gauge monitors system health (normal 4.5-5.4 in Hg)"
       ],
       "answer": 1,
-      "explanation": "The vacuum (suction) system powers gyroscopic instruments \u2014 typically the attitude indicator and heading indicator. An engine-driven pump creates suction that spins the gyro rotors. Loss of vacuum causes these instruments to fail \u2014 transition to partial panel. Monitor the suction gauge.",
+      "explanation": "The vacuum (suction) system powers gyroscopic instruments — typically the attitude indicator and heading indicator. An engine-driven pump creates suction that spins the gyro rotors. Loss of vacuum causes these instruments to fail — transition to partial panel. Monitor the suction gauge.",
       "ref": "PHAK Ch.8"
     },
     {
@@ -690,10 +690,10 @@
       "difficulty": 2,
       "q": "What is the most dangerous condition regarding center of gravity?",
       "choices": [
-        "CG too far forward \u2014 requires more elevator back pressure",
-        "CG too far aft \u2014 reduces longitudinal stability, may make stall recovery impossible",
-        "CG at the forward limit \u2014 aircraft is underpowered",
-        "CG at the aft limit \u2014 aircraft stalls at lower airspeeds"
+        "CG too far forward — requires more elevator back pressure",
+        "CG too far aft — reduces longitudinal stability, may make stall recovery impossible",
+        "CG at the forward limit — aircraft is underpowered",
+        "CG at the aft limit — aircraft stalls at lower airspeeds"
       ],
       "answer": 1,
       "explanation": "An aft CG is the most dangerous condition. The aircraft becomes longitudinally unstable and extremely pitch-sensitive. A stall may be unrecoverable. An aft CG also reduces the effective angle of attack range.",
@@ -725,7 +725,7 @@
       "q": "During flight, fuel burns off from the tanks. How does this typically affect CG?",
       "choices": [
         "CG never changes during flight",
-        "CG moves depending on the location of the fuel tanks relative to the overall CG \u2014 must verify CG stays within limits throughout flight",
+        "CG moves depending on the location of the fuel tanks relative to the overall CG — must verify CG stays within limits throughout flight",
         "CG always moves forward as fuel burns",
         "CG always moves aft as fuel burns"
       ],
@@ -758,13 +758,13 @@
       "difficulty": 1,
       "q": "What is adverse yaw and how is it corrected?",
       "choices": [
-        "A yaw caused by crosswind \u2014 corrected by crabbing into the wind",
+        "A yaw caused by crosswind — corrected by crabbing into the wind",
         "When ailerons are applied, the descending wing's aileron creates more drag, causing the nose to yaw opposite to the intended turn. Corrected with coordinated rudder input in the direction of the turn.",
         "A yaw caused by propeller torque during high-power operations",
         "Adverse yaw only occurs during stall entry and recovery"
       ],
       "answer": 1,
-      "explanation": "Adverse yaw: the downward-deflecting aileron (on the rising wing) creates induced drag, while the upward-deflecting aileron (on the descending wing) also creates drag. The net effect is a yaw opposite to the intended turn. Corrected with rudder \u2014 the ball provides real-time feedback on coordination.",
+      "explanation": "Adverse yaw: the downward-deflecting aileron (on the rising wing) creates induced drag, while the upward-deflecting aileron (on the descending wing) also creates drag. The net effect is a yaw opposite to the intended turn. Corrected with rudder — the ball provides real-time feedback on coordination.",
       "ref": "PHAK Ch.6"
     },
     {
@@ -778,7 +778,7 @@
         "Always advance the prop control first, then the throttle",
         "Advance the throttle first to desired manifold pressure, then adjust the prop control to desired RPM",
         "Simultaneously advance both controls equally",
-        "The sequence does not matter \u2014 both controls do the same thing"
+        "The sequence does not matter — both controls do the same thing"
       ],
       "answer": 0,
       "explanation": "For constant-speed prop aircraft: when INCREASING power, advance the prop control first (increase RPM), then advance the throttle (increase manifold pressure). This prevents the engine from over-boosting. When DECREASING power: throttle first (reduce MP), then prop (reduce RPM). Remember: power up = prop first; power down = throttle first.",
@@ -809,7 +809,7 @@
       "difficulty": 2,
       "q": "Which of the following correctly describes a 406 MHz ELT compared to an older 121.5 MHz ELT?",
       "choices": [
-        "406 MHz ELTs are no longer required \u2014 121.5 MHz is the current standard",
+        "406 MHz ELTs are no longer required — 121.5 MHz is the current standard",
         "406 MHz ELTs transmit digitally with aircraft registration and GPS position (if equipped), are monitored by COSPAS-SARSAT satellites, and enable much faster SAR response than the older 121.5 MHz analog units",
         "Both types are monitored by satellites with equal effectiveness",
         "121.5 MHz ELTs have longer battery life and are preferred for most aircraft"
