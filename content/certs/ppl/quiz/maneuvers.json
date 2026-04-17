@@ -1,0 +1,924 @@
+{
+  "topic": "maneuvers",
+  "title": "Maneuvers",
+  "questions": [
+    {
+      "id": "man-001",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 1,
+      "q": "ACS altitude tolerance for steep turns?",
+      "choices": [
+        "plus or minus 50 ft",
+        "plus or minus 100 ft",
+        "plus or minus 200 ft",
+        "plus or minus 150 ft"
+      ],
+      "answer": 1,
+      "explanation": "ACS Task VIII.B: Maintain entry altitude within plus or minus 100 ft throughout the steep turn maneuver.",
+      "ref": "ACS FAA-S-ACS-6 Task VIII.B"
+    },
+    {
+      "id": "man-002",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 1,
+      "q": "Bank angle required for steep turns on the Private Pilot ACS?",
+      "choices": [
+        "30 degrees",
+        "40 degrees",
+        "45 degrees",
+        "60 degrees"
+      ],
+      "answer": 2,
+      "explanation": "ACS Task VIII.B requires steep turns at exactly 45 degrees of bank. Load factor at 45 degrees is 1.41g.",
+      "ref": "ACS FAA-S-ACS-6 Task VIII.B"
+    },
+    {
+      "id": "man-003",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 1,
+      "q": "Vx is used for what purpose?",
+      "choices": [
+        "Maximum range speed",
+        "Best angle of climb \u2014 maximum altitude gained per unit of horizontal distance",
+        "Best rate of climb \u2014 maximum altitude gained per unit of time",
+        "Turbulence penetration speed"
+      ],
+      "answer": 1,
+      "explanation": "Vx (best angle of climb) provides maximum altitude gain per unit of horizontal distance. Used for obstacle clearance after takeoff. Transition to Vy once clear.",
+      "ref": "PHAK Ch.11; AFH Ch.5"
+    },
+    {
+      "id": "man-004",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 1,
+      "q": "Vy is used for what purpose?",
+      "choices": [
+        "Best angle of climb for obstacle clearance",
+        "Best rate of climb \u2014 maximum altitude gain per unit of time",
+        "Normal approach speed",
+        "Maneuvering speed for turbulence"
+      ],
+      "answer": 1,
+      "explanation": "Vy (best rate of climb) provides maximum altitude gain per unit of time. Used for en-route climb after obstacle clearance to reach cruise altitude efficiently.",
+      "ref": "PHAK Ch.11; AFH Ch.5"
+    },
+    {
+      "id": "man-005",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 1,
+      "q": "First action in any stall recovery?",
+      "choices": [
+        "Apply full power immediately",
+        "Retract flaps immediately",
+        "Reduce angle of attack by pitching forward to break the stall",
+        "Apply right rudder to stop roll"
+      ],
+      "answer": 2,
+      "explanation": "First priority in stall recovery is to reduce the angle of attack \u2014 pitch the nose forward to break the stall. Apply full power after the stall breaks and retract flaps incrementally.",
+      "ref": "ACS Task VIII.D; AFH Ch.4"
+    },
+    {
+      "id": "man-006",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 1,
+      "q": "Normal landing ACS touchdown tolerance?",
+      "choices": [
+        "plus or minus 100 ft",
+        "plus or minus 200 ft",
+        "plus or minus 400 ft",
+        "plus or minus 600 ft"
+      ],
+      "answer": 2,
+      "explanation": "ACS Task X.A: Normal landing requires touchdown within plus or minus 400 ft of the aiming point, on centerline, with no drift, at or below Vref.",
+      "ref": "ACS FAA-S-ACS-6 Task X.A"
+    },
+    {
+      "id": "man-007",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "Power-off stall recovery \u2014 when should the pilot initiate recovery?",
+      "choices": [
+        "After aircraft loses 100 ft of altitude",
+        "At the first indication of stall \u2014 buffet, stall horn, or loss of control effectiveness",
+        "Only after a full stall break occurs",
+        "At a specific airspeed listed in the POH"
+      ],
+      "answer": 1,
+      "explanation": "ACS requires recovery at the first indication of stall: stall warning horn activation, buffet, or loss of normal control effectiveness. Do not wait for a full stall.",
+      "ref": "ACS Task VIII.D"
+    },
+    {
+      "id": "man-008",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "In ground reference maneuvers, when should bank angle be steepest?",
+      "choices": [
+        "When heading directly into the wind",
+        "When heading directly crosswind",
+        "When heading downwind with highest groundspeed",
+        "Bank angle is always constant throughout"
+      ],
+      "answer": 2,
+      "explanation": "To maintain constant radius ground track: downwind = highest groundspeed = steepest bank needed. Upwind = lowest groundspeed = shallowest bank.",
+      "ref": "AFH Ch.6"
+    },
+    {
+      "id": "man-009",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "Entry position for turns around a point?",
+      "choices": [
+        "Directly upwind of the point",
+        "45 degrees to the downwind leg abeam the point",
+        "On a downwind heading directly abeam the point at desired radius",
+        "Directly crosswind of the point"
+      ],
+      "answer": 2,
+      "explanation": "Standard entry: on a downwind heading directly abeam the point at the desired radius distance. This ensures the steepest bank is needed at entry when groundspeed is highest.",
+      "ref": "AFH Ch.6"
+    },
+    {
+      "id": "man-010",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "Soft field takeoff elevator control input during the takeoff roll?",
+      "choices": [
+        "Neutral elevator",
+        "Full forward elevator to reduce nosewheel drag",
+        "Full aft (back) pressure on elevator to transfer weight to wings and off the nosewheel",
+        "Differential braking only with neutral elevator"
+      ],
+      "answer": 2,
+      "explanation": "Full aft elevator pressure reduces weight on the nosegear (which could dig into soft surface) and transfers weight to the wings as quickly as possible for early liftoff.",
+      "ref": "AFH Ch.8"
+    },
+    {
+      "id": "man-011",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "Short field landing ACS touchdown tolerance?",
+      "choices": [
+        "plus or minus 100 ft",
+        "At or within 200 ft beyond the aiming point",
+        "plus or minus 400 ft",
+        "At or before the aiming point"
+      ],
+      "answer": 1,
+      "explanation": "ACS Task X.F: Short field landing requires touchdown at or within 200 ft beyond the specified touchdown point. More demanding than normal landing (400 ft).",
+      "ref": "ACS FAA-S-ACS-6 Task X.F"
+    },
+    {
+      "id": "man-012",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "Correct go-around sequence after a full-flaps approach?",
+      "choices": [
+        "Apply full flaps then power then pitch up",
+        "Full power then carb heat off then retract all flaps at once then Vy",
+        "Pitch for climb attitude plus full power then carb heat off then flaps incrementally then Vy climb",
+        "Retract all flaps first then apply power"
+      ],
+      "answer": 2,
+      "explanation": "Go-around: simultaneously pitch for climb attitude and apply full power, turn off carb heat, retract flaps incrementally per POH (not all at once), then establish Vy climb speed.",
+      "ref": "AFH Ch.8; ACS Task X.I"
+    },
+    {
+      "id": "man-013",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "During S-turns across a road when should the wings be level?",
+      "choices": [
+        "Only at the initial entry point",
+        "Each time the aircraft crosses the reference line (the road)",
+        "Only when heading directly upwind",
+        "Only at the midpoint of each semi-circle"
+      ],
+      "answer": 1,
+      "explanation": "Wings must be level each time the aircraft crosses the reference road. Immediately after crossing the bank increases to its steepest (downwind side) then progressively decreases as the aircraft turns upwind.",
+      "ref": "AFH Ch.6"
+    },
+    {
+      "id": "man-014",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "Load factor at 45 degrees bank and effect on stall speed?",
+      "choices": [
+        "1.0g \u2014 no effect on stall speed",
+        "1.41g \u2014 stall speed increases by approximately 19 percent",
+        "2.0g \u2014 stall speed doubles",
+        "1.41g \u2014 stall speed increases by approximately 41 percent"
+      ],
+      "answer": 1,
+      "explanation": "Load factor at 45 degrees = 1 divided by cosine of 45 = 1.41g. Stall speed increases by the square root of 1.41 which is approximately 1.19 \u2014 about a 19 percent increase. At 60 degrees: LF = 2.0g, stall speed +41%.",
+      "ref": "PHAK Ch.4"
+    },
+    {
+      "id": "man-015",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "Why does slow flight require more right rudder than cruise flight?",
+      "choices": [
+        "The rudder is physically less effective at slow airspeeds",
+        "P-factor, torque, and spiraling slipstream all increase at high angle of attack and low airspeed causing a left-turning tendency that must be countered",
+        "The aileron takes over rudder function at slow speed",
+        "More rudder is simply needed for coordination at any slow speed"
+      ],
+      "answer": 1,
+      "explanation": "The four left-turning tendencies (P-factor, torque, spiraling slipstream, gyroscopic precession) are most pronounced at high angle of attack and low airspeed \u2014 exactly slow flight conditions. Right rudder counters these forces.",
+      "ref": "PHAK Ch.5"
+    },
+    {
+      "id": "man-016",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "First action after an engine failure in flight?",
+      "choices": [
+        "Declare an emergency on 121.5 MHz",
+        "Attempt engine restart immediately using the emergency checklist",
+        "Establish best glide speed (Vg or Vbg) immediately to maximize gliding range",
+        "Identify and turn toward the nearest airport"
+      ],
+      "answer": 2,
+      "explanation": "First priority: establish best glide speed immediately to maximize gliding range and time available. Then: choose a landing site, run the restart checklist, communicate (squawk 7700, 121.5 MHz), and prepare for off-airport landing.",
+      "ref": "ACS Task XII; AFH Ch.17"
+    },
+    {
+      "id": "man-017",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What is ground effect and how does it benefit soft field takeoff?",
+      "choices": [
+        "Friction of the wheels on the runway surface",
+        "Reduction of induced drag when flying within approximately one wingspan height AGL \u2014 allows acceleration to Vy in the reduced-drag environment",
+        "Effect of crosswind components near the surface",
+        "Turbulence created by heated ground on warm days"
+      ],
+      "answer": 1,
+      "explanation": "Ground effect within approximately one wingspan height AGL reduces induced drag up to 50 percent. In a soft field takeoff, the aircraft stays in ground effect to accelerate to Vy before climbing away.",
+      "ref": "PHAK Ch.5; AFH Ch.8"
+    },
+    {
+      "id": "man-018",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "Forward slip is used for what purpose?",
+      "choices": [
+        "Increasing airspeed on final approach",
+        "Rapidly losing altitude without increasing airspeed \u2014 useful when overshooting the glidepath or landing without flaps",
+        "Correcting for crosswind during landing \u2014 same as a sideslip",
+        "Increasing lift during short field operations"
+      ],
+      "answer": 1,
+      "explanation": "A forward slip creates significant drag through cross-controlling (aileron deflection and opposite rudder), which bleeds altitude without increasing airspeed. Useful when overshooting or when flaps are unavailable.",
+      "ref": "AFH Ch.8"
+    },
+    {
+      "id": "man-019",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "Crosswind landing using the wing-low (sideslip) technique \u2014 correct control inputs?",
+      "choices": [
+        "Into-wind aileron plus opposite downwind rudder to align the nose with the runway",
+        "Opposite aileron (upwind) plus opposite rudder \u2014 both away from wind",
+        "Both aileron and rudder input into the wind simultaneously",
+        "Crab into the wind throughout and remove the crab just before touchdown"
+      ],
+      "answer": 0,
+      "explanation": "Wing-low (sideslip): apply into-wind aileron (upwind wing drops slightly) plus downwind rudder (to align nose with runway centerline). The upwind main gear touches down first.",
+      "ref": "AFH Ch.8"
+    },
+    {
+      "id": "man-020",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 4,
+      "q": "The aircraft ahead executes a go-around. Their vortices drift across your flight path at your altitude on final. Best action?",
+      "choices": [
+        "Continue the approach \u2014 wake turbulence only affects aircraft directly below",
+        "Stay on centerline \u2014 vortices dissipate within 30 seconds",
+        "Execute a go-around or fly on the upwind side of the runway centerline to avoid the descending and drifting vortices",
+        "Increase airspeed to fly through the wake turbulence zone quickly"
+      ],
+      "answer": 2,
+      "explanation": "Wake vortices sink at 400 to 500 fpm and drift downwind. If a preceding aircraft goes around ahead of you, their vortices are at approximately your altitude and drifting. Go-around or fly the upwind side of their track.",
+      "ref": "AIM 7-3-5"
+    },
+    {
+      "id": "man-021",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the base-to-final stall and what causes it?",
+      "choices": [
+        "A stall caused by excessive speed on final approach",
+        "An accelerated stall caused by excessive bank, back pressure, and skidding turn when overshooting the centerline at low altitude",
+        "A stall caused by flap deployment on final",
+        "A stall caused by flying too slow on the base leg"
+      ],
+      "answer": 1,
+      "explanation": "The base-to-final stall occurs when overshooting the centerline causes the pilot to add back pressure and skid the turn with outside rudder rather than increasing bank. This creates an accelerated stall at very low altitude.",
+      "ref": "AFH Ch.8; PHAK Ch.4"
+    },
+    {
+      "id": "man-022",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What is a secondary stall?",
+      "choices": [
+        "A stall that occurs on the second attempt at landing",
+        "A stall during recovery from the initial stall when the pilot pulls back too aggressively before sufficient airspeed is regained",
+        "A stall in the traffic pattern below 600 ft AGL",
+        "A stall caused by ice accumulation on the wings"
+      ],
+      "answer": 1,
+      "explanation": "A secondary stall occurs during recovery from an initial stall when back pressure is applied too aggressively before adequate airspeed returns, again exceeding the critical angle of attack.",
+      "ref": "AFH Ch.4"
+    },
+    {
+      "id": "man-023",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is wake turbulence and what generates it?",
+      "choices": [
+        "Engine exhaust turbulence trailing behind the aircraft",
+        "Wingtip vortices generated whenever a wing produces lift \u2014 counter-rotating vortices trailing behind the aircraft",
+        "Propwash from large propeller-driven aircraft",
+        "Jet blast from jet engines at low power settings"
+      ],
+      "answer": 1,
+      "explanation": "Wake turbulence is generated by the production of lift. High pressure air beneath the wing rolls around the wingtip to low pressure above, creating counter-rotating vortices. Heaviest aircraft at slowest speed produces the worst wake.",
+      "ref": "AIM 7-3-2"
+    },
+    {
+      "id": "man-024",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "ACS heading tolerance during straight-and-level flight?",
+      "choices": [
+        "plus or minus 5 degrees",
+        "plus or minus 10 degrees",
+        "plus or minus 15 degrees",
+        "plus or minus 20 degrees"
+      ],
+      "answer": 1,
+      "explanation": "ACS Task V.A: Straight-and-level flight tolerance is heading plus or minus 10 degrees, altitude plus or minus 100 ft, and airspeed plus or minus 10 kts.",
+      "ref": "ACS FAA-S-ACS-6 Task V.A"
+    },
+    {
+      "id": "man-025",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "During an emergency landing off-airport what radio and transponder actions should be taken?",
+      "choices": [
+        "No radio action needed \u2014 focus on flying only",
+        "Squawk 7700 and attempt to contact ATC on 121.5 MHz while continuing to fly the aircraft",
+        "Only contact tower if one is nearby",
+        "File a flight plan on 122.8 MHz"
+      ],
+      "answer": 1,
+      "explanation": "When declaring an emergency: squawk 7700 on the transponder and attempt to contact ATC on 121.5 MHz. Aviate first \u2014 navigate and communicate are secondary priorities.",
+      "ref": "AIM 6-1-1; ACS Task XII"
+    },
+    {
+      "id": "man-026",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "Short field takeoff \u2014 what speed is used for initial climb to clear an obstacle?",
+      "choices": [
+        "Vy \u2014 best rate of climb",
+        "Va \u2014 maneuvering speed",
+        "Vx \u2014 best angle of climb until obstacle is cleared then transition to Vy",
+        "Normal rotation speed plus 10 knots"
+      ],
+      "answer": 2,
+      "explanation": "Short field takeoff: rotate at the POH-specified speed, climb at Vx (best angle) to clear the obstacle, then transition to Vy for the en-route climb. Always use the POH for specific speeds.",
+      "ref": "AFH Ch.8; ACS Task X.E"
+    },
+    {
+      "id": "man-027",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the purpose of the rectangular course ground reference maneuver?",
+      "choices": [
+        "To practice steep turns at altitude",
+        "To simulate flying the airport traffic pattern and practice wind drift correction on straight legs and turns",
+        "To practice navigation using ground references",
+        "To develop proficiency in short field operations"
+      ],
+      "answer": 1,
+      "explanation": "The rectangular course simulates the traffic pattern and develops the pilot's ability to make proper wind drift corrections on straight legs and coordinate turns of varying bank to maintain a rectangular ground track.",
+      "ref": "AFH Ch.6; ACS Task VII.A"
+    },
+    {
+      "id": "man-028",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "How high AGL should ground reference maneuvers generally be performed?",
+      "choices": [
+        "300 to 500 ft AGL",
+        "600 to 1000 ft AGL",
+        "1500 to 2000 ft AGL",
+        "2500 to 3000 ft AGL"
+      ],
+      "answer": 1,
+      "explanation": "ACS and AFH specify ground reference maneuvers should be performed at 600 to 1000 ft AGL. This provides adequate safety margin while keeping the aircraft close enough to observe ground references clearly.",
+      "ref": "AFH Ch.6; ACS Task VII"
+    },
+    {
+      "id": "man-029",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What speed should be established immediately after an engine failure?",
+      "choices": [
+        "Vx \u2014 best angle of climb to reach the nearest airport",
+        "Best glide speed (Vg or Vbg) to maximize gliding range and time available",
+        "Vy \u2014 best rate of climb speed",
+        "Va \u2014 maneuvering speed to protect the airframe"
+      ],
+      "answer": 1,
+      "explanation": "Immediately establish best glide speed. In most small aircraft this is listed in the POH. It provides the maximum gliding distance for the altitude available.",
+      "ref": "AFH Ch.17; ACS Task XII"
+    },
+    {
+      "id": "man-030",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "During a power-on departure stall why is right rudder critical?",
+      "choices": [
+        "Right rudder is not needed during departure stalls",
+        "At high power and high angle of attack, left-turning tendencies (P-factor, torque, slipstream) are at maximum and must be countered aggressively to prevent a snap roll or spin entry",
+        "Right rudder prevents the flaps from extending asymmetrically",
+        "Right rudder helps the aircraft climb at Vx during recovery"
+      ],
+      "answer": 1,
+      "explanation": "During power-on stalls at high angle of attack and full power, all four left-turning tendencies are at maximum strength. Without aggressive right rudder, the aircraft may snap left and enter an incipient spin \u2014 extremely dangerous at low altitude.",
+      "ref": "AFH Ch.4; PHAK Ch.5"
+    },
+    {
+      "id": "man-031",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is Va (maneuvering speed) and why does it change with aircraft weight?",
+      "choices": [
+        "Va is the maximum structural cruising speed \u2014 never changes",
+        "Va is the maximum speed at which full or abrupt application of any single flight control will not cause structural damage. Va decreases as weight decreases because a lighter aircraft develops less lift per unit deflection and stalls sooner, protecting the structure.",
+        "Va is the best glide speed \u2014 constant at all weights",
+        "Va is the flap extension speed \u2014 changes with altitude"
+      ],
+      "answer": 1,
+      "explanation": "Va (maneuvering speed) is the maximum speed at which full deflection of a single flight control will not overstress the aircraft (the aircraft will stall before exceeding limit load). Va decreases as weight decreases \u2014 a lighter aircraft stalls more easily providing structural protection. Always use the POH Va for current aircraft weight.",
+      "ref": "PHAK Ch.4; POH"
+    },
+    {
+      "id": "man-032",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "During steep turns, why does the nose tend to drop and what is the corrective action?",
+      "choices": [
+        "The nose drops because of carburetor ice \u2014 apply carb heat",
+        "The nose drops because the increased load factor (1.41g at 45 degrees) requires increased lift, which means increased back pressure on the elevator is needed throughout the turn. As bank increases, more back pressure is required.",
+        "The nose drops due to propeller torque in turns",
+        "The nose drops because of compass precession errors"
+      ],
+      "answer": 1,
+      "explanation": "In a steep turn, the increased load factor (1.41g at 45 degrees) means the aircraft requires more lift than in level flight. This increased lift requirement must be provided by increasing angle of attack through back pressure on the elevator. If back pressure is not maintained, the nose will drop and altitude will be lost.",
+      "ref": "PHAK Ch.4; AFH Ch.8"
+    },
+    {
+      "id": "man-033",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the purpose of performing clearing turns before beginning a maneuver?",
+      "choices": [
+        "Clearing turns warm up the engine before high-power maneuvers",
+        "Clearing turns are 90-degree or 180-degree turns performed before practicing maneuvers to clear the area of other aircraft \u2014 standard practice before any slow flight, stall, or steep turn",
+        "Clearing turns reset the heading indicator",
+        "Clearing turns are required by the ACS in all maneuvers"
+      ],
+      "answer": 1,
+      "explanation": "Clearing turns (typically two 90-degree turns or one 180-degree turn) are performed before any maneuver that diverts attention from outside (steep turns, slow flight, stalls). They allow the pilot to visually clear the practice area of other traffic. This is standard safe practice and expected during the checkride.",
+      "ref": "AFH Ch.3"
+    },
+    {
+      "id": "man-034",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What is an accelerated stall and how is it different from a power-off stall?",
+      "choices": [
+        "An accelerated stall only occurs at very high airspeeds",
+        "An accelerated stall occurs when the critical angle of attack is exceeded while the aircraft is in a banked or maneuvering condition \u2014 the stall can occur at speeds significantly above the normal stall speed due to the increased load factor from the maneuver",
+        "An accelerated stall is a stall caused by sudden power application",
+        "An accelerated stall only affects high-performance aircraft"
+      ],
+      "answer": 1,
+      "explanation": "An accelerated stall occurs when the critical angle of attack is reached while the aircraft is under increased load factor (in a turn, pull-up, etc.). Because load factor increases the stall speed (Vs x sqrt(LF)), an accelerated stall can occur at airspeeds well above the normal Vs. The base-to-final stall is a classic example.",
+      "ref": "PHAK Ch.4"
+    },
+    {
+      "id": "man-035",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the proper technique for establishing and maintaining slow flight?",
+      "choices": [
+        "Reduce power to idle and maintain level flight",
+        "Gradually reduce power while maintaining altitude with increasing back pressure, extend flaps as needed, add right rudder to counteract left-turning tendencies. Establish at a speed 5-10 kts above stall. Maintain altitude with back pressure and power adjustments.",
+        "Reduce power suddenly and immediately add full flaps",
+        "Slow flight is only practiced at altitude, not in the traffic pattern"
+      ],
+      "answer": 1,
+      "explanation": "Slow flight setup: gradually reduce power while maintaining altitude with back pressure, add flaps incrementally, add right rudder to compensate for increased left-turning tendencies at high AoA. Establish and maintain flight at 5-10 kts above stall speed. The aircraft should be responsive to all controls (not in a mushing condition).",
+      "ref": "AFH Ch.4; ACS Task VIII.C"
+    },
+    {
+      "id": "man-036",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "During a power-on stall (departure stall), what control input is most critical to prevent an incipient spin?",
+      "choices": [
+        "Elevator \u2014 maintain back pressure throughout",
+        "Aileron \u2014 use aileron to keep wings level",
+        "Rudder \u2014 aggressive right rudder to counteract left-turning tendencies at full power and high AoA. A wing drop during the stall must be corrected with rudder, not aileron.",
+        "Throttle \u2014 reduce power at first stall indication"
+      ],
+      "answer": 2,
+      "explanation": "During power-on stalls, all four left-turning tendencies are at maximum intensity. Aggressive right rudder is critical to keep the ball centered and prevent a wing from dropping. If a wing drops during the stall, use opposite RUDDER (not aileron) to raise it \u2014 aileron input during a stall can aggravate a spin.",
+      "ref": "AFH Ch.4; PHAK Ch.5"
+    },
+    {
+      "id": "man-037",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the standard traffic pattern altitude for propeller-driven aircraft at an airport without a published pattern altitude?",
+      "choices": [
+        "500 ft AGL",
+        "800 ft AGL",
+        "1000 ft AGL",
+        "1500 ft AGL"
+      ],
+      "answer": 2,
+      "explanation": "The standard traffic pattern altitude for propeller-driven aircraft is 1000 ft AGL unless otherwise specified in the Chart Supplement or by NOTAMs. Turbine-powered aircraft typically fly 1500 ft AGL. Pattern altitudes may vary and should always be checked in the Chart Supplement.",
+      "ref": "AIM 4-3-3"
+    },
+    {
+      "id": "man-038",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the proper scanning technique to detect other aircraft in VFR conditions?",
+      "choices": [
+        "Continuous sweep from left to right at a steady speed",
+        "Systematic sectional scanning \u2014 divide the field of view into segments of 10-15 degrees and pause briefly on each sector. The eye detects movement and change best when not sweeping continuously. Also check different vertical levels.",
+        "Only scan the final approach corridor",
+        "Use TCAS alerts only \u2014 visual scanning is not effective"
+      ],
+      "answer": 1,
+      "explanation": "The most effective collision avoidance technique is systematic sectional scanning. Divide the visual field into 10-15 degree segments and pause momentarily on each. The eye detects movement/contrast changes most effectively when paused. Continuous sweeping reduces detection ability. Also look high and low, not just level.",
+      "ref": "AIM 8-1-6"
+    },
+    {
+      "id": "man-039",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What is the effect of carburetor ice on engine operation and how is it recognized?",
+      "choices": [
+        "Carb ice increases engine roughness and power but does not affect RPM",
+        "Carb ice causes a gradual unexplained decrease in RPM (fixed-pitch prop) or manifold pressure (constant-speed prop), often accompanied by engine roughness. In severe cases, the engine may quit entirely.",
+        "Carb ice causes the fuel gauge to drop rapidly",
+        "Carb ice only affects magneto-driven engines"
+      ],
+      "answer": 1,
+      "explanation": "Carburetor ice restricts airflow through the carburetor, leaning the mixture and reducing engine power. Symptoms: gradual decrease in RPM (fixed-pitch) or manifold pressure (constant-speed), possible roughness. Apply full carb heat \u2014 expect further RPM drop as ice melts and enrichens mixture, then smooth RPM increase as ice clears.",
+      "ref": "PHAK Ch.7"
+    },
+    {
+      "id": "man-040",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "During a normal approach and landing, what is the purpose of the final flap extension?",
+      "choices": [
+        "Final flap extension increases airspeed for safety",
+        "Final flap extension increases drag and lift, allowing a steeper approach path at a slower airspeed \u2014 reduces the landing roll and allows precise glidepath control",
+        "Final flap extension is only for short field landings",
+        "Full flaps are never used in normal landings"
+      ],
+      "answer": 1,
+      "explanation": "Extending flaps (particularly the final increment) on final approach increases both lift and drag. This allows the aircraft to maintain a steeper glidepath at a slower approach speed, reducing float over the runway and landing roll. The specific flap setting and approach speed are determined by the POH.",
+      "ref": "AFH Ch.8; PHAK Ch.5"
+    },
+    {
+      "id": "man-041",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is Va (maneuvering speed) and how should it be used in turbulence?",
+      "choices": [
+        "Maximum flap extension speed",
+        "Design maneuvering speed \u2014 at or below Va, full deflection of a single control will not overstress the airframe; slow to Va or below in turbulence",
+        "Minimum control airspeed",
+        "Best glide speed for emergencies"
+      ],
+      "answer": 1,
+      "explanation": "Va is the design maneuvering speed. At or below Va, a full deflection of one control surface will not overstress the airframe \u2014 the aircraft stalls before structural damage occurs. In turbulence, reduce to Va. Note: Va decreases as weight decreases.",
+      "ref": "PHAK Ch.11; POH"
+    },
+    {
+      "id": "man-042",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is Vfe (flap extension speed) and why is it important?",
+      "choices": [
+        "The speed at which flaps must be extended on all approaches",
+        "Maximum speed at which flaps may be extended \u2014 exceeding Vfe can damage the flap mechanism; indicated by top of white arc on ASI",
+        "Minimum speed for flap extension",
+        "Optimal speed for short field landings"
+      ],
+      "answer": 1,
+      "explanation": "Vfe is the maximum flap extended speed \u2014 the top of the white arc on the airspeed indicator. Extending flaps or flying with flaps extended above Vfe can cause structural damage to the flap system. Always verify airspeed before extending flaps.",
+      "ref": "PHAK Ch.11; POH"
+    },
+    {
+      "id": "man-043",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the normal traffic pattern sequence at a non-towered airport?",
+      "choices": [
+        "Take off, fly direct to final, land",
+        "Upwind, crosswind, downwind, base, final \u2014 left pattern unless right traffic is specified",
+        "Downwind, crosswind, upwind, base, final",
+        "Direct entry to any leg is preferred"
+      ],
+      "answer": 1,
+      "explanation": "Standard traffic pattern: Upwind (parallel to runway in takeoff direction), Crosswind (90-degree turn), Downwind (parallel, opposite landing direction), Base (90-degree turn), Final (aligned with runway). Standard pattern is left-turning unless right traffic is specified.",
+      "ref": "AIM 4-3-3"
+    },
+    {
+      "id": "man-044",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is traffic pattern altitude (TPA) at most airports?",
+      "choices": [
+        "Always 1000 ft AGL",
+        "500 ft AGL",
+        "Typically 1000 ft AGL for piston aircraft; 1500 ft AGL for turbine aircraft; verify in Chart Supplement for specific airport",
+        "2000 ft AGL standard"
+      ],
+      "answer": 2,
+      "explanation": "Standard TPA is 1000 ft AGL for piston aircraft and 1500 ft AGL for turbine aircraft. Some airports have non-standard TPAs due to obstacles, noise abatement, or other factors. Always check the Chart Supplement for each airport's published TPA.",
+      "ref": "AIM 4-3-3; Chart Supplement"
+    },
+    {
+      "id": "man-045",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What is a stabilized approach and why is it critical?",
+      "choices": [
+        "An approach flown by autopilot only",
+        "An approach where the aircraft is on the correct flight path at target airspeed in the correct configuration with stable power by 500 ft AGL \u2014 unstabilized approaches are a leading cause of landing accidents; go-around if not stabilized",
+        "Only required for instrument approaches",
+        "Only required for commercial operations"
+      ],
+      "answer": 1,
+      "explanation": "A stabilized approach requires by 500 ft AGL (VFR): correct glidepath, target airspeed +/-5 kts, landing configuration, stable power. Unstabilized approaches are a leading cause of approach and landing accidents. If not stabilized by the gate, execute a go-around.",
+      "ref": "PHAK Ch.8; AFH Ch.8"
+    },
+    {
+      "id": "man-046",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What two conditions must be present simultaneously for a spin to develop?",
+      "choices": [
+        "High power and low airspeed",
+        "A stalled condition AND a yawing motion (usually from uncoordinated rudder)",
+        "A bank angle exceeding 45 degrees with back pressure",
+        "High altitude and steep descent angle"
+      ],
+      "answer": 1,
+      "explanation": "A spin requires: (1) a stalled wing \u2014 the aircraft must be at or beyond the critical angle of attack, AND (2) a yawing motion \u2014 typically from uncoordinated rudder (skid). The yaw causes one wing to stall more deeply than the other, creating the differential lift that initiates autorotation.",
+      "ref": "PHAK Ch.4; AFH Ch.4"
+    },
+    {
+      "id": "man-047",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What does PARE stand for in spin recovery?",
+      "choices": [
+        "Pull-Altitude-Roll-Exit",
+        "Power-Ailerons-Rudder-Elevator",
+        "Power idle, Ailerons neutral, Rudder full opposite to spin direction, Elevator forward to break the stall",
+        "Pitch-Airspeed-Recovery-Exit"
+      ],
+      "answer": 2,
+      "explanation": "PARE spin recovery: Power to idle (prevents worsening spin), Ailerons neutralized (ailerons can worsen spin), Rudder full opposite to rotation direction (stops autorotation), Elevator briskly forward (breaks the stall). Once rotation stops: neutralize rudder, recover from dive smoothly.",
+      "ref": "AFH Ch.4; ACS VII.D"
+    },
+    {
+      "id": "man-048",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "Why should ailerons be neutralized rather than applied into the spin during spin recovery?",
+      "choices": [
+        "Aileron application is not possible during a spin due to airflow",
+        "In some aircraft configurations, applying aileron into or away from the spin can increase the rate of rotation or aggravate the spin \u2014 PARE requires neutral ailerons to avoid this risk",
+        "Ailerons have no effect during a spin in any phase",
+        "Ailerons must be applied with the spin to maintain coordination"
+      ],
+      "answer": 1,
+      "explanation": "During a spin, the aerodynamic effects of aileron deflection are different from normal flight. In some aircraft, applying aileron can increase the rate of rotation (pro-spin). PARE specifies neutral ailerons to eliminate this variable. Rudder is the primary control for stopping autorotation; elevator breaks the stall.",
+      "ref": "AFH Ch.4"
+    },
+    {
+      "id": "man-049",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What is the correct sequence for recovering from a nose-low unusual attitude?",
+      "choices": [
+        "Pitch up immediately, then add power, then roll wings level",
+        "Power to idle, roll wings level, then smoothly raise the nose to level flight attitude",
+        "Add full power, apply back pressure, then roll wings level",
+        "Roll into a steep bank to slow the nose-low descent then recover"
+      ],
+      "answer": 1,
+      "explanation": "Nose-low unusual attitude recovery: (1) Power to idle to prevent overspeed, (2) Level the wings (this is critical \u2014 pulling while banked loads the aircraft heavily), (3) Smoothly raise the nose to level. Do NOT pull back before leveling wings or you risk an accelerated stall or Vne exceedance.",
+      "ref": "AFH Ch.12; ACS VIII.E"
+    },
+    {
+      "id": "man-050",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What instruments remain functional when the vacuum system fails in flight?",
+      "choices": [
+        "All six primary flight instruments remain functional",
+        "Only the altimeter remains functional",
+        "Turn coordinator (electric gyro), airspeed indicator, altimeter, and VSI remain functional \u2014 attitude indicator and heading indicator become unreliable",
+        "Only the magnetic compass and altimeter are reliable"
+      ],
+      "answer": 2,
+      "explanation": "Vacuum failure makes the attitude indicator and heading indicator unreliable within minutes. Instruments that still work: turn coordinator (electric gyro), airspeed indicator, altimeter, VSI (all pitot-static or electric), and magnetic compass. Transition to partial panel techniques using these instruments.",
+      "ref": "PHAK Ch.8"
+    },
+    {
+      "id": "man-051",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the correct recovery procedure for a nose-high unusual attitude?",
+      "choices": [
+        "Power to idle, then lower the nose, then roll wings level",
+        "Add full power, roll wings level, then lower the nose to level flight attitude",
+        "Simultaneously add power and push the nose down",
+        "Apply back pressure to prevent further pitch increase, then roll wings level"
+      ],
+      "answer": 1,
+      "explanation": "Nose-high unusual attitude: (1) Add full power (aircraft is decelerating and may be near stall), (2) Level the wings, (3) Lower the nose to level flight attitude. Memory: nose-HIGH = power HIGH. The aircraft needs energy to avoid a stall \u2014 power first, then level, then pitch.",
+      "ref": "AFH Ch.12; ACS VIII.E"
+    },
+    {
+      "id": "man-052",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the purpose of a forward slip to landing?",
+      "choices": [
+        "To increase airspeed on final approach to prevent stall",
+        "To rapidly lose altitude without increasing airspeed \u2014 useful when high on approach with insufficient runway remaining or when flaps are unavailable",
+        "To correct for a crosswind during the final approach \u2014 same as a sideslip",
+        "To increase engine cooling during descent"
+      ],
+      "answer": 1,
+      "explanation": "A forward slip creates significant drag by cross-controlling (opposite aileron and rudder), which bleeds altitude quickly without increasing airspeed. It is useful when overshooting the glidepath or when flaps cannot be used. The nose is pointed to the side while the flight path continues toward the runway.",
+      "ref": "AFH Ch.8; ACS IV.M"
+    },
+    {
+      "id": "man-053",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 3,
+      "q": "What POH limitation must be checked before performing a forward slip with full flaps?",
+      "choices": [
+        "No limitation exists \u2014 forward slips are always permitted with any flap setting",
+        "Check the POH \u2014 some aircraft prohibit slips with certain flap configurations. The Cessna 172 POH notes that forward slips with full flaps may result in a temporary reduction in elevator effectiveness.",
+        "Forward slips are only prohibited without flaps",
+        "The limitation only applies to slips exceeding 30 seconds"
+      ],
+      "answer": 1,
+      "explanation": "POH must always be checked. The Cessna 172 POH notes: 'Forward slips with full flaps and high power settings may result in a tendency for the aircraft to pitch up.' Some aircraft prohibit slips with full flaps. Airspeed indication may also be unreliable during a slip due to pitot tube positioning.",
+      "ref": "POH; AFH Ch.8; ACS IV.M"
+    },
+    {
+      "id": "man-054",
+      "taskIds": [
+        "IV-A"
+      ],
+      "difficulty": 2,
+      "q": "In the wing-low (sideslip) crosswind landing technique, what is the correct control input?",
+      "choices": [
+        "Aileron into the wind and same-direction rudder to align with the runway",
+        "Aileron into the wind (upwind wing drops) and opposite (downwind) rudder to align the nose with the runway centerline",
+        "Both aileron and rudder away from the wind direction",
+        "Crab into the wind throughout and remove at the last moment"
+      ],
+      "answer": 1,
+      "explanation": "Wing-low (sideslip): apply upwind aileron (lowers the upwind wing to prevent drift) and opposite downwind rudder (aligns the nose with the runway). The aircraft touches down on the upwind main gear first with no side load. The ball will be off-center during this maneuver \u2014 this is intentional and correct.",
+      "ref": "AFH Ch.8"
+    }
+  ]
+}

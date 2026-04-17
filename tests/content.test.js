@@ -38,3 +38,44 @@ describe('content.loadManifest', () => {
     await expect(loadManifest('nonexistent')).rejects.toThrow(/No manifest/);
   });
 });
+
+describe('content.loadQuiz', () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it('loads regulations topic with >= 40 questions', async () => {
+    const { loadQuiz } = await import('../src/content.js');
+    const quiz = await loadQuiz('ppl', 'regulations');
+    expect(quiz.topic).toBe('regulations');
+    expect(quiz.questions.length).toBeGreaterThanOrEqual(40);
+  });
+
+  it('every question has required fields across all topics', async () => {
+    const { loadAllQuizTopics } = await import('../src/content.js');
+    const topics = await loadAllQuizTopics('ppl');
+    for (const { topic, data } of topics) {
+      for (const q of data.questions) {
+        expect(q.id, `${topic}: ${q.q}`).toMatch(/^[a-z]+-\d{3}$/);
+        expect(Array.isArray(q.taskIds), `${topic}: ${q.id}`).toBe(true);
+        expect(q.taskIds.every(id => /^[IVX]+-[A-Z]$/.test(id)), `${topic}: ${q.id} taskIds=${JSON.stringify(q.taskIds)}`).toBe(true);
+        expect([1, 2, 3, 4, 5]).toContain(q.difficulty);
+        expect(q.choices.length).toBe(4);
+        expect([0, 1, 2, 3]).toContain(q.answer);
+        expect(q.explanation).toBeTruthy();
+      }
+    }
+  });
+
+  it('loadAllQuizTopics returns all 7 topics with >= 352 questions total', async () => {
+    const { loadAllQuizTopics } = await import('../src/content.js');
+    const topics = await loadAllQuizTopics('ppl');
+    const names = topics.map(t => t.topic).sort();
+    expect(names).toEqual([
+      'aeromedical', 'airspace', 'maneuvers', 'navigation',
+      'regulations', 'systems', 'weather'
+    ]);
+    const total = topics.reduce((sum, t) => sum + t.data.questions.length, 0);
+    expect(total).toBeGreaterThanOrEqual(352);
+  });
+});

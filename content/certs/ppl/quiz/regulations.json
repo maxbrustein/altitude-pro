@@ -1,0 +1,1043 @@
+{
+  "topic": "regulations",
+  "title": "Regulations",
+  "questions": [
+    {
+      "id": "reg-001",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "Minimum age for a Private Pilot Certificate (airplane)?",
+      "choices": [
+        "16",
+        "17",
+        "18",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.103(a): Must be at least 17 years old. Solo privileges require only 16.",
+      "ref": "14 CFR 61.103(a)"
+    },
+    {
+      "id": "reg-002",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "Total flight hours required for PPL under Part 61?",
+      "choices": [
+        "30 hrs",
+        "35 hrs",
+        "40 hrs",
+        "50 hrs"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 61.109(a): Minimum 40 total flight hours. Part 141 approved courses may require as few as 35 hours.",
+      "ref": "14 CFR 61.109(a)"
+    },
+    {
+      "id": "reg-003",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "Bottle-to-throttle minimum time after consuming alcohol?",
+      "choices": [
+        "4 hours",
+        "6 hours",
+        "8 hours",
+        "12 hours"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.17(a)(2): No crewmember may act within 8 hours of consuming alcohol.",
+      "ref": "14 CFR 91.17(a)(2)"
+    },
+    {
+      "id": "reg-004",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "To carry passengers, how many T&Ls in the preceding 90 days?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.107(a)(3): 3 takeoffs and 3 landings within the preceding 90 days in the same category and class.",
+      "ref": "14 CFR 91.107(a)(3)"
+    },
+    {
+      "id": "reg-005",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "AROW \u2014 required aircraft documents on board?",
+      "choices": [
+        "Annual, Radio, Operations, Weight",
+        "Airworthiness, Registration, Operating handbook, Weight and balance",
+        "Altimeter, Registration, Oxygen, W&B",
+        "Airspeed, Routes, Ops plan, Weather"
+      ],
+      "answer": 1,
+      "explanation": "AROW: Airworthiness certificate, Registration, Operating handbook/AFM, Weight and balance data.",
+      "ref": "14 CFR 91.203"
+    },
+    {
+      "id": "reg-006",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "How often must a flight review (BFR) be completed?",
+      "choices": [
+        "Every 12 calendar months",
+        "Every 24 calendar months",
+        "Every 36 calendar months",
+        "Every 6 months"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.56: Flight review required every 24 calendar months \u2014 at least 1 hr ground plus 1 hr flight.",
+      "ref": "14 CFR 61.56"
+    },
+    {
+      "id": "reg-007",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "Maximum airspeed below 10,000 ft MSL?",
+      "choices": [
+        "200 KIAS",
+        "250 KIAS",
+        "300 KIAS",
+        "No limit"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.117(a): No more than 250 KIAS below 10,000 ft MSL.",
+      "ref": "14 CFR 91.117(a)"
+    },
+    {
+      "id": "reg-008",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "Solo flight hours required in the make/model within 60 days of checkride?",
+      "choices": [
+        "1 hour",
+        "3 hours",
+        "5 hours",
+        "10 hours"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.109(a)(6): At least 3 hours of solo flight in the make and model within 60 days preceding the practical test.",
+      "ref": "14 CFR 61.109(a)(6)"
+    },
+    {
+      "id": "reg-009",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Documents a pilot must carry when acting as PIC?",
+      "choices": [
+        "Certificate and logbook",
+        "Pilot certificate, valid medical, government-issued photo ID",
+        "Medical only",
+        "Certificate and endorsements"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.3: Pilot certificate, valid medical certificate or BasicMed, and government-issued photo ID.",
+      "ref": "14 CFR 61.3"
+    },
+    {
+      "id": "reg-010",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Maximum BAC allowed when acting as crewmember?",
+      "choices": [
+        "0.02%",
+        "0.04%",
+        "0.06%",
+        "0.08%"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.17(a)(4): Blood alcohol concentration must be less than 0.04 percent.",
+      "ref": "14 CFR 91.17(a)(4)"
+    },
+    {
+      "id": "reg-011",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Expense sharing with passengers \u2014 what must the pilot pay at minimum?",
+      "choices": [
+        "100% of costs",
+        "Their equal pro-rata share",
+        "Up to 50% only",
+        "Any amount"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.113(b): Pilot must pay at least their equal share. With 3 passengers, each person pays one-quarter.",
+      "ref": "14 CFR 61.113(b)"
+    },
+    {
+      "id": "reg-012",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "3rd-class medical validity for a 38-year-old pilot?",
+      "choices": [
+        "12 months",
+        "24 months",
+        "36 months",
+        "60 months"
+      ],
+      "answer": 3,
+      "explanation": "14 CFR 61.23(d): 3rd-class medical valid 60 calendar months for pilots under 40; 24 months for pilots 40 and older.",
+      "ref": "14 CFR 61.23(d)"
+    },
+    {
+      "id": "reg-013",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Required solo cross-country total distance for PPL?",
+      "choices": [
+        "50 nm",
+        "100 nm",
+        "150 nm",
+        "200 nm"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 61.109(a)(5): Solo XC must be at least 150 nm total, full-stop at 3 or more points, one leg 50 nm or more.",
+      "ref": "14 CFR 61.109(a)(5)"
+    },
+    {
+      "id": "reg-014",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Night currency time window for carrying passengers?",
+      "choices": [
+        "Sunset to sunrise",
+        "1 hour after sunset to 1 hour before sunrise",
+        "30 minutes after sunset to 30 minutes before sunrise",
+        "Any darkness"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.107(a)(3)(ii): Night period is defined as 1 hour after sunset to 1 hour before sunrise.",
+      "ref": "14 CFR 91.107(a)(3)(ii)"
+    },
+    {
+      "id": "reg-015",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Annual inspection completed March 15 \u2014 when does it expire?",
+      "choices": [
+        "March 15 next year",
+        "March 31 next year",
+        "March 14 next year",
+        "12 months to the day"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.409: Expires at the end of the 12th calendar month \u2014 March 31 of the following year.",
+      "ref": "14 CFR 91.409"
+    },
+    {
+      "id": "reg-016",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Who is responsible for determining aircraft airworthiness per 91.7?",
+      "choices": [
+        "A&P mechanic",
+        "FAA inspector",
+        "Pilot in command",
+        "Aircraft owner"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.7(b): The PIC is responsible for determining whether the aircraft is in condition for safe flight.",
+      "ref": "14 CFR 91.7(b)"
+    },
+    {
+      "id": "reg-017",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Minimum altitude over a congested area?",
+      "choices": [
+        "500 ft above highest obstacle within 2000 ft",
+        "1000 ft above highest obstacle within 2000 ft horizontal",
+        "500 ft AGL",
+        "1500 ft MSL"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.119(b): Over congested areas, 1000 ft above the highest obstacle within a 2000 ft horizontal radius.",
+      "ref": "14 CFR 91.119(b)"
+    },
+    {
+      "id": "reg-018",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Special VFR minimum visibility in Class D airspace?",
+      "choices": [
+        "1/2 SM",
+        "1 SM",
+        "3 SM",
+        "Clear of clouds only"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.157: Special VFR clearances require at least 1 statute mile flight visibility and clear of clouds.",
+      "ref": "14 CFR 91.157"
+    },
+    {
+      "id": "reg-019",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Night defined for logging flight time (14 CFR 61.51)?",
+      "choices": [
+        "Sunset to sunrise",
+        "End of evening civil twilight to beginning of morning civil twilight",
+        "1 hour after sunset to 1 hour before sunrise",
+        "Any reduced-visibility time"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.51(b)(3)(i): Night equals end of evening civil twilight to beginning of morning civil twilight.",
+      "ref": "14 CFR 61.51(b)(3)(i)"
+    },
+    {
+      "id": "reg-020",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "When overtaking another aircraft, which side do you pass on?",
+      "choices": [
+        "Left",
+        "Right",
+        "Either side",
+        "Above only"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.113(f): The overtaking aircraft alters course to the RIGHT to pass well clear.",
+      "ref": "14 CFR 91.113(f)"
+    },
+    {
+      "id": "reg-021",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Two aircraft converging at same altitude \u2014 who has right of way?",
+      "choices": [
+        "Aircraft on the left",
+        "Aircraft on the right",
+        "Faster aircraft",
+        "Higher aircraft"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.113(d): When aircraft converge, the aircraft on the RIGHT has right-of-way.",
+      "ref": "14 CFR 91.113(d)"
+    },
+    {
+      "id": "reg-022",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Right-of-way hierarchy \u2014 balloon vs glider vs powered aircraft?",
+      "choices": [
+        "Powered over glider over balloon",
+        "Balloon over glider over powered",
+        "Glider over balloon over powered",
+        "All equal"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.113(b): After aircraft in distress, order is balloon, glider, airship, aircraft towing, then powered aircraft.",
+      "ref": "14 CFR 91.113(b)"
+    },
+    {
+      "id": "reg-023",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "Inoperative transponder discovered before flight \u2014 conditions for legal departure?",
+      "choices": [
+        "Never legal",
+        "Only in VFR conditions",
+        "With ATC authorization, avoiding airspace requiring transponder",
+        "Only at night"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.215(d): ATC may authorize a deviation. Flight must avoid Class A, B, C airspace and the Mode C veil.",
+      "ref": "14 CFR 91.215(d)"
+    },
+    {
+      "id": "reg-024",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "Required IFR inspections beyond the annual (most complete)?",
+      "choices": [
+        "Annual only",
+        "Annual plus 100-hour",
+        "Annual plus altimeter/static 24 mo, transponder 24 mo, VOR 30 days",
+        "Annual and ELT only"
+      ],
+      "answer": 2,
+      "explanation": "For IFR: altimeter/pitot-static (91.411, 24 cal months), transponder (91.413, 24 cal months), VOR check (91.171, 30 days).",
+      "ref": "14 CFR 91.411, 91.413, 91.171"
+    },
+    {
+      "id": "reg-025",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "Process for flying with inoperative equipment under 91.213 with no MEL?",
+      "choices": [
+        "Cannot fly until repaired",
+        "Automatically grounded",
+        "Verify not required by type cert or ops rules, deactivate, placard INOP, mechanic confirms safe",
+        "Owner must approve"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.213: If not required by type certificate or operating rules, deactivate, placard INOP, and a certificated mechanic determines no safety impact.",
+      "ref": "14 CFR 91.213"
+    },
+    {
+      "id": "reg-026",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "Student pilot solo XC \u2014 what endorsements are required?",
+      "choices": [
+        "Logbook only",
+        "Student pilot certificate only",
+        "Both logbook AND certificate endorsement for specific route or area",
+        "None if solo sign-off exists"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 61.93: Requires both a logbook endorsement and a student pilot certificate endorsement for the make, model, and route.",
+      "ref": "14 CFR 61.93"
+    },
+    {
+      "id": "reg-027",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "PIC authority to deviate from FARs in an emergency?",
+      "choices": [
+        "Must comply at all times",
+        "May deviate as necessary; submit report to FAA if requested",
+        "May deviate only from weather minimums",
+        "Must get ATC approval first"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.3(b): In an emergency, PIC may deviate from any FAR to the extent necessary. Written report may be required.",
+      "ref": "14 CFR 91.3(b)"
+    },
+    {
+      "id": "reg-028",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "An AD requires action within 50 flight hours; you are at 48 hours. When must you comply?",
+      "choices": [
+        "At next annual",
+        "Within next 2 flight hours",
+        "Already past the limit",
+        "Within 6 months regardless"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 39: ADs are legally enforceable. Must comply before reaching the 50-hour threshold \u2014 within the next 2 flight hours.",
+      "ref": "14 CFR 39"
+    },
+    {
+      "id": "reg-029",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "Presidential TFR under 91.141 \u2014 inner ring restriction?",
+      "choices": [
+        "All flights within 100 nm",
+        "All civilian flight; outer ring requires ATC coordination",
+        "Only IFR flights",
+        "Commercial flights only"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.141: Inner ring (typically 10 nm, surface to FL180) prohibits civilian flight. Outer ring (30 nm) requires ATC coordination.",
+      "ref": "14 CFR 91.141"
+    },
+    {
+      "id": "reg-030",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 4,
+      "q": "ATC issues an instruction you believe would create a safety hazard. Your authority?",
+      "choices": [
+        "Must comply \u2014 ATC has final authority",
+        "Must comply unless you declare an emergency first",
+        "You have final authority under 91.3; may deviate and notify ATC",
+        "Ask for a supervisor on frequency"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.3(a): The PIC is the final authority regarding the operation of the aircraft. In an emergency, 91.3(b) allows deviation from any rule.",
+      "ref": "14 CFR 91.3"
+    },
+    {
+      "id": "reg-031",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Under 14 CFR 91.409, a 100-hour inspection is required for aircraft used for what purpose?",
+      "choices": [
+        "Any aircraft flown for personal use",
+        "Aircraft used to carry persons for hire or flight instruction for hire",
+        "All certificated aircraft regardless of use",
+        "Aircraft over 10 years old"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.409(b): A 100-hour inspection is required for aircraft used to carry persons for hire or used for flight instruction for hire. It is in addition to, not a replacement for, the annual inspection.",
+      "ref": "14 CFR 91.409(b)"
+    },
+    {
+      "id": "reg-032",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Can a 100-hour inspection be exceeded? If so, by how much?",
+      "choices": [
+        "No \u2014 never exceed 100-hour limit",
+        "Yes \u2014 up to 10 hours to fly to a location where the inspection can be performed",
+        "Yes \u2014 up to 5 hours to fly to a location where the inspection can be performed",
+        "Yes \u2014 any amount if the pilot accepts responsibility"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.409(b): The 100-hour limitation may be exceeded by not more than 10 hours if necessary to fly the aircraft to a place where the inspection can be done. The excess time must be included in computing the next 100 hours.",
+      "ref": "14 CFR 91.409(b)"
+    },
+    {
+      "id": "reg-033",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "A pilot flies an aircraft that requires a type rating without holding that type rating. What regulation applies?",
+      "choices": [
+        "14 CFR 61.31 \u2014 a type rating is required to act as PIC of certain large aircraft, turbojet-powered aircraft, or as specified by the FAA",
+        "14 CFR 91.7 \u2014 only airworthiness matters",
+        "No regulation \u2014 type ratings are optional",
+        "14 CFR 61.56 \u2014 only the flight review matters"
+      ],
+      "answer": 0,
+      "explanation": "14 CFR 61.31: Type ratings are required for aircraft over 12,500 lbs MGTOW, turbojet-powered aircraft, and other specific aircraft designated by the FAA. Operating without the required type rating is a certificate action offense.",
+      "ref": "14 CFR 61.31"
+    },
+    {
+      "id": "reg-034",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the minimum visibility and ceiling for a student pilot to conduct a solo cross-country flight?",
+      "choices": [
+        "3 SM and 1000 ft ceiling",
+        "The visibility and ceiling must meet VFR minimums for the airspace AND meet the instructor-set personal minimums in the student's logbook endorsement",
+        "Only VFR minimums apply \u2014 same as any VFR pilot",
+        "5 SM and 3000 ft ceiling"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.93 and 61.87: The flight instructor must provide a solo XC endorsement and may set specific weather minimums in the endorsement. The student may not fly if conditions are below either VFR minimums OR the instructor's stated minimums.",
+      "ref": "14 CFR 61.93; 61.87"
+    },
+    {
+      "id": "reg-035",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "What does BasicMed allow a private pilot to do that a regular 3rd-class medical does not simplify?",
+      "choices": [
+        "Allows flying without any medical review",
+        "Allows private pilots to act as PIC using a regular medical examination by any state-licensed physician rather than an FAA Aviation Medical Examiner \u2014 valid 48 months",
+        "Allows instrument flight without any medical",
+        "Replaces the need for a flight review"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.23 and AC 68-1: BasicMed allows pilots to get a medical examination from any state-licensed physician (not necessarily an AME). The exam is valid 48 calendar months and requires completion of an online course every 24 months.",
+      "ref": "14 CFR 61.23; AC 68-1"
+    },
+    {
+      "id": "reg-036",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "A pilot has a student pilot certificate. What endorsement is needed before the first solo flight?",
+      "choices": [
+        "No endorsement needed \u2014 certificate is sufficient",
+        "An endorsement in the student's logbook from their instructor authorizing solo flight in a specific make and model of aircraft",
+        "Only a medical certificate is required",
+        "A written test must be passed first"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.87(n): Before solo flight, a student pilot must have an instructor endorsement in their logbook that specifically authorizes solo in the make and model of aircraft to be flown.",
+      "ref": "14 CFR 61.87(n)"
+    },
+    {
+      "id": "reg-037",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "When is a pre-solo written test required and who administers it?",
+      "choices": [
+        "Never \u2014 practical evaluation only",
+        "Before the first solo flight \u2014 the student must pass a written test on the applicable regulations and the flight characteristics of the aircraft, administered and graded by the student's instructor",
+        "Only before the checkride",
+        "Only if the student fails the initial oral evaluation"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.87(b): Before solo flight, an instructor must administer and grade a written test covering Part 91 rules applicable to student solo flight and the flight characteristics and limitations of the aircraft.",
+      "ref": "14 CFR 61.87(b)"
+    },
+    {
+      "id": "reg-038",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Under 14 CFR 91.111, a pilot must not operate so close to another aircraft as to create what?",
+      "choices": [
+        "Any possibility of contact",
+        "A collision hazard",
+        "Turbulence that affects the other aircraft",
+        "Noise in excess of EPA limits"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.111(a): No person may operate an aircraft so close to another aircraft as to create a collision hazard.",
+      "ref": "14 CFR 91.111(a)"
+    },
+    {
+      "id": "reg-039",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What does 14 CFR 91.151 require regarding VFR fuel reserves?",
+      "choices": [
+        "Only enough fuel to reach destination",
+        "Day: enough fuel to destination plus 30 minutes at cruise. Night: enough fuel to destination plus 45 minutes at cruise.",
+        "Always carry enough fuel for 1 hour beyond destination",
+        "Fuel reserves are only required for IFR flight"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.151(a): VFR day requires fuel to reach first intended landing plus 30 minutes at normal cruise. VFR night requires fuel to reach first intended landing plus 45 minutes at normal cruise.",
+      "ref": "14 CFR 91.151(a)"
+    },
+    {
+      "id": "reg-040",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "What is a logbook endorsement and what is its legal significance?",
+      "choices": [
+        "A social endorsement \u2014 has no legal standing",
+        "A written statement by a certificated flight instructor in the pilot's logbook authorizing specific operations \u2014 legally required for solo, solo XC, and practical tests",
+        "Only required for commercial operations",
+        "Required only after a failed checkride"
+      ],
+      "answer": 1,
+      "explanation": "Endorsements by a CFI in a pilot's logbook carry legal weight under 14 CFR Part 61. They certify that training requirements have been met and authorize specific operations. Missing required endorsements can be grounds for certificate action.",
+      "ref": "14 CFR 61.87; 61.93; 61.39"
+    },
+    {
+      "id": "reg-041",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Under 14 CFR 91.119, what altitude must be maintained over open water or sparsely populated areas?",
+      "choices": [
+        "500 ft AGL at all times",
+        "500 ft above the surface, except when necessary for takeoff and landing",
+        "1000 ft above the highest obstacle within 2000 ft horizontal",
+        "No specific requirement \u2014 pilot judgment applies"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.119(c): Over open water or sparsely populated areas, the pilot must not operate below 500 ft above the surface except when necessary for takeoff or landing.",
+      "ref": "14 CFR 91.119(c)"
+    },
+    {
+      "id": "reg-042",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "What is an ELT and when must its battery be replaced?",
+      "choices": [
+        "Emergency Landing Transponder \u2014 replaced at every annual",
+        "Emergency Locator Transmitter \u2014 battery must be replaced when 50% of its useful life has expired OR after 1 cumulative hour of use, whichever comes first",
+        "Emergency Locator Transmitter \u2014 replaced every 2 years regardless",
+        "ELTs do not have replacement requirements"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.207(c): ELT batteries must be replaced when 50% of their useful life (or useful life of charge) has expired, or after the ELT has been in use for more than 1 cumulative hour. Replacement date must be marked on the outside of the transmitter.",
+      "ref": "14 CFR 91.207(c)"
+    },
+    {
+      "id": "reg-043",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "Which of the following is NOT one of the privileges of a private pilot certificate?",
+      "choices": [
+        "Acting as PIC for pleasure flights",
+        "Carrying passengers for compensation when splitting fuel costs equally",
+        "Acting as PIC on a revenue-generating charter flight",
+        "Flying in Class D airspace with required equipment"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 61.113(a): Private pilots may not act as PIC of an aircraft for compensation or hire. Revenue-generating charter operations require at minimum a commercial pilot certificate.",
+      "ref": "14 CFR 61.113(a)"
+    },
+    {
+      "id": "reg-044",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "What is the difference between a safety pilot and a safety pilot acting as PIC?",
+      "choices": [
+        "There is no difference \u2014 safety pilots are always PIC",
+        "A safety pilot may act as required crewmember (not PIC) when the flying pilot maintains PIC status, OR the safety pilot may be designated PIC before the flight begins \u2014 this affects who must meet currency and medical requirements",
+        "Safety pilots never need to meet any currency requirements",
+        "Safety pilots must always be PIC"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.109(c): A safety pilot must at minimum hold a private certificate and appropriate medical. If the safety pilot is the required PIC, they log PIC time and must be current. If the flying pilot is PIC, they log PIC and the safety pilot logs SIC. This must be agreed upon before flight.",
+      "ref": "14 CFR 91.109(c); 61.51"
+    },
+    {
+      "id": "reg-045",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What does 14 CFR 91.13 prohibit?",
+      "choices": [
+        "Flying faster than Vne",
+        "Operating an aircraft in a careless or reckless manner so as to endanger the life or property of another",
+        "Flying over restricted areas",
+        "Flying at night without position lights"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.13(a): No person may operate an aircraft in a careless or reckless manner so as to endanger the life or property of another person. This is one of the most broadly applicable FARs and covers many unsafe behaviors.",
+      "ref": "14 CFR 91.13(a)"
+    },
+    {
+      "id": "reg-046",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "A pilot receives a Notice to Comply from the FAA regarding an alleged violation. What is the best first step?",
+      "choices": [
+        "Ignore it \u2014 verbal notices have no legal force",
+        "Consult an aviation attorney familiar with FAR enforcement before responding",
+        "Immediately admit fault and accept any penalty",
+        "Report the issue to NTSB"
+      ],
+      "answer": 1,
+      "explanation": "FAA enforcement actions have serious consequences including certificate suspension or revocation. Consulting an aviation attorney (or the AOPA Legal Services Plan) before responding to any FAA violation notice is strongly recommended.",
+      "ref": "FAA Order 2150.3"
+    },
+    {
+      "id": "reg-047",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "What is the minimum flight visibility for VFR flight in Class E airspace below 10,000 ft MSL?",
+      "choices": [
+        "1 SM",
+        "2 SM",
+        "3 SM",
+        "5 SM"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.155: The minimum flight visibility for VFR flight in Class E airspace below 10,000 ft MSL is 3 statute miles.",
+      "ref": "14 CFR 91.155"
+    },
+    {
+      "id": "reg-048",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "When must a pilot report a change of address to the FAA Civil Aviation Registry?",
+      "choices": [
+        "Within 30 days of the address change",
+        "Within 60 days of the address change \u2014 14 CFR 61.60",
+        "Annually when renewing the certificate",
+        "Only when requesting a new certificate"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.60: A certificated pilot must notify the FAA Civil Aviation Registry in Oklahoma City of any change of permanent mailing address within 60 days of the change. Failure to do so renders the certificate invalid for exercising privileges.",
+      "ref": "14 CFR 61.60"
+    },
+    {
+      "id": "reg-049",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "Under what conditions may a private pilot act as PIC of an aircraft for a charitable organization?",
+      "choices": [
+        "Any time the organization is a registered nonprofit",
+        "Only under specific conditions outlined in 14 CFR 61.113(d) \u2014 charity flights operated under a specific FAA exception, typically requiring advance DOT/FAA authorization",
+        "Never \u2014 private pilots cannot fly for any charitable purpose",
+        "Anytime the pilot charges nothing personally"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.113(d): A private pilot may act as PIC of an aircraft in connection with a business or employment if the flight is only incidentally related to business and is not a primary business function. Charitable flights for compensation are a complex area requiring specific FAA authorization.",
+      "ref": "14 CFR 61.113(d)"
+    },
+    {
+      "id": "reg-050",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the purpose of the NASA Aviation Safety Reporting System (ASRS)?",
+      "choices": [
+        "To report accidents to the NTSB",
+        "A confidential voluntary reporting system for aviation incidents and near-misses \u2014 filing a report within 10 days provides limited immunity from FAA certificate action for inadvertent violations",
+        "To report mechanical defects to aircraft manufacturers",
+        "Required by FAA for all commercial operators"
+      ],
+      "answer": 1,
+      "explanation": "The NASA ASRS (AIM 7-6-1): A voluntary confidential reporting system that provides limited immunity from FAA enforcement for inadvertent violations IF a report is filed within 10 days of the incident. Does not protect from criminal violations or accidents.",
+      "ref": "AIM 7-6-1; AC 00-46"
+    },
+    {
+      "id": "reg-051",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What is an Airworthiness Certificate and when does it expire?",
+      "choices": [
+        "Issued each year by the FAA \u2014 expires annually",
+        "Issued when the aircraft is manufactured; valid as long as the aircraft is maintained in accordance with FARs and has not been modified beyond its type certificate",
+        "Valid for 2 years only",
+        "Must be renewed every time the aircraft changes ownership"
+      ],
+      "answer": 1,
+      "explanation": "An Airworthiness Certificate is issued at the time of manufacture and is valid indefinitely as long as the aircraft is maintained in accordance with applicable FARs and has not been modified in a way that voids the type certificate.",
+      "ref": "14 CFR 21.181; PHAK Ch.9"
+    },
+    {
+      "id": "reg-052",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "What color scheme identifies mandatory instruction signs at airports?",
+      "choices": [
+        "Black letters on yellow background",
+        "Yellow letters on black background",
+        "White letters on red background",
+        "Black letters on white background"
+      ],
+      "answer": 2,
+      "explanation": "Mandatory instruction signs have white inscriptions on a red background. They identify areas where entry is restricted or requires ATC clearance \u2014 runway designations at hold-short lines, no-entry signs, and ILS critical area boundaries.",
+      "ref": "AIM 2-3-8"
+    },
+    {
+      "id": "reg-053",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "A yellow inscription on a black background at an airport indicates what type of sign?",
+      "choices": [
+        "A mandatory instruction sign requiring immediate stop",
+        "A location sign telling the pilot where they are (taxiway or runway designation)",
+        "A direction sign pointing toward a runway",
+        "A closed runway or taxiway marker"
+      ],
+      "answer": 1,
+      "explanation": "Yellow inscription on black background = location sign. It identifies the current taxiway or runway the aircraft is on. Black inscription on yellow background = direction/destination sign showing where to go.",
+      "ref": "AIM 2-3-8"
+    },
+    {
+      "id": "reg-054",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What do the four yellow lines across a taxiway (two solid, two dashed) indicate, and which side must you stop on?",
+      "choices": [
+        "Pavement edge \u2014 stop on either side",
+        "Runway hold-short position \u2014 stop on the SOLID line side. Never cross without ATC clearance.",
+        "Instrument landing system critical area \u2014 proceed when the path is clear",
+        "Crossing zone \u2014 yield to aircraft on the runway"
+      ],
+      "answer": 1,
+      "explanation": "Hold-short lines consist of four yellow lines: two solid (on the side away from the runway) and two dashed (on the runway side). Stop on the solid side. The solid lines always face the direction traffic must hold short. Never cross without an explicit ATC clearance.",
+      "ref": "AIM 2-3-5"
+    },
+    {
+      "id": "reg-055",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What does a VASI showing red over white indicate?",
+      "choices": [
+        "Too high \u2014 descend immediately",
+        "On the correct glidepath",
+        "Too low \u2014 danger of terrain or obstacle contact",
+        "The VASI is malfunctioning"
+      ],
+      "answer": 1,
+      "explanation": "VASI color combinations: white over white = too high; red over white = on glidepath ('red over white, you're alright'); red over red = too low and dangerous. Remember: two reds means you're headed for the ground.",
+      "ref": "AIM 2-1-2"
+    },
+    {
+      "id": "reg-056",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What does a PAPI showing 4 red lights indicate?",
+      "choices": [
+        "Normal glidepath \u2014 all red is correct on PAPI",
+        "Slightly high \u2014 add a small amount of descent",
+        "Too low \u2014 dangerously below the glidepath, immediate corrective action required",
+        "PAPI out of service"
+      ],
+      "answer": 2,
+      "explanation": "PAPI (4 lights): 4 white = too high; 3 white/1 red = slightly high; 2 white/2 red = on glidepath; 1 white/3 red = slightly low; 4 red = dangerously too low. Immediate power and pitch correction required at 4 red.",
+      "ref": "AIM 2-1-2"
+    },
+    {
+      "id": "reg-057",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What color are taxiway edge lights and taxiway centerline lights?",
+      "choices": [
+        "White edge lights and blue centerline lights",
+        "Blue edge lights and green centerline lights",
+        "Green edge lights and white centerline lights",
+        "Yellow edge lights and blue centerline lights"
+      ],
+      "answer": 1,
+      "explanation": "Taxiway edge lights are blue. Taxiway centerline lights are green. Runway edge lights are white (with yellow in the last 2,000 ft or last half of runway if shorter than 4,000 ft). This color coding helps distinguish taxiways from runways at night.",
+      "ref": "AIM 2-1-1"
+    },
+    {
+      "id": "reg-058",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 1,
+      "q": "What airport beacon configuration indicates a civilian land airport?",
+      "choices": [
+        "White and green alternating flashes",
+        "White and yellow alternating flashes",
+        "Green and red alternating flashes",
+        "Continuous green light"
+      ],
+      "answer": 0,
+      "explanation": "Civilian land airport: alternating white and green flashes. Military airport: two white flashes alternating with one green. Water airport: white and yellow. Beacon operating during the day may indicate weather below VFR minimums.",
+      "ref": "AIM 2-1-8"
+    },
+    {
+      "id": "reg-059",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 3,
+      "q": "What is a hot spot on an airport diagram?",
+      "choices": [
+        "A location where turbulence is commonly reported",
+        "A location on the airport movement area with a history of incidents or potential for confusion \u2014 depicted as numbered circles on the airport diagram",
+        "An area where the pavement is weak and may cause tire damage",
+        "A taxiway that can only be used in one direction"
+      ],
+      "answer": 1,
+      "explanation": "Hot spots are labeled HS-1, HS-2, etc. on airport diagrams and FAA charts. They identify locations with complex geometry, sight line issues, or a history of runway incursions. Descriptions are in the Chart Supplement. Extra vigilance required.",
+      "ref": "AIM 2-3-7"
+    },
+    {
+      "id": "reg-060",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What is the correct three-step procedure for transferring flight controls between pilots?",
+      "choices": [
+        "The receiving pilot simply takes the controls when ready",
+        "Giving pilot: 'You have the controls.' Receiving pilot: 'I have the controls.' (takes physical control) Giving pilot: 'You have the controls.' (confirms transfer)",
+        "A nod or hand gesture is sufficient \u2014 verbal exchange is not required",
+        "Only required for instrument flight \u2014 not necessary for VFR flight"
+      ],
+      "answer": 1,
+      "explanation": "Positive exchange of controls uses a specific three-step verbal and physical exchange to prevent both pilots from thinking the other has the controls (or neither does). This exact phraseology is the FAA standard and should be used every time controls are transferred between any two people.",
+      "ref": "ACS II.B; AFH Ch.2"
+    },
+    {
+      "id": "reg-061",
+      "taskIds": [
+        "I-A"
+      ],
+      "difficulty": 2,
+      "q": "What is CFIT and why is it significant in general aviation?",
+      "choices": [
+        "Controlled Flight Into Terrain \u2014 an accident where a functioning aircraft is flown into terrain or water without crew awareness. One of the leading causes of fatal GA accidents, typically associated with VFR flight into IMC or loss of situational awareness.",
+        "Crew Flight Instrument Training \u2014 a type of instrument currency requirement",
+        "Certified Flight Instructor Test \u2014 the checkride for CFI applicants",
+        "Commercial Flight IFR Training \u2014 a category of instrument flight hours"
+      ],
+      "answer": 0,
+      "explanation": "CFIT (Controlled Flight Into Terrain) occurs when a properly functioning aircraft is inadvertently flown into terrain, water, or obstacles. Causes include: VFR into IMC, spatial disorientation, poor situational awareness, and terrain avoidance complacency. Use terrain awareness tools, maintain SA, and always have an out when flying near terrain.",
+      "ref": "PHAK Ch.17"
+    }
+  ]
+}

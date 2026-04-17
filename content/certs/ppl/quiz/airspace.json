@@ -1,0 +1,686 @@
+{
+  "topic": "airspace",
+  "title": "Airspace",
+  "questions": [
+    {
+      "id": "air-001",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 1,
+      "q": "Communication required before entering Class D airspace?",
+      "choices": [
+        "ATC clearance must be received",
+        "Two-way radio communication must be established with the controlling facility",
+        "Must file a flight plan",
+        "No communication required for VFR"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.129: Two-way radio communication must be established with the ATC facility responsible for Class D airspace before entry.",
+      "ref": "14 CFR 91.129"
+    },
+    {
+      "id": "air-002",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 1,
+      "q": "Class B entry requires what specific clearance from ATC?",
+      "choices": [
+        "Two-way radio communications established",
+        "Explicit ATC clearance such as cleared into Class Bravo plus Mode C transponder and ADS-B Out",
+        "Just a Mode C transponder",
+        "Filing a flight plan and squawking a code"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.131: Must receive explicit clearance. Simply establishing radio contact is NOT sufficient unlike Class C and D.",
+      "ref": "14 CFR 91.131"
+    },
+    {
+      "id": "air-003",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 1,
+      "q": "Class A airspace begins at what altitude?",
+      "choices": [
+        "10000 ft MSL",
+        "14500 ft MSL",
+        "18000 ft MSL",
+        "FL600"
+      ],
+      "answer": 2,
+      "explanation": "Class A airspace extends from 18000 ft MSL (FL180) to FL600. All operations within Class A must be conducted under IFR.",
+      "ref": "14 CFR 71.33"
+    },
+    {
+      "id": "air-004",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 1,
+      "q": "Can VFR pilots legally enter an active MOA?",
+      "choices": [
+        "No \u2014 ATC clearance required",
+        "Yes \u2014 no prohibition, but extreme caution advised; check FSS for activity status",
+        "Yes \u2014 no restrictions ever apply to VFR in MOAs",
+        "Only if flying below 1000 AGL"
+      ],
+      "answer": 1,
+      "explanation": "MOAs do not require ATC clearance for VFR flight. However, pilots should exercise extreme caution and check activity status through FSS. When active, high-speed military maneuvers occur.",
+      "ref": "AIM 3-4-5"
+    },
+    {
+      "id": "air-005",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Dashed magenta circle around a non-towered airport on a sectional indicates?",
+      "choices": [
+        "Class D airspace",
+        "Class C airspace",
+        "Class E airspace starting at the surface associated with instrument approaches",
+        "An alert area boundary"
+      ],
+      "answer": 2,
+      "explanation": "A dashed magenta circle indicates Class E airspace beginning at the surface, typically at airports with published instrument approaches but no operating control tower.",
+      "ref": "PHAK Ch.15; AIM 3-2-6"
+    },
+    {
+      "id": "air-006",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Mode C Veil extends how far from a Class B primary airport?",
+      "choices": [
+        "10 nm",
+        "20 nm",
+        "30 nm",
+        "50 nm"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.215(b)(2): A transponder with Mode C is required within 30 nm of the Class B primary airport, from the surface up to 10000 ft MSL.",
+      "ref": "14 CFR 91.215(b)(2)"
+    },
+    {
+      "id": "air-007",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Standard Class C airspace lateral dimensions?",
+      "choices": [
+        "10 nm radius surface to 10000",
+        "5 nm inner circle surface to 4000 AGL and 10 nm outer ring 1200 to 4000 AGL",
+        "20 nm radius surface to 5000",
+        "5 nm ring surface to 2500"
+      ],
+      "answer": 1,
+      "explanation": "Standard Class C: 5 nm inner circle from surface to 4000 AGL, 10 nm outer ring from 1200 AGL to 4000 AGL.",
+      "ref": "AIM 3-2-4"
+    },
+    {
+      "id": "air-008",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "ADS-B Out required in which airspace?",
+      "choices": [
+        "Class B only",
+        "Class A, B, C; Class E at and above 10000 MSL except below 2500 AGL; and above 3000 MSL over Gulf of Mexico",
+        "Only above FL180",
+        "Only in the Mode C veil"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.225: ADS-B Out required in Class A, B, C, Class E at or above 10000 MSL (except below 2500 AGL), and above 3000 MSL over the Gulf of Mexico.",
+      "ref": "14 CFR 91.225"
+    },
+    {
+      "id": "air-009",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is a Prohibited Area?",
+      "choices": [
+        "Airspace requiring special equipment",
+        "Airspace where flight is prohibited at all times \u2014 examples include P-56 (White House) and P-49 (Camp David)",
+        "A Military Operations Area when active",
+        "An Alert Area with high-density traffic"
+      ],
+      "answer": 1,
+      "explanation": "Prohibited areas are established for national security reasons where flight is prohibited at all times under 14 CFR 73. No civilian operations permitted.",
+      "ref": "14 CFR 73; AIM 3-4-2"
+    },
+    {
+      "id": "air-010",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Class C airspace depicted on a sectional chart in what color?",
+      "choices": [
+        "Blue",
+        "Magenta",
+        "Blue dashed",
+        "Magenta dashed"
+      ],
+      "answer": 1,
+      "explanation": "Class C airspace is shown with solid magenta circles on sectional charts. Class D is depicted with segmented (dashed) blue circles.",
+      "ref": "PHAK Ch.15"
+    },
+    {
+      "id": "air-011",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Speed limit for aircraft at or below 2500 AGL within 4 nm of a Class C or D airport?",
+      "choices": [
+        "250 KIAS",
+        "200 KIAS",
+        "175 KIAS",
+        "No specific limit"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.117(b): Below 2500 AGL within 4 nm of a Class C or D airport the speed limit is 200 KIAS.",
+      "ref": "14 CFR 91.117(b)"
+    },
+    {
+      "id": "air-012",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is an Alert Area on a sectional chart?",
+      "choices": [
+        "Airspace requiring ATC clearance",
+        "High volume of pilot training or unusual aerial activity \u2014 no clearance needed, all pilots equally responsible for collision avoidance",
+        "Military operations \u2014 restricted to military",
+        "Active restricted area"
+      ],
+      "answer": 1,
+      "explanation": "Alert Areas contain high volumes of pilot training or unusual aerial activity. No ATC clearance is required. All aircraft equally responsible for collision avoidance.",
+      "ref": "AIM 3-4-6"
+    },
+    {
+      "id": "air-013",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "Control tower closes at 10 PM at a Class D airport. You arrive at 11 PM. What rules apply?",
+      "choices": [
+        "Still Class D \u2014 use UNICOM for traffic advisories",
+        "Class D converts to Class E or Class G per the Chart Supplement \u2014 check before flying",
+        "Class D automatically becomes Class B when uncontrolled",
+        "No airspace restrictions apply after the tower closes"
+      ],
+      "answer": 1,
+      "explanation": "When a control tower closes, Class D airspace reverts to either Class E or Class G depending on what the Chart Supplement indicates for that specific airport.",
+      "ref": "AIM 3-2-5"
+    },
+    {
+      "id": "air-014",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "When can a pilot legally enter a Restricted Area without prior ATC clearance?",
+      "choices": [
+        "Never \u2014 always need prior clearance",
+        "Only if flying below 500 AGL",
+        "When the area is inactive and ATC confirms it is available for normal operations",
+        "Any time in VFR conditions"
+      ],
+      "answer": 2,
+      "explanation": "When a Restricted Area is not active, the controlling agency releases it to ATC for normal use. ATC may advise pilots that the area is available. Always verify before entry.",
+      "ref": "AIM 3-4-4"
+    },
+    {
+      "id": "air-015",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "Class D airspace typically extends to what height AGL?",
+      "choices": [
+        "1000 ft",
+        "2500 ft",
+        "3000 ft",
+        "4000 ft"
+      ],
+      "answer": 1,
+      "explanation": "Class D airspace typically extends from the surface to 2500 ft AGL. Exact boundaries for each airport are shown on sectional charts.",
+      "ref": "AIM 3-2-5"
+    },
+    {
+      "id": "air-016",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "You are 8 nm from a Class C primary airport at 2000 ft MSL with airport elevation 500 ft MSL. The outer ring floor is 1200 AGL. Are you inside Class C?",
+      "choices": [
+        "No \u2014 you are outside the 10 nm outer ring",
+        "Yes \u2014 inside the outer ring above its 1200 AGL floor; must establish two-way comms before continuing",
+        "Yes \u2014 ATC clearance explicitly required to enter",
+        "No \u2014 the 5 nm inner circle is the only area requiring comms"
+      ],
+      "answer": 1,
+      "explanation": "The outer ring extends 10 nm. At 8 nm you are inside it. At 2000 ft MSL with a 500 ft airport elevation, you are at 1500 ft AGL \u2014 above the 1200 AGL floor of the outer ring. Two-way comms must be established before entry.",
+      "ref": "14 CFR 91.130; AIM 3-2-4"
+    },
+    {
+      "id": "air-017",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is a Warning Area?",
+      "choices": [
+        "Airspace that requires ATC clearance",
+        "Airspace over international waters (3+ nm from US coast) containing hazardous activities \u2014 VFR not prohibited but strongly discouraged",
+        "Prohibited area near sensitive government installations",
+        "MOA equivalent over international waters"
+      ],
+      "answer": 1,
+      "explanation": "Warning Areas are established over international waters containing potentially hazardous activity. They extend from 3 nm outward. Non-participating aircraft are not prohibited but strongly advised to avoid.",
+      "ref": "AIM 3-4-5"
+    },
+    {
+      "id": "air-018",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 4,
+      "q": "You inadvertently fly into an active Restricted Area. What should you do?",
+      "choices": [
+        "Nothing \u2014 if VFR no enforcement action possible",
+        "Exit immediately, contact ATC, identify yourself and explain the situation. Be prepared for possible FAA enforcement action.",
+        "Only enforcement if you were IFR",
+        "File a NASA ASRS report and nothing else is required"
+      ],
+      "answer": 1,
+      "explanation": "Unauthorized entry into a Restricted Area is an airspace violation. Exit immediately, contact ATC, and be prepared to file a report. FAA may take enforcement action. Filing a NASA ASRS report provides some protection but does not eliminate FAA action.",
+      "ref": "14 CFR 91.123; AIM 3-4-4"
+    },
+    {
+      "id": "air-019",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What equipment is required to operate in Class A airspace?",
+      "choices": [
+        "VFR equipment plus a transponder",
+        "IFR-equipped aircraft plus an operable Mode C transponder",
+        "Just a two-way radio",
+        "Transponder and ADS-B Out only"
+      ],
+      "answer": 1,
+      "explanation": "Class A requires IFR equipment including suitable navigation equipment, plus an operable Mode C transponder. Operations must be under an IFR clearance.",
+      "ref": "14 CFR 91.135"
+    },
+    {
+      "id": "air-020",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "A TFR under 91.137(a)(1) \u2014 what type of operations does it primarily protect?",
+      "choices": [
+        "Presidential movement",
+        "Space operations",
+        "Aircraft flying relief operations at or below 1000 AGL for immediate safety of individuals",
+        "Public entertainment events"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 91.137(a)(1): This type of TFR protects aircraft flying relief operations at or below 1000 AGL, law enforcement aircraft, and aircraft providing direct safety support.",
+      "ref": "14 CFR 91.137(a)(1)"
+    },
+    {
+      "id": "air-021",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What document should always be checked for airspace that converts when a tower closes?",
+      "choices": [
+        "Sectional aeronautical chart",
+        "Chart Supplement (formerly Airport/Facility Directory)",
+        "NOTAM system",
+        "AIM Chapter 3"
+      ],
+      "answer": 1,
+      "explanation": "The Chart Supplement contains specific information about each airport including what the airspace converts to when the tower is closed and the hours of operation.",
+      "ref": "AIM 3-2-5"
+    },
+    {
+      "id": "air-022",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "ATC tells you to stay outside the Bravo. You have not received cleared into Class B. What does this mean?",
+      "choices": [
+        "You are cleared into the Class B but at low altitude",
+        "You do NOT have clearance to enter Class B and must remain outside its boundaries",
+        "You may transit at or below the floor of the Class B",
+        "ATC will guide you through on VFR flight following"
+      ],
+      "answer": 1,
+      "explanation": "Without hearing the words cleared into Class Bravo airspace or a similar explicit clearance, you do not have authorization to enter Class B.",
+      "ref": "14 CFR 91.131; AIM 3-2-3"
+    },
+    {
+      "id": "air-023",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is an SFRA and where does one exist in the US?",
+      "choices": [
+        "Standard Flight Rules Area \u2014 applies everywhere",
+        "Special Flight Rules Area \u2014 the Washington DC area (DC SFRA) requires specific training and authorization to operate within",
+        "Simplified Flight Route Authorization \u2014 for commercial operators",
+        "Seasonal Flight Restriction Area \u2014 applied during wildfire season"
+      ],
+      "answer": 1,
+      "explanation": "An SFRA imposes specific requirements beyond standard FARs. The Washington DC SFRA (within 30 nm of DCA) requires specific online training and an ATC authorization or flight plan to operate within.",
+      "ref": "14 CFR 93.331"
+    },
+    {
+      "id": "air-024",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Solid blue segmented (dashed) circle on a sectional chart depicts what?",
+      "choices": [
+        "Class B airspace",
+        "Class C airspace",
+        "Class D airspace surface area",
+        "Class E airspace at the surface"
+      ],
+      "answer": 2,
+      "explanation": "Class D airspace is depicted with a segmented (dashed) blue circle on sectional charts.",
+      "ref": "PHAK Ch.15"
+    },
+    {
+      "id": "air-025",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "A magenta vignette (shaded boundary) on a sectional indicates Class E airspace starting at what altitude?",
+      "choices": [
+        "Surface",
+        "700 ft AGL (within the shaded area)",
+        "1200 ft AGL (outside the shaded area)",
+        "2500 ft AGL"
+      ],
+      "answer": 1,
+      "explanation": "The magenta shaded area indicates Class E transition airspace beginning at 700 ft AGL. Outside the shaded area, Class E typically starts at 1200 AGL.",
+      "ref": "PHAK Ch.15; AIM 3-2-6"
+    },
+    {
+      "id": "air-026",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is the floor of Class E airspace in most controlled areas en route?",
+      "choices": [
+        "Surface everywhere",
+        "700 ft AGL near airports with instrument approaches; 1200 ft AGL in most other areas",
+        "2500 ft AGL",
+        "Only above FL180"
+      ],
+      "answer": 1,
+      "explanation": "Class E airspace has several different floors depending on the area. Near airports with instrument approaches: 700 ft AGL (shown by magenta shading on sectionals). En-route over most of the continental US: 1200 ft AGL. In some areas it begins at the surface.",
+      "ref": "AIM 3-2-6; PHAK Ch.15"
+    },
+    {
+      "id": "air-027",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is the difference between an airspace clearance and two-way communication in Class B vs Class C?",
+      "choices": [
+        "There is no difference \u2014 all controlled airspace requires clearance",
+        "Class B requires explicit ATC clearance (must hear 'cleared into the Bravo'). Class C requires only two-way communication to be established (ATC acknowledging your callsign). Never enter Class B without explicit clearance.",
+        "Both Class B and C require explicit clearance",
+        "Neither Class B nor C requires clearance for VFR"
+      ],
+      "answer": 1,
+      "explanation": "This is a critical distinction: Class B requires explicit clearance language from ATC (cleared into Class B airspace). Class C requires only that two-way communication is established \u2014 ATC does not have to issue a clearance, but they must acknowledge your aircraft by callsign. Never enter Class B without explicit clearance.",
+      "ref": "14 CFR 91.130, 91.131"
+    },
+    {
+      "id": "air-028",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is the purpose of a NOTAM and where can they be obtained?",
+      "choices": [
+        "Notice to Air Missions \u2014 provides time-critical aeronautical information that is temporary in nature or not known far enough in advance to be published \u2014 available through 1800wxbrief.com, ATIS, ForeFlight, and other FAA-authorized sources",
+        "Notice to All Mechanics \u2014 maintenance advisories",
+        "Notice to Airframe Manufacturers \u2014 design changes",
+        "Not required for VFR flight planning"
+      ],
+      "answer": 0,
+      "explanation": "NOTAMs (Notices to Air Missions) provide time-critical aeronautical information about airport closures, runway closures, TFRs, GPS outages, NAVAID outages, and other temporary conditions. VFR pilots must check NOTAMs before every flight. Available at 1800wxbrief.com, ForeFlight, Garmin Pilot, and directly from FSS.",
+      "ref": "AIM 5-1-3"
+    },
+    {
+      "id": "air-029",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is the DC SFRA and what specific requirements does it impose on VFR pilots?",
+      "choices": [
+        "The DC SFRA does not apply to VFR flights",
+        "The Washington DC Special Flight Rules Area (30 nm of DCA): requires completion of an FAA online course, an assigned discrete transponder code, two-way radio, and filing a specific SFRA flight plan or having an ATC authorization before entry",
+        "Only applies to IFR aircraft",
+        "Only applies to aircraft over 12,500 lbs"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 93.331: The DC SFRA (30 nm of DCA, surface to FL180) requires: (1) completion of the FAA online SFRA training course, (2) filing an SFRA flight plan or having an ATC authorization, (3) squawking a discrete ATC-assigned transponder code, (4) two-way radio communication. VFR pilots must also comply with the DC ADIZ requirements.",
+      "ref": "14 CFR 93.331; AIM 9-1-2"
+    },
+    {
+      "id": "air-030",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "Under what conditions can a pilot operate below 10,000 ft MSL in Class A airspace?",
+      "choices": [
+        "Any time with ATC permission",
+        "Never \u2014 all Class A operations must be under IFR at or above 18,000 ft MSL",
+        "Only for military training",
+        "Only with a type rating for the aircraft"
+      ],
+      "answer": 1,
+      "explanation": "Class A airspace is defined as 18,000 ft MSL to FL600. All operations within Class A must be conducted under IFR, by an instrument-rated pilot, with an appropriate IFR clearance. There are no VFR operations in Class A.",
+      "ref": "14 CFR 71.33; 91.135"
+    },
+    {
+      "id": "air-031",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is a VFR flyway and how does it relate to Class B airspace?",
+      "choices": [
+        "A VFR flyway is the same as a VFR corridor",
+        "A VFR flyway is a published route around (not through) Class B airspace that allows VFR aircraft to transit an area without entering the Bravo \u2014 shown on TAC charts as dashed lines with recommended altitudes",
+        "A VFR flyway requires ATC clearance",
+        "VFR flyways are only for helicopters"
+      ],
+      "answer": 1,
+      "explanation": "VFR flyways (also called VFR corridors in some contexts) are published on VFR Terminal Area Charts (TAC). They are recommended routes around Class B airspace for VFR aircraft to avoid the Bravo without needing clearance. They should not be confused with VFR corridors through Class B (which do exist at some locations).",
+      "ref": "AIM 3-5-5"
+    },
+    {
+      "id": "air-032",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What does it mean when a sectional chart shows a dashed blue circle with an altitude number such as [27] inside it?",
+      "choices": [
+        "The maximum altitude for VFR flight in that area",
+        "The floor of Class E airspace in hundreds of feet MSL (e.g., [27] = 2700 ft MSL) \u2014 shown as the top of Class G beneath it",
+        "The MEF for the quadrangle",
+        "The maximum transponder altitude for that sector"
+      ],
+      "answer": 1,
+      "explanation": "Dashed blue circles (step-down fixes or airspace segments) with altimeter numbers in brackets or parentheses indicate the floor of Class E airspace in MSL at that point. This is important when transitioning between airspace classes vertically.",
+      "ref": "PHAK Ch.15"
+    },
+    {
+      "id": "air-033",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is the purpose of a Class B VFR corridor, where one exists?",
+      "choices": [
+        "A high-speed route for jet aircraft",
+        "A specific designated passage through Class B airspace that VFR aircraft may use without ATC clearance \u2014 at specified altitudes and typically following a specific route such as between two outer rings",
+        "A route around Class B for VFR aircraft",
+        "A helicopter route under Class B airspace"
+      ],
+      "answer": 1,
+      "explanation": "At some Class B airports, specific VFR corridors through (not around) the Bravo airspace are established. These allow VFR aircraft to transit the area at specific altitudes without requiring a clearance \u2014 but the pilot must remain within the corridor boundaries. Not all Class B airports have these.",
+      "ref": "AIM 3-2-3"
+    },
+    {
+      "id": "air-034",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is the lateral dimension of the Mode C veil and what equipment does it require?",
+      "choices": [
+        "10 nm from the Class B primary airport \u2014 requires only a transponder",
+        "30 nm from the Class B primary airport up to 10,000 ft MSL \u2014 requires a transponder with Mode C capability AND ADS-B Out (both required simultaneously)",
+        "20 nm from any Class B airport \u2014 requires Mode C only",
+        "50 nm from any Class B airport \u2014 requires full IFR equipment"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.215 and 91.225: The Mode C veil extends 30 nm from the Class B primary airport, from the surface up to 10,000 ft MSL. Both an operable Mode C transponder AND ADS-B Out are required in this area.",
+      "ref": "14 CFR 91.215; 91.225"
+    },
+    {
+      "id": "air-035",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What are the minimum requirements to operate in Class G airspace?",
+      "choices": [
+        "Transponder and ADS-B Out",
+        "Two-way radio communication",
+        "Virtually no requirements \u2014 Class G is uncontrolled airspace where basic VFR rules (visibility and cloud clearance) still apply, but no communications or equipment are required",
+        "At least a student pilot certificate"
+      ],
+      "answer": 2,
+      "explanation": "Class G is uncontrolled airspace. No ATC communication, clearance, or special equipment is required. However, all VFR weather minimums (visibility and cloud clearance) still apply. See-and-avoid responsibilities remain in effect.",
+      "ref": "14 CFR 91.126; PHAK Ch.15"
+    },
+    {
+      "id": "air-036",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is an ADIZ and what are the requirements for VFR flight through it?",
+      "choices": [
+        "Air Defense Identification Zone \u2014 only applies to IFR flights",
+        "Air Defense Identification Zone \u2014 VFR pilots must file a DVFR (Defense VFR) flight plan, two-way radio, operable transponder, and must depart within 5 minutes of filed time or notify ATC before deviating from the filed plan",
+        "ADIZs have been eliminated \u2014 only the DC SFRA remains",
+        "ADIZ only applies to international flights"
+      ],
+      "answer": 1,
+      "explanation": "ADIZs (Air Defense Identification Zones) are established for national security purposes, particularly along the US coasts. VFR pilots must file a DVFR flight plan, maintain two-way radio communication, have an operable transponder, and depart within 5 minutes of the filed departure time.",
+      "ref": "14 CFR 99; AIM 5-6-1"
+    },
+    {
+      "id": "air-037",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "When a control tower is in operation what is the significance of a flashing green light signal to an aircraft on the ground?",
+      "choices": [
+        "Stop",
+        "Cleared to takeoff",
+        "Cleared to taxi",
+        "Return to starting point on airport"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.125 / AIM 4-3-13: Light gun signals to aircraft on the ground. Flashing green = cleared to taxi. Steady green = cleared for takeoff. Flashing red = taxi clear of runway. Steady red = stop. Alternating red and green = exercise extreme caution.",
+      "ref": "14 CFR 91.125; AIM 4-3-13"
+    },
+    {
+      "id": "air-038",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What does a steady red light signal from the tower mean to an aircraft in flight?",
+      "choices": [
+        "Give way to other aircraft and continue circling",
+        "Do not land \u2014 airport unsafe or closed",
+        "Continue circling, airport not clear for landing",
+        "Return to starting point on airport"
+      ],
+      "answer": 0,
+      "explanation": "14 CFR 91.125 / AIM 4-3-13: Light gun signals to aircraft in flight. Steady red = give way to other aircraft and continue circling. Flashing red = airport unsafe \u2014 do not land. Flashing green = return for landing. Steady green = cleared to land.",
+      "ref": "14 CFR 91.125; AIM 4-3-13"
+    },
+    {
+      "id": "air-039",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 3,
+      "q": "What is a Temporary Flight Restriction (TFR) under 14 CFR 91.143 and when is it used?",
+      "choices": [
+        "A permanent airspace restriction",
+        "A TFR for space operations (rocket launches) that temporarily restricts airspace to protect the public from hazards associated with space flight operations",
+        "A TFR for presidential movement only",
+        "A TFR for military training areas"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.143: This specific type of TFR is established for space flight operations to protect airspace during rocket launches, space vehicle ascents and descents. The TFR defines the restricted area and time period around launch/landing sites.",
+      "ref": "14 CFR 91.143"
+    },
+    {
+      "id": "air-040",
+      "taskIds": [
+        "I-E"
+      ],
+      "difficulty": 2,
+      "q": "What is the definition of Class E airspace at the surface and where does it commonly exist?",
+      "choices": [
+        "Any airspace below Class D",
+        "Class E airspace that begins at the surface (depicted by dashed magenta circles) \u2014 commonly established at airports with published instrument procedures but no operating control tower, or at some airports with part-time towers",
+        "All airspace below 700 ft AGL",
+        "Class E surface areas are only near major airports"
+      ],
+      "answer": 1,
+      "explanation": "Class E surface areas extend from the surface and are depicted with dashed magenta circles on sectional charts. They are commonly established at airports with published instrument approaches (often ILS or RNAV approaches) where instrument protection down to the surface is needed but no control tower operates.",
+      "ref": "AIM 3-2-6; PHAK Ch.15"
+    }
+  ]
+}
