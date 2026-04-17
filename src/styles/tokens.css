@@ -1,0 +1,6 @@
+/* tokens — will be populated in Phase 1 */
+:root {
+  --void: #080B07;
+  --glow: #9DD968;
+}
+body { background: var(--void); color: #fff; margin: 0; }
