@@ -32,9 +32,38 @@ describe('linkifyRefs', () => {
     expect(out).toContain('>FAA-S-ACS-6C</a>');
   });
 
-  it('leaves unknown refs untouched', () => {
-    const out = linkifyRefs('See POH/AFM section 4 and AIM chapter 7.');
-    expect(out).toBe('See POH/AFM section 4 and AIM chapter 7.');
+  it('leaves POH refs untouched (unlinkable)', () => {
+    const out = linkifyRefs('See POH/AFM section 4.');
+    expect(out).toBe('See POH/AFM section 4.');
+  });
+
+  it('links AC citations to the AC library search', () => {
+    const out = linkifyRefs('per AC 68-1 and AC 00-45H');
+    expect((out.match(/<a /g) || []).length).toBe(2);
+    expect(out).toContain('advisoryCircularNbr=68-1');
+    expect(out).toContain('advisoryCircularNbr=00-45H');
+  });
+
+  it('links AIM section refs to AIM HTML', () => {
+    const out = linkifyRefs('AIM 7-1-5 and AIM 8-1 plus AIM Ch.5');
+    expect((out.match(/<a /g) || []).length).toBe(3);
+    expect(out).toMatch(/aim_html.*AIM 7-1-5/);
+  });
+
+  it('links PHAK/AFH chapter refs to handbook landing pages', () => {
+    const out = linkifyRefs('PHAK Ch.17 and AFH Ch.2');
+    expect(out).toContain('handbooks_manuals/aviation/phak');
+    expect(out).toContain('handbooks_manuals/aviation/airplane_handbook');
+  });
+
+  it('links ACS task codes', () => {
+    const out = linkifyRefs('ACS PA.I.C.R1 and ACS PA.V.B');
+    expect((out.match(/<a /g) || []).length).toBe(2);
+  });
+
+  it('links 14 CFR part written as "part 68"', () => {
+    const out = linkifyRefs('14 CFR part 68');
+    expect(out).toContain('part-68');
   });
 
   it('handles multiple references in one string', () => {
