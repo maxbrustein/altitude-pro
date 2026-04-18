@@ -4,6 +4,7 @@
 
 import { loadAllQuizTopics } from '../content.js';
 import { state } from '../state.js';
+import { linkifyRefs } from '../utils/linkify-refs.js';
 
 let BANK = [];  // populated by initQuiz from content/certs/ppl/quiz/*.json
 const TOPICS = ['Regulations','Weather','Airspace','Navigation','Maneuvers','Systems','Aeromedical'];
@@ -147,7 +148,7 @@ function renderQ(q) {
           </button>`).join('')}
       </div>
       <div class="explanation" id="expl">
-        <div class="exp-ref">Ref: ${q.r}</div>${q.e}
+        <div class="exp-ref">Ref: ${linkifyRefs(q.r)}</div>${linkifyRefs(q.e)}
       </div>
     </div>
     <div class="q-actions">
