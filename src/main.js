@@ -4,6 +4,7 @@ import './styles/layout.css';
 import './styles/components.css';
 import './styles/quiz.css';
 
+import { inject } from '@vercel/analytics';
 import { loadManifest } from './content.js';
 import { mountAllTasks } from './views/task.js';
 import {
@@ -22,6 +23,9 @@ import { areaDomId, taskDomId } from './views/dom-ids.js';
 import { state } from './state.js';
 
 async function boot() {
+  // Vercel Analytics: auto-detects production vs dev. No keys; origin-based.
+  inject();
+
   const manifest = await loadManifest('ppl');
 
   await mountAllTasks(manifest);
