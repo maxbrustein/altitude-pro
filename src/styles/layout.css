@@ -329,6 +329,9 @@ button:active{transform:scale(0.96);transition:transform 80ms cubic-bezier(.2,0,
   .breadcrumb { display: flex !important; }
   /* main must account for header (54px) + breadcrumb (44px) */
   .main { height: calc(100vh - 54px - 44px) !important; }
+  /* In quiz mode the breadcrumb is hidden, so main reclaims its 44px */
+  body.mode-quiz .breadcrumb { display: none !important; }
+  body.mode-quiz .main { height: calc(100vh - 54px) !important; }
 }
 @media (min-width: 768px) {
   .breadcrumb { display: none !important; }

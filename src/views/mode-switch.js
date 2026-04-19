@@ -42,18 +42,16 @@ export function switchMode(m) {
   document.querySelectorAll('.bnav-item').forEach((b, i) =>
     b.classList.toggle('active', (i === 0 && m === 'study') || (i === 1 && m === 'quiz')));
 
+  document.body.classList.toggle('mode-quiz', m === 'quiz');
+
   if (m === 'quiz') {
     document.querySelectorAll('.study-area, .ref-page').forEach(p => p.classList.remove('active'));
     const qp = document.querySelector('.quiz-page');
     if (qp) qp.classList.add('active');
-    const bc = document.getElementById('breadcrumb');
-    if (bc) { bc.style.visibility = 'hidden'; bc.style.pointerEvents = 'none'; }
     if (quizModeEntered) quizModeEntered();
   } else {
     const qp = document.querySelector('.quiz-page');
     if (qp) qp.classList.remove('active');
-    const bc = document.getElementById('breadcrumb');
-    if (bc) { bc.style.visibility = ''; bc.style.pointerEvents = ''; }
     if (window.innerWidth < 768 && mobileShowArea) {
       mobileShowArea();
     } else {

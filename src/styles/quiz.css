@@ -86,3 +86,33 @@
 .result-grade{font-family:var(--fm);font-size:9px;letter-spacing:2.5px;margin-bottom:20px;text-transform:uppercase;}
 .result-stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:18px;}
 .result-msg{font-size:13px;color:var(--ghost);margin-bottom:20px;font-weight:300;}
+
+/* ── MOBILE QUIZ OVERRIDES ── */
+@media (max-width: 767px) {
+  #qp { padding: 14px 14px 40px; }
+  .setup-panel { padding: 16px; margin-bottom: 14px; }
+  .setup-title { font-size: 17px; margin-bottom: 14px; }
+  .setup-row { margin-bottom: 12px; }
+  .last-session { padding: 9px 12px; margin-bottom: 12px; gap: 10px; font-size: 8.5px; }
+  .last-session .ls-score { font-size: 11px; }
+  .last-session .ls-topic { flex-basis: 100%; margin-left: 0; }
+
+  .quiz-stats { gap: 5px; margin-bottom: 10px; }
+  .stat-box { padding: 6px 9px; min-width: 48px; flex: 1; }
+  .stat-val { font-size: 20px; }
+  .stat-lbl { font-size: 6.5px; }
+
+  .q-card { padding: 16px; margin-bottom: 10px; }
+  .q-meta { gap: 6px; margin-bottom: 11px; }
+  .q-text { font-size: 14.5px; line-height: 1.55; margin-bottom: 14px; }
+  .choice { padding: 11px 12px; font-size: 13.5px; min-height: 44px; gap: 10px; }
+  .explanation { padding: 11px 13px; font-size: 12px; line-height: 1.65; margin-top: 10px; }
+  .q-actions { gap: 7px; margin-top: 7px; }
+  .btn { padding: 11px 16px; }
+
+  .result-card { padding: 28px 18px; }
+  .result-score { font-size: 58px; letter-spacing: -2px; }
+  .result-grade { font-size: 8.5px; margin-bottom: 16px; }
+  .result-stats { gap: 7px; margin-bottom: 14px; }
+  .result-msg { font-size: 12.5px; margin-bottom: 16px; }
+}
