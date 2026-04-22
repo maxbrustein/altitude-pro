@@ -1,4 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
+import fs from 'node:fs';
+import path from 'node:path';
 
 describe('content.loadManifest', () => {
   beforeEach(() => {
@@ -122,5 +124,20 @@ describe('content.loadQuiz', () => {
     ]);
     const total = topics.reduce((sum, t) => sum + t.data.questions.length, 0);
     expect(total).toBeGreaterThanOrEqual(352);
+  });
+});
+
+describe('vercel.json routing', () => {
+  it('has a 302 redirect from / to /app', () => {
+    const vercelJson = JSON.parse(fs.readFileSync(path.resolve('vercel.json'), 'utf8'));
+    const rootRedirect = vercelJson.redirects.find(r => r.source === '/');
+    expect(rootRedirect).toBeDefined();
+    expect(rootRedirect.destination).toBe('/app');
+    expect(rootRedirect.permanent).toBe(false);
+  });
+
+  it('has SPA rewrite for /app/:path*', () => {
+    const vercelJson = JSON.parse(fs.readFileSync(path.resolve('vercel.json'), 'utf8'));
+    expect(vercelJson.rewrites.some(r => r.source === '/app/:path*')).toBe(true);
   });
 });
