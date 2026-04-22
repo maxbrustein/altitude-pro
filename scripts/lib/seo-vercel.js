@@ -6,6 +6,8 @@
 
 export function buildVercelJson(manifest) {
   const config = {
+    cleanUrls: true,
+    trailingSlash: false,
     rewrites: [
       { source: '/app/:path*', destination: '/app/index.html' },
     ],
