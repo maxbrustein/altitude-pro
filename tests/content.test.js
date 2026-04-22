@@ -53,6 +53,35 @@ describe('content.loadManifest', () => {
     const slugs = manifest.areas.flatMap(a => a.tasks.map(t => t.slug));
     expect(new Set(slugs).size).toBe(slugs.length);
   });
+
+  it('aliases (when present) are arrays of slug-shaped strings', async () => {
+    const { loadManifest } = await import('../src/content.js');
+    const manifest = await loadManifest('ppl');
+    const allTasks = manifest.areas.flatMap(a => a.tasks);
+    for (const task of allTasks) {
+      if (task.aliases !== undefined) {
+        expect(Array.isArray(task.aliases), `${task.id}`).toBe(true);
+        for (const alias of task.aliases) {
+          expect(alias, `${task.id}`).toMatch(/^[a-z0-9][a-z0-9-]*[a-z0-9]$/);
+        }
+      }
+    }
+  });
+
+  it('all aliases are unique and do not collide with any canonical slug', async () => {
+    const { loadManifest } = await import('../src/content.js');
+    const manifest = await loadManifest('ppl');
+    const allTasks = manifest.areas.flatMap(a => a.tasks);
+    const slugs = new Set(allTasks.map(t => t.slug));
+    const seenAliases = new Set();
+    for (const task of allTasks) {
+      for (const alias of (task.aliases || [])) {
+        expect(slugs.has(alias), `alias "${alias}" collides with a canonical slug`).toBe(false);
+        expect(seenAliases.has(alias), `alias "${alias}" duplicated across tasks`).toBe(false);
+        seenAliases.add(alias);
+      }
+    }
+  });
 });
 
 describe('content.loadQuiz', () => {
