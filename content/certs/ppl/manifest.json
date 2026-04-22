@@ -237,7 +237,7 @@
             "POH/AFM",
             "FAA-H-8083-3"
           ],
-          "slug": "soft-field-t-o-and-landing"
+          "slug": "soft-field-takeoff-and-landing"
         },
         {
           "id": "IV-E",
@@ -248,7 +248,7 @@
             "POH/AFM",
             "FAA-H-8083-3"
           ],
-          "slug": "short-field-t-o-and-landing"
+          "slug": "short-field-takeoff-and-landing"
         },
         {
           "id": "IV-M",
@@ -270,7 +270,7 @@
             "POH/AFM",
             "FAA-H-8083-3"
           ],
-          "slug": "go-around-rejected-landing"
+          "slug": "go-around-and-rejected-landing"
         }
       ]
     },
