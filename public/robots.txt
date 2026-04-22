@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://altitudepro.org/sitemap.xml

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cross-Country Flight Planning — Private Pilot Study Guide | Altitude Pro</title>
+  <meta name="description" content="Everything you need to know about Cross-Country Flight Planning for your private pilot checkride. Aligned to FAA-S-ACS-6C Task I-D, covering tvmdc — heading ...">
+  <link rel="canonical" href="https://altitudepro.org/study/cross-country-planning">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/study/assets/study.css">
+  <meta property="og:title" content="Cross-Country Flight Planning — Private Pilot Study Guide">
+  <meta property="og:description" content="Everything you need to know about Cross-Country Flight Planning for your private pilot checkride. Aligned to FAA-S-ACS-6C Task I-D, covering tvmdc — heading ...">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://altitudepro.org/study/cross-country-planning">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cross-Country Flight Planning",
+  "description": "Everything you need to know about Cross-Country Flight Planning for your private pilot checkride. Aligned to FAA-S-ACS-6C Task I-D, covering tvmdc — heading conversion, navigation log &amp; fuel, notams, tfrs &amp; vfr flight plan.",
+  "author": {
+    "@type": "Organization",
+    "name": "Altitude Pro"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Altitude Pro"
+  },
+  "educationalLevel": "Student Pilot",
+  "about": "Private Pilot Certificate"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Full TVMDC Conversion",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "True course ± Variation = Magnetic course ± Deviation = Compass course Memory: True Virgins Make Dull Company Variation: Geographic angle between true north and magnetic north. Read from isogonic lines on the sectional chart. Fixed by location. • East variation = subtract from TC → MC (east is least) • West variation = add to TC → MC (west is best) Deviation: Error in a specific compass from magnetic fields inside the aircraft. From the compass deviation card. Unique to each aircraft and each heading. Example: TC 090°, Var 15°W (add), Dev +2° → MC = 090 + 15 = 105, CC = 105 + 2 = 107°"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wind Correction Angle",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WCA accounts for crosswind drift to maintain the desired ground track. Quick calculation: WCA ≈ (crosswind component ÷ TAS) × 60 Example: Crosswind component 18 kts, TAS 120 kts → WCA ≈ (18/120) × 60 = 9°. Turn 9° into the wind to compensate. Using E6B: Set TAS on the speed ring, center the wind, read WCA and GS from the flight computer. EFBs do this automatically but understanding the manual calculation is required for the checkride. Groundspeed = TAS ± headwind/tailwind component. Head = subtract, tail = add."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Navigation Log Format",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a cross-country flight, a nav log contains per leg: • Checkpoint name • True course • Wind direction/speed at altitude • Wind correction angle • True heading • Magnetic variation • Magnetic heading • Compass deviation • Compass heading • Distance (nm) • True airspeed (TAS) • Groundspeed (GS) • ETE per leg (distance ÷ GS) • Fuel burn per leg (fuel flow × ETE) • Cumulative ETE and fuel DPEs do not require a perfect nav log but expect you to demonstrate you can build one and understand every value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Fuel Requirements",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Day VFR: Enough fuel to reach the first intended destination plus 30 minutes at normal cruise speed. Night VFR: First destination plus 45 minutes at normal cruise speed. Fuel planning process: 1. Look up fuel flow in POH at planned power setting and altitude 2. Calculate burn per leg (flow × time) 3. Sum all legs 4. Add reserve 5. Add taxi/runup allowance (typically 1.0–1.5 gal) 6. Compare to usable fuel capacity Usable vs total fuel: Some aircraft have unusable fuel (trapped below fuel outlet). Use only usable fuel in planning. Convert gallons → pounds: 100LL avgas = 6 lbs/gal"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "NOTAM Types",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KNTM (Domestic NOTAMs): Issued by FSS. Covers airport and runway closures, NAVAID outages, lighting changes, obstacles, temporary changes to procedures. FDC (Flight Data Center): Regulatory NOTAMs — changes to instrument approach procedures, chart corrections, TFRs, airspace changes. Published by FAA. GPS NOTAMs: GPS testing or interference affecting GPS reception in specific areas. POIW: International NOTAMs pointing to additional information for international flights. Check NOTAMs at 1800wxbrief.com or via EFB app. Always check within 1–2 hours of departure for fresh TFRs. Runway closures in NOTAMs: Specified as M (marked), L (lighted), C (closed)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "TFR Types",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "91.137(a)(1): Disaster TFR — protects relief aircraft operating below 1,000 AGL. Unauthorized aircraft may still fly above. 91.137(a)(2): Disaster TFR — protects a disaster site. Broader restriction. 91.137(a)(3): Disaster TFR — most restrictive, blanket protection for emergency ops. 91.141: Presidential / VIP movement. Inner ring (typically 10 nm, SFC–FL180) — no civilian flight. Outer ring (30 nm) — ATC coordination required. 91.143: Space operations (rocket launches, landings). 91.145: Aerial demonstrations, air shows. Check: tfr.faa.gov (interactive map) before every XC and within a few hours of departure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "VFR Flight Plan — Filing &amp; Closing",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not legally required for VFR but strongly recommended — it is your SAR safety net. File with: FSS via 1800wxbrief.com, phone 1-800-WX-BRIEF, or EFB app. Contents: Aircraft type/ID, TAS, departure airport and time, cruise altitude, route, destination, ETE, fuel aboard (in hours + minutes), POB (persons on board), pilot name and contact. Activate: Call FSS on 122.2 MHz after departure or before when filing. CLOSE after landing: Call FSS or use EFB. If not closed within 30 minutes of ETA, the FAA/USAF Rescue Coordination Center initiates a search. Failure to close = significant emergency response resources wasted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "VFR Cruising Altitudes &amp; Intercept",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "VFR cruising altitude rule (above 3,000 ft AGL, not MSL): MC 0–179° (East): odd thousands + 500 ft → 3,500 / 5,500 / 7,500 MC 180–359° (West): even thousands + 500 ft → 4,500 / 6,500 / 8,500 Intercept procedures (14 CFR 91.3, ICAO Annex 2): If intercepted by military aircraft: • Rock wings to acknowledge • Turn and follow the intercepting aircraft • Do not transmit without instructions • Transmit on 121.5 MHz and/or 243.0 MHz • Squawk 7700 unless instructed otherwise • Follow ICAO visual signals precisely ADIZ: File a DVFR flight plan, have two-way radio and operable transponder, depart within 5 min of filed time."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body class="study-page">
+  <header class="study-header">
+    <a class="logo" href="/">Altitude<span>Pro</span></a>
+    <nav>
+      <a href="/study/" class="active">Study Guide</a>
+      <a href="/app" class="cta">Open App →</a>
+    </nav>
+  </header>
+
+  <nav class="breadcrumb-trail" aria-label="breadcrumb">
+    <a href="/">Home</a> ›
+    <a href="/study/">ACS Study Guide</a> ›
+    <span>Area I: Preflight Preparation</span> ›
+    <span aria-current="page">Cross-Country Flight Planning</span>
+  </nav>
+
+  <main class="study-main">
+    <h1>Cross-Country Flight Planning</h1>
+    <p class="subtitle">Private Pilot ACS · Area I · Task D · 14 CFR 61, 14 CFR 91, FAA-H-8083-25</p>
+    <p class="intro">Everything you need to know about Cross-Country Flight Planning for your private pilot checkride. Aligned to FAA-S-ACS-6C Task I-D, covering tvmdc — heading conversion, navigation log &amp;amp; fuel, notams, tfrs &amp;amp; vfr flight plan.</p>
+    <h2 id="tvmdc-heading-conversion">TVMDC — Heading Conversion <span class="src-tag">PHAK Ch.16</span> <a class="anchor-link" href="#tvmdc-heading-conversion">§</a></h2>
+<div class="fact-grid two-col">
+<section class="fact-card hi" id="full-tvmdc-conversion">
+      <h3>Full TVMDC Conversion <a class="anchor-link" href="#full-tvmdc-conversion">§</a></h3>
+      <div class="fact-body">
+<span class="hl">True course ± Variation = Magnetic course ± Deviation = Compass course</span><br>
+Memory: <span class="hl">T</span>rue <span class="hl">V</span>irgins <span class="hl">M</span>ake <span class="hl">D</span>ull <span class="hl">C</span>ompany<br><br>
+<span class="hl">Variation</span>: Geographic angle between true north and magnetic north. Read from isogonic lines on the sectional chart. Fixed by location.<br>
+• <span class="hl">East variation</span> = subtract from TC → MC (east is least)<br>
+• <span class="hl">West variation</span> = add to TC → MC (west is best)<br><br>
+<span class="hl">Deviation</span>: Error in a specific compass from magnetic fields inside the aircraft. From the compass deviation card. Unique to each aircraft and each heading.<br><br>
+<span class="hl">Example</span>: TC 090°, Var 15°W (add), Dev +2° → MC = 090 + 15 = 105, CC = 105 + 2 = 107°</div>
+      <div class="fact-ref">PHAK Ch.16</div>
+    </section>
+<section class="fact-card" id="wind-correction-angle">
+      <h3>Wind Correction Angle <a class="anchor-link" href="#wind-correction-angle">§</a></h3>
+      <div class="fact-body">
+WCA accounts for crosswind drift to maintain the desired ground track.<br><br>
+<span class="hl">Quick calculation</span>: WCA ≈ (crosswind component ÷ TAS) × 60<br><br>
+Example: Crosswind component 18 kts, TAS 120 kts → WCA ≈ (18/120) × 60 = 9°. Turn 9° into the wind to compensate.<br><br>
+<span class="hl">Using E6B</span>: Set TAS on the speed ring, center the wind, read WCA and GS from the flight computer. EFBs do this automatically but understanding the manual calculation is required for the checkride.<br><br>
+<span class="hl">Groundspeed</span> = TAS ± headwind/tailwind component. Head = subtract, tail = add.</div>
+      <div class="fact-ref">PHAK Ch.17</div>
+    </section>
+</div>
+
+<h2 id="navigation-log-and-fuel">Navigation Log &amp; Fuel <span class="src-tag far">14 CFR 91.151</span> <a class="anchor-link" href="#navigation-log-and-fuel">§</a></h2>
+<div class="fact-grid two-col">
+<section class="fact-card" id="navigation-log-format">
+      <h3>Navigation Log Format <a class="anchor-link" href="#navigation-log-format">§</a></h3>
+      <div class="fact-body">
+For a cross-country flight, a nav log contains per leg:<br>
+• Checkpoint name<br>
+• True course<br>
+• Wind direction/speed at altitude<br>
+• Wind correction angle<br>
+• True heading<br>
+• Magnetic variation<br>
+• Magnetic heading<br>
+• Compass deviation<br>
+• Compass heading<br>
+• Distance (nm)<br>
+• True airspeed (TAS)<br>
+• Groundspeed (GS)<br>
+• ETE per leg (distance ÷ GS)<br>
+• Fuel burn per leg (fuel flow × ETE)<br>
+• Cumulative ETE and fuel<br><br>
+DPEs do not require a perfect nav log but expect you to demonstrate you can build one and understand every value.</div>
+    </section>
+<section class="fact-card hi" id="fuel-requirements">
+      <h3>Fuel Requirements <a class="anchor-link" href="#fuel-requirements">§</a></h3>
+      <div class="fact-body">
+<span class="hl">Day VFR</span>: Enough fuel to reach the first intended destination plus <span class="hl">30 minutes at normal cruise speed</span>.<br><br>
+<span class="hl">Night VFR</span>: First destination plus <span class="hl">45 minutes at normal cruise speed</span>.<br><br>
+<span class="hl">Fuel planning process</span>:<br>
+1. Look up fuel flow in POH at planned power setting and altitude<br>
+2. Calculate burn per leg (flow × time)<br>
+3. Sum all legs<br>
+4. Add reserve<br>
+5. Add taxi/runup allowance (typically 1.0–1.5 gal)<br>
+6. Compare to usable fuel capacity<br><br>
+<span class="hl">Usable vs total fuel</span>: Some aircraft have unusable fuel (trapped below fuel outlet). Use only usable fuel in planning.<br><br>
+<span class="hl">Convert gallons → pounds</span>: 100LL avgas = 6 lbs/gal</div>
+      <div class="fact-ref">14 CFR 91.151; PHAK Ch.17</div>
+    </section>
+</div>
+
+<h2 id="notams-tfrs-and-vfr-flight-plan">NOTAMs, TFRs &amp; VFR Flight Plan <span class="src-tag aim">AIM Ch.5</span> <a class="anchor-link" href="#notams-tfrs-and-vfr-flight-plan">§</a></h2>
+<div class="fact-grid two-col">
+<section class="fact-card" id="notam-types">
+      <h3>NOTAM Types <a class="anchor-link" href="#notam-types">§</a></h3>
+      <div class="fact-body">
+<span class="hl">KNTM (Domestic NOTAMs)</span>: Issued by FSS. Covers airport and runway closures, NAVAID outages, lighting changes, obstacles, temporary changes to procedures.<br><br>
+<span class="hl">FDC (Flight Data Center)</span>: Regulatory NOTAMs — changes to instrument approach procedures, chart corrections, TFRs, airspace changes. Published by FAA.<br><br>
+<span class="hl">GPS NOTAMs</span>: GPS testing or interference affecting GPS reception in specific areas.<br><br>
+<span class="hl">POIW</span>: International NOTAMs pointing to additional information for international flights.<br><br>
+Check NOTAMs at <span class="hl">1800wxbrief.com</span> or via EFB app. Always check within 1–2 hours of departure for fresh TFRs.<br><br>
+<span class="hl">Runway closures in NOTAMs</span>: Specified as M (marked), L (lighted), C (closed).</div>
+      <div class="fact-ref">AIM 5-1-3</div>
+    </section>
+<section class="fact-card" id="tfr-types">
+      <h3>TFR Types <a class="anchor-link" href="#tfr-types">§</a></h3>
+      <div class="fact-body">
+<span class="hl">91.137(a)(1)</span>: Disaster TFR — protects relief aircraft operating below 1,000 AGL. Unauthorized aircraft may still fly above.<br>
+<span class="hl">91.137(a)(2)</span>: Disaster TFR — protects a disaster site. Broader restriction.<br>
+<span class="hl">91.137(a)(3)</span>: Disaster TFR — most restrictive, blanket protection for emergency ops.<br>
+<span class="hl">91.141</span>: Presidential / VIP movement. Inner ring (typically 10 nm, SFC–FL180) — no civilian flight. Outer ring (30 nm) — ATC coordination required.<br>
+<span class="hl">91.143</span>: Space operations (rocket launches, landings).<br>
+<span class="hl">91.145</span>: Aerial demonstrations, air shows.<br><br>
+Check: <span class="hl">tfr.faa.gov</span> (interactive map) before every XC and within a few hours of departure.</div>
+      <div class="fact-ref">14 CFR 91.137–91.145</div>
+    </section>
+<section class="fact-card hi" id="vfr-flight-plan-filing-and-closing">
+      <h3>VFR Flight Plan — Filing &amp; Closing <a class="anchor-link" href="#vfr-flight-plan-filing-and-closing">§</a></h3>
+      <div class="fact-body">
+Not legally required for VFR but <span class="hl">strongly recommended</span> — it is your SAR safety net.<br><br>
+<span class="hl">File with</span>: FSS via 1800wxbrief.com, phone 1-800-WX-BRIEF, or EFB app.<br><br>
+<span class="hl">Contents</span>: Aircraft type/ID, TAS, departure airport and time, cruise altitude, route, destination, ETE, fuel aboard (in hours + minutes), POB (persons on board), pilot name and contact.<br><br>
+<span class="hl">Activate</span>: Call FSS on 122.2 MHz after departure or before when filing.<br><br>
+<span class="hl-r">CLOSE after landing</span>: Call FSS or use EFB. If not closed within 30 minutes of ETA, the FAA/USAF Rescue Coordination Center initiates a search. Failure to close = significant emergency response resources wasted.</div>
+      <div class="fact-ref">AIM 5-1-4, 5-1-13</div>
+    </section>
+<section class="fact-card" id="vfr-cruising-altitudes-and-intercept">
+      <h3>VFR Cruising Altitudes &amp; Intercept <a class="anchor-link" href="#vfr-cruising-altitudes-and-intercept">§</a></h3>
+      <div class="fact-body">
+<span class="hl">VFR cruising altitude rule</span> (above 3,000 ft AGL, not MSL):<br>
+MC 0–179° (East): odd thousands + 500 ft → 3,500 / 5,500 / 7,500<br>
+MC 180–359° (West): even thousands + 500 ft → 4,500 / 6,500 / 8,500<br><br>
+<span class="hl">Intercept procedures</span> (14 CFR 91.3, ICAO Annex 2): If intercepted by military aircraft:<br>
+• Rock wings to acknowledge<br>
+• Turn and follow the intercepting aircraft<br>
+• Do not transmit without instructions<br>
+• Transmit on 121.5 MHz and/or 243.0 MHz<br>
+• Squawk 7700 unless instructed otherwise<br>
+• Follow ICAO visual signals precisely<br><br>
+<span class="hl">ADIZ</span>: File a DVFR flight plan, have two-way radio and operable transponder, depart within 5 min of filed time.</div>
+      <div class="fact-ref">14 CFR 91.159; AIM 5-6-2</div>
+    </section>
+</div>
+  </main>
+
+  <section class="study-cta-inline" aria-label="Practice this topic">
+    <div class="cta-inner">
+      <div class="cta-label">Practice what you just read</div>
+      <div class="cta-body">Altitude Pro has quiz questions on Cross-Country Flight Planning — full bank, free.</div>
+      <div class="cta-actions">
+        <a class="btn-bright" href="/app#/quiz">Open the App →</a>
+        <button class="btn-dismiss" data-action="dismiss-inline-cta">Keep reading</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="study-cta-footer" aria-label="Start studying">
+    <h2>You've studied Cross-Country Flight Planning</h2>
+    <p>Ready to test yourself? Altitude Pro has practice questions on this exact topic — adaptive difficulty, ACS references, just like the real oral.</p>
+    <a class="btn-bright" href="/app#/quiz">Start studying — Free →</a>
+  </section>
+
+  <footer class="study-footer">
+    <nav class="sitemap" aria-label="All study pages">
+      
+    <div class="area-group">
+      <h3>Area I — Preflight Preparation</h3>
+      <ul>
+        <li><a href="/study/pilot-qualifications">Pilot Qualifications</a></li><li><a href="/study/airworthiness-requirements">Airworthiness Requirements</a></li><li><a href="/study/weather-information">Weather Information</a></li><li><a href="/study/cross-country-planning">Cross-Country Planning</a></li><li><a href="/study/national-airspace-system">National Airspace System</a></li><li><a href="/study/performance-and-limitations">Performance &amp; Limitations</a></li><li><a href="/study/operation-of-systems">Operation of Systems</a></li><li><a href="/study/human-factors">Human Factors</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area II — Preflight Procedures</h3>
+      <ul>
+        <li><a href="/study/preflight-assessment">Preflight Assessment</a></li><li><a href="/study/flight-deck-management">Flight Deck Management</a></li><li><a href="/study/engine-starting">Engine Starting</a></li><li><a href="/study/taxiing">Taxiing</a></li><li><a href="/study/before-takeoff-check">Before Takeoff Check</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area III — Airport Operations</h3>
+      <ul>
+        <li><a href="/study/comms-and-runway-lighting">Comms &amp; Runway Lighting</a></li><li><a href="/study/traffic-patterns">Traffic Patterns</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area IV — Takeoffs, Landings &amp; Go-Arounds</h3>
+      <ul>
+        <li><a href="/study/normal-takeoff-and-climb">Normal Takeoff &amp; Climb</a></li><li><a href="/study/normal-approach-and-landing">Normal Approach &amp; Landing</a></li><li><a href="/study/soft-field-takeoff-and-landing">Soft-Field T/O &amp; Landing</a></li><li><a href="/study/short-field-takeoff-and-landing">Short-Field T/O &amp; Landing</a></li><li><a href="/study/forward-slip-to-landing">Forward Slip to Landing</a></li><li><a href="/study/go-around-and-rejected-landing">Go-Around / Rejected Landing</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area V — Performance &amp; Ground Reference</h3>
+      <ul>
+        <li><a href="/study/steep-turns">Steep Turns</a></li><li><a href="/study/ground-reference-maneuvers">Ground Reference Maneuvers</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area VI — Navigation</h3>
+      <ul>
+        <li><a href="/study/pilotage-and-dead-reckoning">Pilotage &amp; Dead Reckoning</a></li><li><a href="/study/navigation-systems-and-radar">Navigation Systems &amp; Radar</a></li><li><a href="/study/diversion">Diversion</a></li><li><a href="/study/lost-procedures">Lost Procedures</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area VII — Slow Flight &amp; Stalls</h3>
+      <ul>
+        <li><a href="/study/maneuvering-during-slow-flight">Maneuvering During Slow Flight</a></li><li><a href="/study/power-off-stalls">Power-Off Stalls</a></li><li><a href="/study/power-on-stalls">Power-On Stalls</a></li><li><a href="/study/spin-awareness">Spin Awareness</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area VIII — Basic Instrument Maneuvers</h3>
+      <ul>
+        <li><a href="/study/straight-level-climbs-descents-turns">Straight-Level, Climbs, Descents, Turns</a></li><li><a href="/study/unusual-attitude-recovery">Unusual Attitude Recovery</a></li><li><a href="/study/partial-panel-and-radio-nav">Partial Panel &amp; Radio Nav</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area IX — Emergency Operations</h3>
+      <ul>
+        <li><a href="/study/emergency-descent">Emergency Descent</a></li><li><a href="/study/emergency-approach-and-landing">Emergency Approach &amp; Landing</a></li><li><a href="/study/systems-and-equipment-malfunctions">Systems &amp; Equipment Malfunctions</a></li><li><a href="/study/emergency-equipment-and-elt">Emergency Equipment &amp; ELT</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area XI — Night Operations</h3>
+      <ul>
+        <li><a href="/study/night-operations">Night Operations</a></li>
+      </ul>
+    </div>
+    <div class="area-group">
+      <h3>Area XII — Postflight Procedures</h3>
+      <ul>
+        <li><a href="/study/after-landing-parking-and-securing">After Landing, Parking &amp; Securing</a></li>
+      </ul>
+    </div>
+    </nav>
+    <p class="disclaimer">Not affiliated with the FAA. Content for study purposes only; always verify against official FAA sources.</p>
+  </footer>
+
+  <script defer src="/study/assets/study.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
