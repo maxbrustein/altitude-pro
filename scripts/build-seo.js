@@ -1,5 +1,14 @@
 #!/usr/bin/env node
 // Altitude Pro SEO prerender orchestrator.
+//
+// Runs AFTER `vite build` so the SPA is already at dist/app/.
+// Emits:
+//   dist/study/<slug>.html        (40 study pages)
+//   dist/study/assets/study.css   (copied from public/study/assets/)
+//   dist/study/assets/study.js    (copied from public/study/assets/)
+//   dist/sitemap.xml
+//   dist/robots.txt
+//   vercel.json                    (repo root — used by Vercel for routing)
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -16,8 +25,10 @@ const __filename = fileURLToPath(import.meta.url);
 const ROOT = path.resolve(path.dirname(__filename), '..');
 const MANIFEST_PATH = path.join(ROOT, 'content/certs/ppl/manifest.json');
 const TASKS_DIR = path.join(ROOT, 'content/certs/ppl/tasks');
-const OUT_STUDY_DIR = path.join(ROOT, 'public/study');
-const OUT_ROOT = path.join(ROOT, 'public');
+const SRC_ASSETS_DIR = path.join(ROOT, 'public/study/assets');
+const DIST_ROOT = path.join(ROOT, 'dist');
+const DIST_STUDY_DIR = path.join(DIST_ROOT, 'study');
+const DIST_STUDY_ASSETS_DIR = path.join(DIST_STUDY_DIR, 'assets');
 const VERCEL_JSON_PATH = path.join(ROOT, 'vercel.json');
 
 function gitLastmod(taskId) {
@@ -33,7 +44,29 @@ function gitLastmod(taskId) {
   }
 }
 
+function cleanDistStudy() {
+  if (fs.existsSync(DIST_STUDY_DIR)) {
+    fs.rmSync(DIST_STUDY_DIR, { recursive: true, force: true });
+  }
+  fs.mkdirSync(DIST_STUDY_ASSETS_DIR, { recursive: true });
+}
+
+function copyAsset(name) {
+  const src = path.join(SRC_ASSETS_DIR, name);
+  const dst = path.join(DIST_STUDY_ASSETS_DIR, name);
+  if (!fs.existsSync(src)) {
+    console.error(`Missing source asset: ${src}`);
+    process.exit(1);
+  }
+  fs.copyFileSync(src, dst);
+}
+
 function main() {
+  if (!fs.existsSync(DIST_ROOT)) {
+    console.error('dist/ does not exist — run `vite build` first.');
+    process.exit(1);
+  }
+
   const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
 
   const slugErrors = validateManifestSlugs(manifest);
@@ -43,7 +76,9 @@ function main() {
     process.exit(1);
   }
 
-  fs.mkdirSync(OUT_STUDY_DIR, { recursive: true });
+  cleanDistStudy();
+  copyAsset('study.css');
+  copyAsset('study.js');
 
   let emitted = 0;
   let anchorsEmitted = 0;
@@ -76,7 +111,7 @@ function main() {
         manifest,
       });
 
-      const outPath = path.join(OUT_STUDY_DIR, `${task.slug}.html`);
+      const outPath = path.join(DIST_STUDY_DIR, `${task.slug}.html`);
       fs.writeFileSync(outPath, html);
       emitted++;
       anchorsEmitted += ids.length;
@@ -86,8 +121,8 @@ function main() {
     }
   }
 
-  fs.writeFileSync(path.join(OUT_ROOT, 'sitemap.xml'), buildSitemap(manifest, lastmodByTaskId));
-  fs.writeFileSync(path.join(OUT_ROOT, 'robots.txt'), buildRobots());
+  fs.writeFileSync(path.join(DIST_ROOT, 'sitemap.xml'), buildSitemap(manifest, lastmodByTaskId));
+  fs.writeFileSync(path.join(DIST_ROOT, 'robots.txt'), buildRobots());
   fs.writeFileSync(VERCEL_JSON_PATH, buildVercelJson(manifest));
 
   console.log(`SEO build: ${emitted} study pages, ${anchorsEmitted} anchors, sitemap + robots + vercel.json updated.`);
