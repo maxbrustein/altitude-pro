@@ -51,6 +51,73 @@ function areaNav(manifest) {
     </div>`).join('');
 }
 
+export function renderIndexPage(manifest) {
+  const title = 'Private Pilot ACS Study Guide | Altitude Pro';
+  const metaDesc = 'Free study guide for the Private Pilot checkride. Every ACS task covered — pilot qualifications, airworthiness, weather, airspace, performance, and more. Aligned to FAA-S-ACS-6C.';
+  const canonical = `${SITE_ORIGIN}/study`;
+
+  const areaSections = manifest.areas.map(area => `
+    <section class="area-group" id="area-${esc(area.id)}">
+      <h2>Area ${esc(area.id)} — ${esc(area.title)}</h2>
+      <ul>
+        ${area.tasks.map(t => `<li><a href="/study/${t.slug}"><span class="task-letter">${esc(t.letter)}</span> ${esc(t.title)}</a></li>`).join('')}
+      </ul>
+    </section>`).join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(metaDesc)}">
+  <link rel="canonical" href="${canonical}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/study/assets/study.css">
+  <meta property="og:title" content="Private Pilot ACS Study Guide">
+  <meta property="og:description" content="${esc(metaDesc)}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${canonical}">
+</head>
+<body class="study-page">
+  <header class="study-header">
+    <a class="logo" href="/">Altitude<span>Pro</span></a>
+    <nav>
+      <a href="/study" class="active">Study Guide</a>
+      <a href="/app" class="cta">Open App →</a>
+    </nav>
+  </header>
+
+  <nav class="breadcrumb-trail" aria-label="breadcrumb">
+    <a href="/">Home</a> ›
+    <span aria-current="page">ACS Study Guide</span>
+  </nav>
+
+  <main class="study-main study-index">
+    <h1>ACS Study Guide</h1>
+    <p class="subtitle">Private Pilot · FAA-S-ACS-6C · 40 tasks across 11 areas</p>
+    <p class="intro">Every ACS task covered. Click a topic below to start studying, or jump into the app for practice questions and adaptive quizzes.</p>
+    ${areaSections}
+  </main>
+
+  <section class="study-cta-footer" aria-label="Start studying">
+    <h2>Ready to test yourself?</h2>
+    <p>Altitude Pro has hundreds of practice questions with adaptive difficulty and ACS references — just like the real oral exam.</p>
+    <a class="btn-bright" href="/app#/quiz">Start studying — Free →</a>
+  </section>
+
+  <footer class="study-footer">
+    <p class="disclaimer">Not affiliated with the FAA. Content for study purposes only; always verify against official FAA sources.</p>
+  </footer>
+
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
+`;
+}
+
 export function renderPage({ task, area, body, subsections, factCards, manifest }) {
   const intro = buildIntro(task, subsections);
   const metaDesc = intro.length > 160 ? intro.slice(0, 157) + '...' : intro;
@@ -91,8 +158,8 @@ ${JSON.stringify(faqSchema(factCards), null, 2)}
 
   <nav class="breadcrumb-trail" aria-label="breadcrumb">
     <a href="/">Home</a> ›
-    <a href="/study/">ACS Study Guide</a> ›
-    <span>Area ${esc(area.id)}: ${esc(area.title)}</span> ›
+    <a href="/study">ACS Study Guide</a> ›
+    <a href="/study#area-${esc(area.id)}">Area ${esc(area.id)}: ${esc(area.title)}</a> ›
     <span aria-current="page">${esc(task.title)}</span>
   </nav>
 
@@ -102,17 +169,6 @@ ${JSON.stringify(faqSchema(factCards), null, 2)}
     <p class="intro">${esc(intro)}</p>
     ${body}
   </main>
-
-  <section class="study-cta-inline" aria-label="Practice this topic">
-    <div class="cta-inner">
-      <div class="cta-label">Practice what you just read</div>
-      <div class="cta-body">Altitude Pro has quiz questions on ${esc(task.title)} — full bank, free.</div>
-      <div class="cta-actions">
-        <a class="btn-bright" href="/app#/quiz">Open the App →</a>
-        <button class="btn-dismiss" data-action="dismiss-inline-cta">Keep reading</button>
-      </div>
-    </div>
-  </section>
 
   <section class="study-cta-footer" aria-label="Start studying">
     <h2>You've studied ${esc(task.title)}</h2>

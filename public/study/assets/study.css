@@ -53,6 +53,16 @@ th { background: var(--surface); color: var(--cloud); font-weight: 500; }
 .hl { color: var(--glow); font-weight: 500; }
 .hl-r { color: var(--red); font-weight: 500; }
 
+/* === Study index page === */
+.study-index .area-group { margin: 28px 0; padding: 20px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; scroll-margin-top: 20px; }
+.study-index .area-group:target { border-color: var(--glow); box-shadow: 0 0 0 1px var(--glow), 0 0 24px rgba(157,217,104,0.12); }
+.study-index .area-group h2 { margin: 0 0 14px; padding: 0; border: 0; font-family: var(--fo); font-size: 18px; font-weight: 700; color: var(--white); text-transform: none; letter-spacing: -0.2px; }
+.study-index .area-group ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px; }
+.study-index .area-group li { margin: 0; }
+.study-index .area-group a { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 5px; color: var(--cloud); font-size: 14px; transition: border-color .15s, color .15s, background .15s; }
+.study-index .area-group a:hover { border-color: var(--glow); color: var(--white); background: rgba(93,138,60,0.08); }
+.study-index .area-group .task-letter { font-family: var(--fm); font-size: 9px; letter-spacing: 1px; color: var(--glow); min-width: 18px; }
+
 /* === Anchor links (§) === */
 .anchor-link { opacity: 0; margin-left: 8px; color: var(--glow); text-decoration: none; font-family: var(--fm); font-size: 11px; transition: opacity 0.15s; user-select: none; }
 .fact-card:hover .anchor-link, h2:hover .anchor-link { opacity: 1; }

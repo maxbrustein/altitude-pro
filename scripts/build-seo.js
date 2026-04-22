@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 
 import { validateManifestSlugs } from './lib/seo-slugs.js';
 import { transformTaskHtml } from './lib/seo-transform.js';
-import { renderPage } from './lib/seo-template.js';
+import { renderPage, renderIndexPage } from './lib/seo-template.js';
 import { buildSitemap, buildRobots } from './lib/seo-sitemap.js';
 import { buildVercelJson } from './lib/seo-vercel.js';
 
@@ -120,6 +120,9 @@ function main() {
       if (lastmod) lastmodByTaskId[task.id] = lastmod;
     }
   }
+
+  // Study index page at /study — lands from breadcrumb "ACS Study Guide"
+  fs.writeFileSync(path.join(DIST_STUDY_DIR, 'index.html'), renderIndexPage(manifest));
 
   fs.writeFileSync(path.join(DIST_ROOT, 'sitemap.xml'), buildSitemap(manifest, lastmodByTaskId));
   fs.writeFileSync(path.join(DIST_ROOT, 'robots.txt'), buildRobots());
