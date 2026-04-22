@@ -1,6 +1,6 @@
 {
   "cert": "ppl",
-  "title": "Private Pilot \u2014 ACS FAA-S-ACS-6C",
+  "title": "Private Pilot — ACS FAA-S-ACS-6C",
   "areas": [
     {
       "id": "I",
@@ -16,7 +16,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "pilot-qualifications"
         },
         {
           "id": "I-B",
@@ -27,7 +28,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "airworthiness-requirements"
         },
         {
           "id": "I-C",
@@ -38,7 +40,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "weather-information"
         },
         {
           "id": "I-D",
@@ -49,7 +52,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "cross-country-planning"
         },
         {
           "id": "I-E",
@@ -60,7 +64,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "national-airspace-system"
         },
         {
           "id": "I-F",
@@ -71,7 +76,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "performance-and-limitations"
         },
         {
           "id": "I-G",
@@ -82,7 +88,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "operation-of-systems"
         },
         {
           "id": "I-H",
@@ -93,7 +100,8 @@
             "14 CFR 61",
             "14 CFR 91",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "human-factors"
         }
       ]
     },
@@ -111,7 +119,8 @@
             "14 CFR 91",
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "preflight-assessment"
         },
         {
           "id": "II-B",
@@ -122,7 +131,8 @@
             "14 CFR 91",
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "flight-deck-management"
         },
         {
           "id": "II-C",
@@ -133,7 +143,8 @@
             "14 CFR 91",
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "engine-starting"
         },
         {
           "id": "II-D",
@@ -144,7 +155,8 @@
             "14 CFR 91",
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "taxiing"
         },
         {
           "id": "II-F",
@@ -155,7 +167,8 @@
             "14 CFR 91",
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "before-takeoff-check"
         }
       ]
     },
@@ -172,7 +185,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "comms-and-runway-lighting"
         },
         {
           "id": "III-B",
@@ -182,7 +196,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "traffic-patterns"
         }
       ]
     },
@@ -199,7 +214,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "normal-takeoff-and-climb"
         },
         {
           "id": "IV-B",
@@ -209,7 +225,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "normal-approach-and-landing"
         },
         {
           "id": "IV-C",
@@ -219,7 +236,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "soft-field-t-o-and-landing"
         },
         {
           "id": "IV-E",
@@ -229,7 +247,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "short-field-t-o-and-landing"
         },
         {
           "id": "IV-M",
@@ -239,7 +258,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "forward-slip-to-landing"
         },
         {
           "id": "IV-N",
@@ -249,7 +269,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "go-around-rejected-landing"
         }
       ]
     },
@@ -265,7 +286,8 @@
           "short": "STEEP TURNS",
           "references": [
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "steep-turns"
         },
         {
           "id": "V-B",
@@ -274,7 +296,8 @@
           "short": "GND REFERENCE",
           "references": [
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "ground-reference-maneuvers"
         }
       ]
     },
@@ -291,7 +314,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "pilotage-and-dead-reckoning"
         },
         {
           "id": "VI-B",
@@ -301,7 +325,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "navigation-systems-and-radar"
         },
         {
           "id": "VI-C",
@@ -311,7 +336,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "diversion"
         },
         {
           "id": "VI-D",
@@ -321,7 +347,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "lost-procedures"
         }
       ]
     },
@@ -338,7 +365,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "maneuvering-during-slow-flight"
         },
         {
           "id": "VII-B",
@@ -348,7 +376,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "power-off-stalls"
         },
         {
           "id": "VII-C",
@@ -358,7 +387,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "power-on-stalls"
         },
         {
           "id": "VII-D",
@@ -368,7 +398,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "spin-awareness"
         }
       ]
     },
@@ -385,7 +416,8 @@
           "references": [
             "FAA-H-8083-15",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "straight-level-climbs-descents-turns"
         },
         {
           "id": "VIII-E",
@@ -395,7 +427,8 @@
           "references": [
             "FAA-H-8083-15",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "unusual-attitude-recovery"
         },
         {
           "id": "VIII-F",
@@ -405,7 +438,8 @@
           "references": [
             "FAA-H-8083-15",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "partial-panel-and-radio-nav"
         }
       ]
     },
@@ -422,7 +456,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "emergency-descent"
         },
         {
           "id": "IX-B",
@@ -432,7 +467,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "emergency-approach-and-landing"
         },
         {
           "id": "IX-C",
@@ -442,7 +478,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "systems-and-equipment-malfunctions"
         },
         {
           "id": "IX-D",
@@ -452,7 +489,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "emergency-equipment-and-elt"
         }
       ]
     },
@@ -469,7 +507,8 @@
           "references": [
             "AIM",
             "FAA-H-8083-25"
-          ]
+          ],
+          "slug": "night-operations"
         }
       ]
     },
@@ -486,7 +525,8 @@
           "references": [
             "POH/AFM",
             "FAA-H-8083-3"
-          ]
+          ],
+          "slug": "after-landing-parking-and-securing"
         }
       ]
     }

@@ -37,6 +37,22 @@ describe('content.loadManifest', () => {
     const { loadManifest } = await import('../src/content.js');
     await expect(loadManifest('nonexistent')).rejects.toThrow(/No manifest/);
   });
+
+  it('every task has a non-empty slug', async () => {
+    const { loadManifest } = await import('../src/content.js');
+    const manifest = await loadManifest('ppl');
+    const allTasks = manifest.areas.flatMap(a => a.tasks);
+    for (const task of allTasks) {
+      expect(task.slug, `${task.id}`).toMatch(/^[a-z0-9][a-z0-9-]*[a-z0-9]$/);
+    }
+  });
+
+  it('all task slugs are unique across the manifest', async () => {
+    const { loadManifest } = await import('../src/content.js');
+    const manifest = await loadManifest('ppl');
+    const slugs = manifest.areas.flatMap(a => a.tasks.map(t => t.slug));
+    expect(new Set(slugs).size).toBe(slugs.length);
+  });
 });
 
 describe('content.loadQuiz', () => {
